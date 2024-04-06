@@ -14,7 +14,7 @@ import ServicesMenu from './ServicesMenu';
 import PricingMenu from './PricingMenu';
 import ContactUsMenu from './ContactUsMenu';
 
-const LogoWhite = () => <img src="../logo-trans-white.png" alt="Logo" className="h-auto w-auto mb-3 m-4" />;
+const LogoWhite = () => <img src="/nextjs_images/logo-trans-white.png" alt="Logo" className="h-auto w-auto mb-3 m-4" />;
 
 const MainMenu: React.FC = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -22,7 +22,7 @@ const MainMenu: React.FC = () => {
   return (
     <div className="custom-menu container mx-auto px-3 relative z-0 sticky-menu flex items-stretch justify-between text-white drop-shadow-xl menu-height"
          style={{ backgroundImage: `url('/media/menu-bar.png')`, backgroundSize: 'cover', borderBottom: '2px solid #0e162c' }}>
-      <Logo src="/logo-trans-dark.png" alt="Logo" className="w-auto pt-3 menu-logo " style={{ height: '7.4rem' }} />
+      <Logo src="/nextjs_images/logo-trans-dark.png" alt="Logo" className="w-auto pt-3 menu-logo " style={{ height: '7.4rem' }} />
 
       <IconButton
         edge="start"
