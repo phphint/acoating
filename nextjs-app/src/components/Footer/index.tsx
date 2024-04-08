@@ -10,7 +10,7 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link"; // Import the Link component
 
-const Logo = () => <img src="/logo-trans-white.png" alt="Logo" className="h-auto w-auto mb-3" />;
+const Logo = () => <img src="/nextjs_images/logo-trans-white.png" alt="Logo" className="h-auto w-auto mb-3" />;
 
 
 const Footer: React.FC = () => {
@@ -70,7 +70,7 @@ const Footer: React.FC = () => {
   </div>
 
 
-    <div className="p-8" style={{ backgroundImage: `url('/media/footer-col-bg.png')` }}>
+    <div className="p-8" style={{ backgroundImage: `url('/nextjs_images/backgrounds/footer-col-bg.png')` }}>
       <h3 className="font-bold text-lg mb-4 text[#d7dfe3ff] ">Popular Services</h3>
       <ul className="text-[#d7dfe3ff]">
   {/* For each list item, directly use the Link component without nested <a> tags */}

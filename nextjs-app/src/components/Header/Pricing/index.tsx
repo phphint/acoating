@@ -7,7 +7,7 @@ const Header: React.FC = () => {
     <header
       className="relative z-10 overflow-visible" // Changed to overflow-visible to allow image overflow
       style={{ 
-        backgroundImage: `url('/media/pricing/section-bg-pricing2.png')`, 
+        backgroundImage: `url('/nextjs_images/backgrounds/section-bg-pricing2.png')`, 
         backgroundColor: '#3b3a2f',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center top',
@@ -20,7 +20,7 @@ const Header: React.FC = () => {
       <div 
         className="container mx-auto flex flex-col items-center justify-center px-4 py-8 text-center pt-40"
         style={{
-          backgroundImage: `url('/media/pricing/section-container-bg-pricing.png')`,
+          backgroundImage: `url('/nextjs_images/backgrounds/section-container-bg-pricing.png')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
@@ -31,7 +31,7 @@ const Header: React.FC = () => {
         {/* First Row: Full-Width Image */}
         <div className="w-full overflow-visible"> {/* Adjusted for full width and visible overflow */}
           <Image 
-            src="/media/pricing/pricing-ar15-header-gun.png" 
+            src="/nextjs_images/pricing-ar15-header-gun.png" 
             alt="AR-15" 
             layout="responsive" 
             width={700} 

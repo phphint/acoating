@@ -24,10 +24,10 @@ const Section1 = () => {
   }, [currentSlide]);
 
   return (
-    <div className="w-full bg-no-repeat bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: "url('/media/about/section-bg.png')", minHeight: '22vh' }}>
+    <div className="w-full bg-no-repeat bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: "url('/nextjs_images/backgrounds/section-bg.png')", minHeight: '22vh' }}>
       <div className="text-center">
         <img
-          src={`/media/popular-services/guns/${serviceLinks[currentSlide].title.replace(/\s+/g, '-').toLowerCase()}.png`}
+          src={`/nextjs_images/guns/${serviceLinks[currentSlide].title.replace(/\s+/g, '-').toLowerCase()}.png`}
           alt={serviceLinks[currentSlide].title}
           className="mx-auto max-h-[27vh] object-contain" // This ensures the image is contained within the viewport height, adjusting as necessary
           style={{ maxWidth: "100%" }}

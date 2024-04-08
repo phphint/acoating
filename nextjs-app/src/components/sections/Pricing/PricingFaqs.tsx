@@ -38,7 +38,7 @@ const PricingFaqs = () => {
             </button>
           </div>
           <div className="w-full md:w-1/2 lg:w-1/6">
-            <Image src="/media/pricing/cerkote-certified-applicator.svg" alt="Certified Applicator" width={500} height={300} objectFit="contain" />
+            <Image src="/nextjs_images/cerkote-certified-applicator.svg" alt="Certified Applicator" width={500} height={300} objectFit="contain" />
           </div>
         </div>
       </div>
@@ -60,7 +60,7 @@ const PricingFaqs = () => {
       </div>
           {/* Full-Width Image at the Bottom */}
           <div className="w-full container mx-auto">
-        <Image src="/media/pricing/leather-divider.png" alt="Leather Divider" layout="responsive" width={1920} height={108} objectFit="cover" />
+        <Image src="/nextjs_images/backgrounds/leather-divider.png" alt="Leather Divider" layout="responsive" width={1920} height={108} objectFit="cover" />
       </div>
     </div>
   );

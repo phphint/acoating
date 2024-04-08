@@ -6,7 +6,7 @@ const ServicesHeader: React.FC = () => {
   return (
     <div className="relative z-10 flex flex-col items-center justify-center bg-cover bg-center text-center overflow-hidden"
          style={{ 
-           backgroundImage: `url('/media/services/header-bg-services.png')`,
+           backgroundImage: `url('/nextjs_images/backgrounds/header-bg-services.png')`,
            maxHeight: '80vh',
            marginTop: '-8rem', // Adjusted top margin
          }}>
@@ -25,7 +25,7 @@ const ServicesHeader: React.FC = () => {
         {/* Container for the image without forcing aspect ratio preservation */}
         <div className="relative h-[70vh] w-full max-w-4xl"> 
           {/* Image without objectFit to allow natural aspect ratio */}
-          <Image src="/media/services/glock-17-aquamarine.png" alt="Service Overview" layout="responsive" width={500} height={300} objectPosition="center" />
+          <Image src="/nextjs_images/guns/glock-17-aquamarine.png" alt="Service Overview" layout="responsive" width={500} height={300} objectPosition="center" />
         </div>
       </div>
     </div>

@@ -23,7 +23,7 @@ const AboutUsPage: React.FC = () => {
         <link rel="canonical" href="https://www.acoating.com/about-us" />
       </Head>
       <Header />
-       <div className="pb-0" style={{ backgroundImage: `url('/media/section-bg.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+       <div className="pb-0" >
         <Section1 />
         <Services />
         <Testimonials />

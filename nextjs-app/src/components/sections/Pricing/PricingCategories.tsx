@@ -17,7 +17,7 @@ const PricingCategories = () => {
     },
     {
       id: 3,
-      imgSrc: '/media/pricing/revolver-gun.png', // Update with your image path
+      imgSrc: '/nextjs_images/revolver-gun.png', // Update with your image path
       title: 'Revolver',
       text: 'Transform your revolver with stunning Cerakote coatings, custom engravings, and precision gunsmithing that enhances both form and function.',
     },

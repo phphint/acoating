@@ -31,7 +31,7 @@ const ShippingHeader: React.FC = () => {
         </div>
         <div className="lg:w-1/2 flex items-center justify-center">
           <img 
-            src="/media/shipping/shipping_box_firearm.png" 
+            src="/nextjs_images/shipping_box_firearm.png" 
             alt="Shipping Box with Firearm" 
             className="max-w-xs md:max-w-sm lg:max-w-full h-auto mb-8 lg:mb-0" 
           />

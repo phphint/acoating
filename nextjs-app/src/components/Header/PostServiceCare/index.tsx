@@ -20,7 +20,7 @@ const PostServiceCareHeader: React.FC = () => {
         </div>
         <div className="lg:w-1/2 flex items-center justify-center">
           <img 
-            src="/media/post-service/care_for_firearm.png" // Adjust the path as necessary
+            src="/nextjs_images/guns/care_for_firearm.png" // Adjust the path as necessary
             alt="Care for Refinished Firearm" 
             className="max-w-xs md:max-w-sm lg:max-w-full h-auto mb-8 lg:mb-0" 
           />

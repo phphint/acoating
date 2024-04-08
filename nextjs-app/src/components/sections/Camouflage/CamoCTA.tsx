@@ -6,9 +6,9 @@ const CamoCTA = () => {
     <section className="w-full bg-[#a3d1da] text-[#08232b] py-12">
       <div className="container mx-auto flex flex-wrap items-center p-4">
         <div className="w-full md:w-1/2 flex justify-center items-center p-10" 
-             style={{ backgroundImage: `url('/media/services/camo-patterns-section/camo-section-bg-cta.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+             style={{ backgroundImage: `url('/nextjs_images/backgrounds/camo-section-bg-cta.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <div className="w-1/3">
-            <Image src="/media/services/camo-patterns-section/cerkote-certified-applicator.svg" alt="Camo CTA Image" width={166} height={300} objectFit="contain" />
+            <Image src="/nextjs_images/cerkote-certified-applicator.svg" alt="Camo CTA Image" width={166} height={300} objectFit="contain" />
           </div>
         </div>
         <div className="w-full md:w-1/2 flex flex-col md:flex-row justify-between md:pl-8">

@@ -20,8 +20,7 @@ const CamouflagePatternsPage: React.FC = () => {
         <meta property="og:image" content="https://www.acoating.com/images/og-image-camouflage.jpg" />
         <link rel="canonical" href="https://www.acoating.com/camouflage-patterns" />
       </Head>
-
-      <CamoPortfolio />
+<CamoPortfolio/>
       <CamoPatterns />
       <CamoCTA />
     </Layout>

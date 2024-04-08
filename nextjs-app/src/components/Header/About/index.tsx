@@ -28,7 +28,7 @@ const Header: React.FC = () => {
         </div>
         <div className="lg:w-1/2 flex items-center justify-center">
           <img 
-            src="/media/about/manufactures_batch_of_ar-15_receivers.jpg" 
+            src="/nextjs_images/portfolio/manufactures_batch_of_ar-15_receivers.jpg" 
             alt="Cerakote Bottles" 
             className="max-w-xs md:max-w-sm lg:max-w-full h-auto mb-8 lg:mb-0" 
           />

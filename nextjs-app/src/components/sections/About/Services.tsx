@@ -12,9 +12,9 @@ const Services = () => {
         <div className="grid md:grid-cols-2 gap-8 mb-8">
           {/* Cerakote Coating */}
           <div className="bg-[#332212] shadow-md relative">
-            <div className="h-48 bg-cover bg-center relative flex justify-center items-center" style={{ backgroundImage: "url('/media/about/card-bg1-2.png')" }}>
+            <div className="h-48 bg-cover bg-center relative flex justify-center items-center" style={{ backgroundImage: "url('/nextjs_images/backgrounds/card-bg1-2.png')" }}>
               {/* Overlay PNG Image */}
-              <img src="/media/popular-services/guns/cerkote-coatings.png" alt="Cerakote Coating" className="" style={{ maxWidth: "100%", maxHeight: "100%" }} />
+              <img src="/nextjs_images/guns/cerkote-coatings.png" alt="Cerakote Coating" className="" style={{ maxWidth: "100%", maxHeight: "100%" }} />
             </div>
             <div className="p-4">
               <h3 className="text-[#b8bab9] text-lg font-semibold mb-2">Firearm Cerakote Coating</h3>
@@ -23,9 +23,9 @@ const Services = () => {
           </div>
           {/* Gunsmithing */}
           <div className="bg-[#332212] shadow-md relative">
-            <div className="h-48 bg-cover bg-center relative flex justify-center items-center" style={{ backgroundImage: "url('/media/about/card-bg2-2.png')" }}>
+            <div className="h-48 bg-cover bg-center relative flex justify-center items-center" style={{ backgroundImage: "url('/nextjs_images/backgrounds/card-bg2-2.png')" }}>
               {/* Overlay PNG Image */}
-              <img src="/media/popular-services/guns/gunsmithing.png" alt="Gunsmithing" className="   " style={{ maxWidth: "100%", maxHeight: "100%" }} />
+              <img src="/nextjs_images/guns/gunsmithing.png" alt="Gunsmithing" className="   " style={{ maxWidth: "100%", maxHeight: "100%" }} />
             </div>
             <div className="p-4">
               <h3 className="text-lg text-[#b8bab9] font-semibold mb-2">Gunsmithing</h3>
@@ -37,9 +37,9 @@ const Services = () => {
         <div className="grid md:grid-cols-2 gap-8">
           {/* Laser Engraving */}
           <div className="bg-[#332212] shadow-md relative">
-            <div className="h-48 bg-cover bg-center relative flex justify-center items-center" style={{ backgroundImage: "url('/media/about/intro-bg-2.png')" }}>
+            <div className="h-48 bg-cover bg-center relative flex justify-center items-center" style={{ backgroundImage: "url('/nextjs_images/backgrounds/intro-bg-2.png')" }}>
               {/* Overlay PNG Image */}
-              <img src="/media/popular-services/guns/firearm-engraving.png" alt="Laser Engraving" className=" " style={{ maxWidth: "100%", maxHeight: "100%" }} />
+              <img src="/nextjs_images/guns/firearm-engraving.png" alt="Laser Engraving" className=" " style={{ maxWidth: "100%", maxHeight: "100%" }} />
             </div>
             <div className="p-4">
               <h3 className="text-lg text-[#b8bab9] font-semibold mb-2">Firearm Laser Engraving</h3>
@@ -48,7 +48,7 @@ const Services = () => {
           </div>
           {/* Custom Airbrush Designs */}
           <div className="bg-[#332212] shadow-md relative">
-            <div className="h-48 bg-cover bg-center relative flex justify-center items-center" style={{ backgroundImage: "url('/media/about/card-bg3-2.png')" }}>
+            <div className="h-48 bg-cover bg-center relative flex justify-center items-center" style={{ backgroundImage: "url('/nextjs_images/backgrounds/card-bg3-2.png')" }}>
               {/* Overlay PNG Image */}
               <img src="/media/popular-services/guns/custom-airbrush.png" alt="Custom Airbrush Designs" className="" style={{ maxWidth: "100%", maxHeight: "100%" }} />
             </div>

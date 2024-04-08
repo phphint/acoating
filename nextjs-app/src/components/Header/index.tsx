@@ -4,11 +4,11 @@ const Header: React.FC = () => {
   return (
     <header
       className="relative z-10 overflow-hidden flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: `url('/media/header-bg.png')`, height: '88vh' }}
+      style={{ backgroundImage: `url('/nextjs_images/backgrounds/header-bg.png')`, height: '88vh' }}
     >
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4 lg:px-8 text-center lg:text-left">
         <img 
-          src="/media/cerekote-bottles.png" 
+          src="/nextjs_images/backgrounds/cerekote-bottles.png" 
           alt="Cerakote Bottles" 
           className="max-w-xs md:max-w-sm lg:max-w-lg mb-8 lg:mb-0" 
         />

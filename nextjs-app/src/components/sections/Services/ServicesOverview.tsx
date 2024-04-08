@@ -18,8 +18,8 @@ const ServicesOverview: React.FC = () => {
           {/* Adjustments for responsive image fitting */}
           {/* Firearm Cerakote Coating */}
           <div className="flex flex-col gap-4 items-center">
-            <div className="relative h-56 w-full bg-cover bg-center" style={{ backgroundImage: `url('/media/services/wood-bg-1.png')` }}>
-              <Image src="/media/popular-services/guns/cerkote-coatings.png" alt="Cerakote Coatings" layout="fill" objectFit="contain" />
+            <div className="relative h-56 w-full bg-cover bg-center" style={{ backgroundImage: `url('/nextjs_images/backgrounds/wood-bg-1.png')` }}>
+              <Image src="/nextjs_images/guns/cerkote-coatings.png" alt="Cerakote Coatings" layout="fill" objectFit="contain" />
             </div>
             <div className="bg-[#81c0c3] p-4 w-full">
               <h3 className="text-[#431709] font-bold">Firearm Cerakote Coating</h3>
@@ -29,7 +29,7 @@ const ServicesOverview: React.FC = () => {
 
           {/* Firearm Laser Engraving */}
           <div className="flex flex-col gap-4 items-center">
-            <div className="relative h-56 w-full bg-cover bg-center" style={{ backgroundImage: `url('/media/services/wood-bg-2.png')` }}>
+            <div className="relative h-56 w-full bg-cover bg-center" style={{ backgroundImage: `url('/nextjs_images/backgrounds/wood-bg-2.png')` }}>
               <Image src="/media/popular-services/guns/firearm-engraving.png" alt="Laser Engraving" layout="fill" objectFit="contain" />
             </div>
             <div className="bg-[#81c0c3] p-4 w-full">
@@ -40,7 +40,7 @@ const ServicesOverview: React.FC = () => {
 
           {/* Gunsmithing */}
           <div className="flex flex-col gap-4 items-center">
-            <div className="relative h-56 w-full bg-cover bg-center" style={{ backgroundImage: `url('/media/services/wood-bg-3.png')` }}>
+            <div className="relative h-56 w-full bg-cover bg-center" style={{ backgroundImage: `url('/nextjs_images/backgrounds/wood-bg-3.png')` }}>
               <Image src="/media/popular-services/guns/gunsmithing.png" alt="Gunsmithing" layout="fill" objectFit="contain" />
             </div>
             <div className="bg-[#81c0c3] p-4 w-full">
@@ -53,7 +53,8 @@ const ServicesOverview: React.FC = () => {
         <LogosRow/>
       </div>
     </div>
-  );
+  ); 
 };
 
 export default ServicesOverview;
+ 
