@@ -7,7 +7,7 @@ const PricingFaqs = () => {
       id: 1,
       title: 'Turnaround Time',
       subtitle: 'Quick & Efficient',
-      text: 'Our team works diligently to ensure your firearm services are completed swiftly, with most projects turned around within 2-3 weeks.',
+      text: 'Our team works diligently to ensure your firearm services are completed swiftly, with most projects turned around within 1-2 weeks.',
     },
     {
       id: 2,
@@ -48,7 +48,7 @@ const PricingFaqs = () => {
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4 px-4">
           {faqColumns.map(({ id, title, subtitle, text }) => (
             <div key={id} className="p-4">
-              <h3 className="text-3xl mb-2 text-[#699d9e] font-cursive">{title}</h3>
+              <h3 className="text-3xl mb-2 text-[#699d9e] ">{title}</h3>
               <h4 className="text-lg mb-2">{subtitle}</h4>
               <p className="mb-4 text-[#bdb8ab]">{text}</p>
               <button className="border-2 border-[#efeedf] bg-[#3e3d32] text-[#969e97] py-2 px-4">

@@ -19,7 +19,7 @@ const CamoPatterns = () => {
   };
 
   return (
-    <section className="w-full bg-cover bg-center py-12 relative " style={{ backgroundImage: `url('/nextjs_images/backgrounds/blue-wood-bg.png')` }}>
+    <section className="w-full bg-cover bg-center py-12 relative " style={{ backgroundImage: `url('/nextjs_images/backgrounds/blue-faded-bg-1.png')` }}>
       <div className="container mx-auto p-4 text-black text-center ">
         {/* Apply custom text shadow style to h3 and p tags */}
          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12 pt-10">

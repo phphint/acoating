@@ -124,5 +124,7 @@ html, body, #root {
     margin-bottom: -0.25rem !important; /* Adjust for vertical centering */
   }
 }
-
-  
+ 
+.brands-logos img {
+  color: green; /* This changes the color of your SVG if paths use `fill="currentColor"` */
+}
