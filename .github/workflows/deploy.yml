@@ -1,13 +1,14 @@
-name: Deploy to Server
+name: Deploy to Server and Run Docker Compose
 
 on:
   push:
     branches:
-      - main  # Set this to the branch name you use for production releases
+      - main  # or your specific branch
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
+
     steps:
     - name: Checkout code
       uses: actions/checkout@v2
@@ -18,5 +19,12 @@ jobs:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     - name: Copy files to the server
-      run: rsync -avz --delete ./ root@24.144.69.20:/root/  # rsync is used here for copying files securely
+      run: rsync -avz --delete ./ root@24.144.69.20:/root/  # Customize the target directory as needed
 
+    - name: Build and Run Docker Compose
+      run: |
+        ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
+          cd /root/ && \
+          docker-compose down && \
+          docker-compose build && \
+          docker-compose up -d"
