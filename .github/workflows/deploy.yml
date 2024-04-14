@@ -21,10 +21,11 @@ jobs:
     - name: Copy files to the server
       run: rsync -avz --delete ./ root@24.144.69.20:/root/  # Customize the target directory as needed
 
-    - name: Build and Run Docker Compose
+    - name: Build and Run Docker Compose with Logging
       run: |
         ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
           cd /root/ && \
           docker-compose down && \
-          docker-compose build && \
-          docker-compose up -d"
+          docker-compose build >> deployment.log 2>&1 && \
+          docker-compose up -d >> deployment.log 2>&1"
+      # Redirects both stdout and stderr to deployment.log
