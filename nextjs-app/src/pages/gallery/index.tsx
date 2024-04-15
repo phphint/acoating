@@ -4,7 +4,7 @@ import Layout from '../../components/Layout';
 import GalleryCategories from '../../components/sections/Gallery/GalleryCategories'; // Renamed component
  
 const GalleryPage: React.FC = () => {
-  return (
+  return ( 
     <Layout> 
       <Head> 
         <title>Acoating Gallery: Explore Our Premium Firearm Customizations</title>
