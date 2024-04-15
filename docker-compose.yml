@@ -8,6 +8,7 @@ services:
       dockerfile: Dockerfile
     volumes:
       - ./nextjs-app:/app
+      - /app/node_modules
     networks:
       - proxy_app-network
     mem_limit: 384M
