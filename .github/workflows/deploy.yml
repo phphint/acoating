@@ -25,6 +25,7 @@ jobs:
       run: |
         ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
         cd /root/GitHub-delivery/ && \
+        docker system prune -f && \
         docker-compose down && \
         docker-compose build >> deployment.log 2>&1 && \
         docker-compose up -d >> deployment.log 2>&1"
