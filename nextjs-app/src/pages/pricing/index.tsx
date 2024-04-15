@@ -2,7 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import Header from '../../components/Header/Pricing'; // Adjust if you have a specific Header for Pricing or use the generic one
 import Layout from '../../components/Layout'; // Reusable layout component
-import PricingCategories from '../../components/sections/Pricing/PricingCategories'; // Reusable layout component
+import PricingTables from '../../components/sections/Pricing/tables'; // Reusable layout component
 import PricingFaqs from '../../components/sections/Pricing/PricingFaqs'; // Reusable layout component
 
 const PricingPage: React.FC = () => {
@@ -24,7 +24,7 @@ const PricingPage: React.FC = () => {
       </Head>
       <Header />
 
-      <PricingCategories/>
+      <PricingTables/>
       <PricingFaqs/>
       <div>
   

@@ -29,13 +29,8 @@ const PricingMenu: React.FC = () => {
         
       
      {/* Updated Links with the new items */}
-     <Link href="/pricing/service-rates/1911-and-2011" className="block px-8 py-2 hover:bg-gray-700"> ↳ Pistol</Link>
-        <Link href="/pricing/service-rates/semi-auto" className="block px-8 py-2 hover:bg-gray-700"> ↳ Semi Auto</Link>
-        <Link href="/pricing/service-rates/revolver" className="block px-8 py-2 hover:bg-gray-700"> ↳ Revolver</Link>
-        <Link href="/pricing/service-rates/ar-15-ak-47" className="block px-8 py-2 hover:bg-gray-700"> ↳ AR Variant</Link>
-        <Link href="/pricing/service-rates/bolt-rifle" className="block px-8 py-2 hover:bg-gray-700"> ↳ Bolt Rifle</Link>
-        <Link href="/pricing/service-rates/shotgun" className="block px-8 py-2 hover:bg-gray-700"> ↳ Shotgun</Link>
-        <Link href="/pricing/service-rates/optics" className="block px-8 py-2 hover:bg-gray-700"> ↳ Optics</Link>
+     <Link href="/pricing" className="block px-8 py-2 hover:bg-gray-700"> ↳ Service Rates</Link>
+    
 
 
         {/* FAQ Section */}

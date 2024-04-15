@@ -5,7 +5,7 @@ import LogosRow from '../../../components/sections/LogosRow'; // Adjust the impo
 const Header: React.FC = () => {
   return (
     <header
-      className="relative z-10 overflow-visible" // Changed to overflow-visible to allow image overflow
+      className="relative z-10 overflow-visible -mb-8" // Changed to overflow-visible to allow image overflow
       style={{ 
         backgroundImage: `url('/nextjs_images/backgrounds/section-bg-pricing2.png')`, 
         backgroundColor: '#3b3a2f',
@@ -31,7 +31,7 @@ const Header: React.FC = () => {
         {/* First Row: Full-Width Image */}
         <div className="w-full overflow-visible"> {/* Adjusted for full width and visible overflow */}
           <Image 
-            src="/nextjs_images/pricing-ar15-header-gun.png" 
+            src="/nextjs_images/guns/ar-variant-pricing-header.png" 
             alt="AR-15" 
             layout="responsive" 
             width={700} 

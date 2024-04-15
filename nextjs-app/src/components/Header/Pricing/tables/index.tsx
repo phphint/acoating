@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image'; // Don't forget to import Image from 'next/image'
-import LogosRow from '../../../../components/sections/LogosRow'; // Adjust the import path as necessary
+import LogosRow from '../../../sections/LogosRow'; // Adjust the import path as necessary
 
 const Header: React.FC = () => {
   return (

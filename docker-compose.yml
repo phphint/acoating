@@ -15,9 +15,9 @@ services:
       - "3000:3000"
     environment:
       - NODE_ENV=development
-      - VIRTUAL_HOST=yourdomain.com, www.yourdomain.com
-      - LETSENCRYPT_HOST=yourdomain.com, www.yourdomain.com
-      - LETSENCRYPT_EMAIL=your-email@example.com
+      - VIRTUAL_HOST=dev.acoating.com 
+      - LETSENCRYPT_HOST=dev.acoating.com 
+      - LETSENCRYPT_EMAIL=jason@mavacode.com
 
   strapi-cms:
     container_name: strapi-cms
