@@ -31,7 +31,7 @@ const PricingMenu: React.FC = () => {
      {/* Updated Links with the new items */}
      <Link href="/pricing" className="block px-8 py-2 hover:bg-gray-700"> ↳ Service Rates</Link>
     
-
+ 
 
         {/* FAQ Section */}
         <div className="px-4 py-2 text-gray-400">FAQ</div> {/* Kept as a section header */}
