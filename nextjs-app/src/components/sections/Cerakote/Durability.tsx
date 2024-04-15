@@ -19,14 +19,14 @@ const DurabilitySection: React.FC = () => {
           <div className="flex flex-col items-center text-center">
             <h2 className="text-xl font-bold text-white mb-2">Corrosion Protection</h2>
             <p className="text-white">
-              Protect your investment from rust and corrosion with Cerakote's superior chemical resistance properties.
+              Protect your investment from rust and corrosion with Cerakote&lsquo;s superior chemical resistance properties.
             </p>
           </div>
           {/* Column 3 */}
           <div className="flex flex-col items-center text-center">
             <h2 className="text-xl font-bold text-white mb-2">UV Stability</h2>
             <p className="text-white">
-              Maintain the vibrant color and finish of your firearm with Cerakote's excellent UV stability, even with prolonged exposure to sunlight.
+              Maintain the vibrant color and finish of your firearm with Cerakote&lsquo;s excellent UV stability, even with prolonged exposure to sunlight.
             </p>
           </div>
           {/* Column 4 */}

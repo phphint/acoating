@@ -17,7 +17,7 @@ const CerakoteHeader: React.FC = () => {
             Unmatched Durability with Cerakote Coatings
           </h1>
           <p className="text-lg text-white mb-8">
-            Discover the ultimate firearm finish with Cerakote. Enhance your firearm's durability, resistance, and overall appearance with a custom Cerakote coating.
+            Discover the ultimate firearm finish with Cerakote. Enhance your firearm&lsquo;s durability, resistance, and overall appearance with a custom Cerakote coating.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <button className="bg-[#42595c] text-[#b6b6bc] py-3 px-6 border-[#b6b6bc] border hover:bg-[#36474a] transition-colors">

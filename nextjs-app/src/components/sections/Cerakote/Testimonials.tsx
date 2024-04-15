@@ -12,7 +12,7 @@ const TestimonialsSection: React.FC = () => {
           {/* Testimonials Column */}
           <div className="space-y-8">
             <div className="text-white mx-auto max-w-md">
-              <p className="italic">"Tim, Wow!!! what a beautiful job! Colors matched perfectly, my Beretta Cougar Inox looks better than the factory finish. As far as I'm concerned your the best certified Cerakote finisher around! I will be sending you more business all the way from PA. Thanks again." 
+              <p className="italic">&quot;Tim, Wow!!! what a beautiful job! Colors matched perfectly, my Beretta Cougar Inox looks better than the factory finish. As far as I&lsquo;m concerned your the best certified Cerakote finisher around! I will be sending you more business all the way from PA. Thanks again.&quot; 
 </p>
               <p className="font-bold mt-4">- Customer</p>
             </div>
