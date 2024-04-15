@@ -14,6 +14,6 @@ const Revolver: React.FC = () => {
     return (
         <ServiceTable category="Revolver Cerakote Pricing" services={services} />
     );
-};
+}; 
 
 export default Revolver;
