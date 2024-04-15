@@ -44,5 +44,5 @@ const PricingMenu: React.FC = () => {
     </div> 
   );
 };
-
+ 
 export default PricingMenu;
