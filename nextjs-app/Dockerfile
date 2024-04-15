@@ -7,8 +7,11 @@ WORKDIR /app
 # Copy the package.json and package-lock.json (if available)
 COPY package*.json ./
 
-# Install dependencies
-RUN npm install
+# Install dependencies, ensure clean install
+RUN npm install --force
+
+# Explicitly install Next.js globally
+RUN npm install -g next
 
 # Copy the rest of your app's source code from your host to your image filesystem.
 COPY . .
