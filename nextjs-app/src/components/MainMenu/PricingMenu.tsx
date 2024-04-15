@@ -41,7 +41,7 @@ const PricingMenu: React.FC = () => {
         <Link href="/pricing/faq/post-service-care" className="block px-8 py-2 hover:bg-gray-700">↳ Post-Service Care</Link>
          
       </div>
-    </div>
+    </div> 
   );
 };
 
