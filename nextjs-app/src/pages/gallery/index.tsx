@@ -5,8 +5,8 @@ import GalleryCategories from '../../components/sections/Gallery/GalleryCategori
  
 const GalleryPage: React.FC = () => {
   return (
-    <Layout>
-      <Head>
+    <Layout> 
+      <Head> 
         <title>Acoating Gallery: Explore Our Premium Firearm Customizations</title>
         <meta name="description" content="Explore our gallery to see premium firearm customizations, including Cerakote coatings and detailed engravings. Get inspired for your next project!" />
         <meta name="keywords" content="firearm gallery, Cerakote gallery, firearm customization, gun coatings, engraving gallery" />
