@@ -39,7 +39,7 @@ const PricingMenu: React.FC = () => {
         <Link href="/pricing/faq/shipping-instructions" className="block px-8 py-2 hover:bg-gray-700">↳ Shipping Instructions</Link>
         <Link href="/pricing/faq/warranty-information" className="block px-8 py-2 hover:bg-gray-700">↳ Warranty Information</Link>
         <Link href="/pricing/faq/post-service-care" className="block px-8 py-2 hover:bg-gray-700">↳ Post-Service Care</Link>
-        
+         
       </div>
     </div>
   );
