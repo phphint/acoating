@@ -69,7 +69,7 @@ const MainMenu: React.FC = () => {
               { href: "/services", text: "Services" },
               { href: "/pricing", text: "Pricing" },
               { href: "/gallery", text: "Gallery" },
-              { href: "/contact", text: "Contact Us" },
+              { href: "mailto:acoating@gmail.com", text: "Contact Us" },
             ].map((item) => (
               <Link href={item.href} passHref key={item.href}>
               <ListItem button className="text-white hover:bg-gray-700">

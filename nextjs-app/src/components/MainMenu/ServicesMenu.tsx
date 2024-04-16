@@ -35,10 +35,7 @@ const ServicesMenu: React.FC = () => {
         <Link href="/services/laser-engraving" className="block px-4 py-2 hover:bg-gray-700">Laser Engraving</Link>
 
         <Link href="/services/gunsmithing" className="block px-4 py-2 hover:bg-gray-700">Gunsmithing Services</Link>
-        <Link href="/services/gunsmithing/pistol-services" className="block px-8 py-2 hover:bg-gray-700">↳ Pistol Services</Link>
-        <Link href="/services/gunsmithing/rifle-services" className="block px-8 py-2 hover:bg-gray-700">↳ Rifle Services</Link>
-        <Link href="/services/gunsmithing/tactical-shotgun-services" className="block px-8 py-2 hover:bg-gray-700">↳ Tactical Shotgun Services</Link>
-
+   
       </div>
     </div>
   );

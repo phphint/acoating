@@ -1,4 +1,5 @@
 import React from 'react';
+ 
 
 const Header: React.FC = () => {
   return (
@@ -21,9 +22,9 @@ const Header: React.FC = () => {
             Explore our journey and the values that drive us.
           </p>
           <div className="text-center lg:text-left">
-            <button className="bg-[#7ac3bf] text-[#002427] py-2 px-6 text-base lg:text-lg transition-colors hover:bg-[#68b2af]" style={{ border: 'none', borderRadius: '0' }}>
+          <a href="mailto:acoating@gmail.com" className="bg-[#7ac3bf] text-[#002427] py-2 px-6 text-base lg:text-lg transition-colors hover:bg-[#68b2af]" style={{ border: 'none', borderRadius: '0' }}>
               Contact Us
-            </button>
+            </a>
           </div>
         </div>
         <div className="lg:w-1/2 flex items-center justify-center">

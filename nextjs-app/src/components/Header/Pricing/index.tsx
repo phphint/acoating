@@ -1,6 +1,8 @@
 import React from 'react';
 import Image from 'next/image'; // Don't forget to import Image from 'next/image'
 import LogosRow from '../../../components/sections/LogosRow'; // Adjust the import path as necessary
+import Link from 'next/link';
+
 
 const Header: React.FC = () => {
   return (
@@ -48,9 +50,11 @@ const Header: React.FC = () => {
             <p className="text-sm lg:text-base mb-4 text-[#a09183]">
               Explore our expert Cerakote coatings, laser engraving, and comprehensive gunsmithing services to personalize and enhance your firearms.
             </p>
-            <button className="bg-[#35352e] text-[#fef8bc] border border-[#969e9e] py-2 px-4">
-              Ship Us Your Firearm
-            </button>
+            <Link href="/pricing/faq/shipping-instructions">
+  <button className="bg-[#35352e] text-[#fef8bc] border border-[#969e9e] py-2 px-4">
+    Ship Us Your Firearm
+  </button>
+</Link>
           </div>
         </div>
 
