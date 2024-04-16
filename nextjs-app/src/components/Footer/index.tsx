@@ -62,7 +62,7 @@ const Footer: React.FC = () => {
   <h3 className="font-bold text-lg mb-4 text[#d7dfe3ff]">Why Choose Us?</h3>
   <p>Acoating stands out for our commitment to quality, innovation, and customer satisfaction. Experience the difference with our custom firearm services.</p>
   <p className="mt-3">Our skilled team uses high-quality materials and the latest technology for durable, aesthetic, and performance-enhancing firearm customizations tailored to your needs.</p>
-  <Link href="/contact" className="text-center block w-full mt-2 border border-[#7ac1bf] text-[#7ac1bf] rounded-none px-2 py-1 text-sm hover:bg-[#f7201d] hover:text-white">
+  <Link href="/pricing" className="text-center block w-full mt-2 border border-[#7ac1bf] text-[#7ac1bf] rounded-none px-2 py-1 text-sm  ">
   See Pricing
 </Link>
 

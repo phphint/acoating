@@ -6,6 +6,8 @@ services:
     build: 
       context: ./nextjs-app
       dockerfile: Dockerfile
+      args:
+        NODE_ENV: ${NODE_ENV}
     volumes:
       - ./nextjs-app:/app
       - /app/node_modules
@@ -16,9 +18,9 @@ services:
       - "3000:3000"
     environment:
       NODE_ENV: ${NODE_ENV}          # Use environment variable from .env file
-      VIRTUAL_HOST: dev.acoating.com 
-      LETSENCRYPT_HOST: dev.acoating.com 
-      LETSENCRYPT_EMAIL: jason@mavacode.com
+      VIRTUAL_HOST: ${VIRTUAL_HOST}
+      LETSENCRYPT_HOST: ${LETSENCRYPT_HOST}
+      LETSENCRYPT_EMAIL: ${LETSENCRYPT_EMAIL}
     restart: always                 # Ensure the container always restarts
 
   strapi-cms:

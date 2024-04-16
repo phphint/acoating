@@ -1,5 +1,7 @@
 import React from "react";
 import GallerySlider from './GallerySlider'; // Adjust the import path as needed
+import Link from 'next/link';
+
 
 const Home1: React.FC = () => {
   return (
@@ -30,9 +32,12 @@ const Home1: React.FC = () => {
               durability, protection, and personalized aesthetics for your
               firearm.
             </p>
-            <button className="bg-[#151a1a] text-[#fff] py-2 px-4 transition-colors" style={{ borderRadius: '0' }}>
-              See Pricing
-            </button>
+            <Link href="/pricing" passHref>
+  <button className="bg-[#151a1a] text-[#fff] py-2 px-4 transition-colors" style={{ borderRadius: '0' }}>
+    See Pricing
+  </button>
+</Link>
+
           </div>
         </div>
 
