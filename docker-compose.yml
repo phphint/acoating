@@ -11,6 +11,8 @@ services:
     volumes:
       - ./nextjs-app:/app
       - /app/node_modules
+      - /app/.next  # This line adds a Docker-managed volume for the .next directory
+
     networks:
       - proxy_app-network
     mem_limit: 384M
