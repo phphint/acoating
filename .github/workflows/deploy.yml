@@ -19,7 +19,7 @@ jobs:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
     - name: Copy files to the server
-      run: rsync -avz --exclude='.env' -e "ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" ./ root@24.144.69.20:/root/GitHub-delivery/ && ssh -o StrictHostKeyChecking=no root@24.144.69.20 "echo 'Rsync Completed Successfully' &> /root/GitHub-delivery/rsync_log.txt"
+      run: rsync -avz --exclude='.env' --exclude='proxy/' --exclude='strapi-cms/' --exclude='postgres-data/' -e "ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" ./ root@24.144.69.20:/root/GitHub-delivery/ && ssh -o StrictHostKeyChecking=no root@24.144.69.20 "echo 'Rsync Completed Successfully' &> /root/GitHub-delivery/rsync_log.txt"
 
     - name: Build and Run Docker Compose with Logging
       run: |
