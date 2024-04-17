@@ -21,6 +21,10 @@ jobs:
     - name: Backup existing folder with permissions
       run: ssh -o ServerAliveInterval=60 -o ServerAliveCountMax=2 -o StrictHostKeyChecking=no root@24.144.69.20 "cd /root && tar --numeric-owner -cpzf /mnt/backups/GitHub-delivery-backup_$(date +%Y%m%d_%H%M%S).tar.gz GitHub-delivery"
 
+    - name: Cleanup old backups
+      run: ssh -o StrictHostKeyChecking=no root@24.144.69.20 "cd /mnt/backups && ls -tp | grep -v '/$' | tail -n +6 | xargs -I {} rm -- {}"
+      # This command will keep the 5 most recent backups and delete the rest.
+
     - name: Copy files to the server
       run: rsync -avz --exclude='.env' --exclude='proxy/' --exclude='strapi-cms/' --exclude='postgres-data/' -e "ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" ./ root@24.144.69.20:/root/GitHub-delivery/ && ssh -o StrictHostKeyChecking=no root@24.144.69.20 "echo 'Rsync Completed Successfully' &> /root/GitHub-delivery/rsync_log.txt"
 

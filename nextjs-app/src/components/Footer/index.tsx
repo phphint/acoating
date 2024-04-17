@@ -10,8 +10,13 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link"; // Import the Link component
 
-const Logo = () => <img src="/nextjs_images/logo-trans-white.png" alt="Logo" className="h-auto w-auto mb-3" />;
-
+const Logo = () => (
+  <Link href="/">
+  
+      <img src="/nextjs_images/logo-trans-white.png" alt="Logo" className="h-auto w-auto mb-3" />
+    
+  </Link>
+);
 
 const Footer: React.FC = () => {
   return (
@@ -30,30 +35,43 @@ const Footer: React.FC = () => {
         <div className="p-2 pt-8">
            <Logo /> {/* Add the logo component here */}
 
-          <ul>
-    
-            <li className="mb-3 flex items-center">
-              <FontAwesomeIcon icon={faEnvelope} className="mr-2 text[#d7dfe3ff]" /> acoating@gmail.com
-            </li>
-            <li className="mb-3 flex items-center">
-              <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text[#d7dfe3ff]" /> Phoenix, AZ USA
-            </li>
-            <li className="flex items-center">
-              <FontAwesomeIcon icon={faGlobe} className="mr-2 text[#d7dfe3ff]" />
-              <a href="https://www.acoating.com" className="underline hover:text-gray-400">www.acoating.com</a>
-            </li>
-          </ul>
+      
+
+<ul>
+    <li className="mb-3 flex items-center">
+      <FontAwesomeIcon icon={faEnvelope} className="mr-2 text[#d7dfe3ff]" />
+      <a href="mailto:acoating@gmail.com" className="underline hover:text-gray-400">acoating@gmail.com</a>
+    </li>
+    <li className="mb-3 flex items-center">
+      <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text[#d7dfe3ff]" /> Firearm Cerakote Phoenix, AZ USA
+    </li>
+    <li className="flex items-center">
+      <FontAwesomeIcon icon={faGlobe} className="mr-2 text[#d7dfe3ff]" />
+      <Link href="/" className="underline hover:text-gray-400">
+        www.acoating.com 
+      </Link>
+    </li>
+</ul>
+
         </div>
 
         <div className="p-2 pt-8">
   <h3 className="font-bold text-lg mb-4 text[#d7dfe3ff]">Our Services</h3>
   <p>From custom gun coatings to precise laser engravings, Acoating offers a range of services to enhance and personalize your firearms. Discover our expert craftsmanship.</p>
   <div className="mt-2 flex flex-wrap gap-2">
-  <span className="border border-[#d7dfe3]   text-[#d7dfe3] rounded-none px-2 py-1 text-sm cursor-pointer hover:bg-[#171818]" style={{borderColor: '#d7dfe3'}}>Firearm Cerakote Coatings</span>
-<span className="border border-[#d7dfe3]   text-[#d7dfe3] rounded-none px-2 py-1 text-sm cursor-pointer hover:bg-[#171818]" style={{borderColor: '#d7dfe3'}}>Firearm Laser Engraving</span>
- <span className="border border-[#d7dfe3]   text-[#d7dfe3] rounded-none px-2 py-1 text-sm cursor-pointer hover:bg-[#171818]" style={{borderColor: '#d7dfe3'}}>Firearm Air Brushing</span>
-<span className="border border-[#d7dfe3]  text-[#d7dfe3] rounded-none px-2 py-1 text-sm cursor-pointer hover:bg-[#171818]" style={{borderColor: '#d7dfe3'}}> Gunsmith Services</span>
-
+    <Link href="/services/cerakote-coating"  className="border border-[#d7dfe3] text-[#d7dfe3] rounded-none px-2 py-1 text-sm cursor-pointer hover:bg-[#171818]" style={{borderColor: '#d7dfe3'}}>
+         Firearm Cerakote Coatings
+     </Link>
+    <Link href="/services/laser-engraving"  className="border border-[#d7dfe3] text-[#d7dfe3] rounded-none px-2 py-1 text-sm cursor-pointer hover:bg-[#171818]" style={{borderColor: '#d7dfe3'}}>
+         Firearm Laser Engraving
+     </Link>
+    <Link href="/services/cerakote-coating/custom-airbrush-designs"  className="border border-[#d7dfe3] text-[#d7dfe3] rounded-none px-2 py-1 text-sm cursor-pointer hover:bg-[#171818]" style={{borderColor: '#d7dfe3'}}>
+         Firearm Air Brushing
+     </Link>
+    <Link href="/services/gunsmithing"  className="border border-[#d7dfe3] text-[#d7dfe3] rounded-none px-2 py-1 text-sm cursor-pointer hover:bg-[#171818]" style={{borderColor: '#d7dfe3'}}>
+         Gunsmith Services
+   
+    </Link>
   </div>
 </div>
 
@@ -62,7 +80,7 @@ const Footer: React.FC = () => {
   <h3 className="font-bold text-lg mb-4 text[#d7dfe3ff]">Why Choose Us?</h3>
   <p>Acoating stands out for our commitment to quality, innovation, and customer satisfaction. Experience the difference with our custom firearm services.</p>
   <p className="mt-3">Our skilled team uses high-quality materials and the latest technology for durable, aesthetic, and performance-enhancing firearm customizations tailored to your needs.</p>
-  <Link href="/pricing" className="text-center block w-full mt-2 border border-[#7ac1bf] text-[#7ac1bf] rounded-none px-2 py-1 text-sm  ">
+  <Link href="/pricing" className="text-center block  mt-2 border border-[#7ac1bf] text-[#7ac1bf] rounded-none px-2 py-1 text-sm  ">
   See Pricing
 </Link>
 
@@ -71,19 +89,21 @@ const Footer: React.FC = () => {
 
 
     <div className="p-8" style={{ backgroundImage: `url('/nextjs_images/backgrounds/footer-col-bg.png')` }}>
-      <h3 className="font-bold text-lg mb-4 text[#d7dfe3ff] ">Popular Services</h3>
+      <h3 className="font-bold text-lg mb-4 text[#d7dfe3ff] ">Popular </h3>
       <ul className="text-[#d7dfe3ff]">
   {/* For each list item, directly use the Link component without nested <a> tags */}
   {[
-    { href: "/services/1911-custom-engraving", icon: faShieldAlt, label: "1911 Custom Engraving" },
-    { href: "/services/ar-15-customization", icon: faPaintBrush, label: "AR-15 Customization" },
-    { href: "/services/glock-enhancements", icon: faShieldAlt, label: "Glock Enhancements" },
-    { href: "/services/remington-700", icon: faShieldAlt, label: "Remington 700" },
-    { href: "/services/ruger-10-22-customization", icon: faShieldAlt, label: "Ruger 10/22 Customization" },
-    { href: "/services/sig-sauer-p320-customization", icon: faShieldAlt, label: "Sig Sauer P320 Customization" },
-    { href: "/services/smith-wesson-mp-customization", icon: faShieldAlt, label: "Smith & Wesson M&P Customization" },
-    { href: "/services/ak-47-variants-customization", icon: faShieldAlt, label: "AK-47 Variants Customization" },
-    { href: "/services/shotgun-customization", icon: faShieldAlt, label: "Shotgun Customization" },
+    { href: "/services/1911-custom-engraving", icon: faShieldAlt, label: "Firearms Laser Engraving" },
+    { href: "/services/ar-15-customization", icon: faPaintBrush, label: "Custom Cerakote Jobs" },
+    { href: "/services/glock-enhancements", icon: faShieldAlt, label: "Camo Cerakote for Guns" },
+    { href: "/services/remington-700", icon: faShieldAlt, label: "Firearm Cerakote Colors" },
+    { href: "/services/ruger-10-22-customization", icon: faShieldAlt, label: "Firearm Cerakote Cost" },
+    { href: "/services/sig-sauer-p320-customization", icon: faShieldAlt, label: "Affordable Cerakote Services" },
+    { href: "/services/smith-wesson-mp-customization", icon: faShieldAlt, label: "Glock Pistol Cerakote" },
+    { href: "/services/smith-wesson-mp-customization", icon: faShieldAlt, label: "Gun Trigger Upgrade" },
+    { href: "/services/smith-wesson-mp-customization", icon: faShieldAlt, label: "Gunsmith Services" },
+    { href: "/services/smith-wesson-mp-customization", icon: faShieldAlt, label: " 1911/2011 Pistol Gunsmith" },
+    { href: "/services/smith-wesson-mp-customization", icon: faShieldAlt, label: "Remington 700 Gunsmith" },
   ].map((item) => (
     <li key={item.href} className="mb-3">
       <Link href={item.href} passHref>

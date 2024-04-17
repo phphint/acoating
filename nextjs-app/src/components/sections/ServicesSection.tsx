@@ -14,11 +14,20 @@ const ServiceColumn: React.FC<ServiceColumnProps> = ({ title, description, butto
       <h3 className="text-xl font-bold mb-2 text-center text-[#d7dfe3]">{title}</h3>
       <p className="mb-4 text-left text-[#d7dfe3]">{description}</p>
       <div className="text-center">
-        <Link href={link} passHref>  {/* Use the link prop here */}
-          <button className="bg-[#d7dfe3] text-[#2d3751] py-1 px-2 transition-colors duration-200 ease-in-out" style={{ borderRadius: '0', fontSize: '0.875rem' }}>
-            {buttonText}
-          </button>
-        </Link>
+      <Link href={link} passHref>  {/* Use the link prop here */}
+  <button 
+    className="bg-[#d7dfe3] text-[#2d3751] py-1 px-2 transition-colors duration-200 ease-in-out relative"
+    style={{
+      borderRadius: '0px',  // Slightly rounded corners for a more pronounced bevel effect
+      fontSize: '0.875rem',
+      boxShadow: 'inset 2px 2px 5px #b1b8bc, inset -2px -2px 5px #ffffff',  // Inner shadow for depth
+      border: '1px solid #ccc'  // Optional: subtle border can enhance the bevel effect
+    }}
+  >
+    {buttonText}
+  </button>
+</Link>
+
       </div>
     </div>
   );

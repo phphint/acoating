@@ -19,9 +19,7 @@ const Testimonial: React.FC<TestimonialProps> = ({ testimonial, author }) => (
     {/* Use HTML entities or backticks for quotes */}
     <p className="italic text-sm">“{testimonial}”</p>
 
-   {/* eslint-disable-next-line react/no-unescaped-entities */}
-<p className="italic text-sm">“{testimonial}”</p>
-
+ 
   </div>
 );
 
