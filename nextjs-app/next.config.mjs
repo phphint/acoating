@@ -4,6 +4,494 @@ export default {
   async rewrites() {
     return [
   {
+    "source": "/1911-gallery/1911/1911-1-475",
+    "destination": "/1911-gallery/1911/1911-1-475.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-1-496",
+    "destination": "/1911-gallery/1911/1911-1-496.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-1-499",
+    "destination": "/1911-gallery/1911/1911-1-499.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-1-507",
+    "destination": "/1911-gallery/1911/1911-1-507.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-1-533",
+    "destination": "/1911-gallery/1911/1911-1-533.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-1-554",
+    "destination": "/1911-gallery/1911/1911-1-554.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-1-655",
+    "destination": "/1911-gallery/1911/1911-1-655.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-10-563",
+    "destination": "/1911-gallery/1911/1911-10-563.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-11-564",
+    "destination": "/1911-gallery/1911/1911-11-564.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-12-565",
+    "destination": "/1911-gallery/1911/1911-12-565.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-13-566",
+    "destination": "/1911-gallery/1911/1911-13-566.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-14-567",
+    "destination": "/1911-gallery/1911/1911-14-567.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-15-568",
+    "destination": "/1911-gallery/1911/1911-15-568.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-16-569",
+    "destination": "/1911-gallery/1911/1911-16-569.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-17-570",
+    "destination": "/1911-gallery/1911/1911-17-570.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2-476",
+    "destination": "/1911-gallery/1911/1911-2-476.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2-497",
+    "destination": "/1911-gallery/1911/1911-2-497.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2-508",
+    "destination": "/1911-gallery/1911/1911-2-508.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2-534",
+    "destination": "/1911-gallery/1911/1911-2-534.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2-555",
+    "destination": "/1911-gallery/1911/1911-2-555.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2-656",
+    "destination": "/1911-gallery/1911/1911-2-656.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-1-259",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-1-259.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-10-268",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-10-268.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-11-269",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-11-269.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-12-270",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-12-270.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-13-271",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-13-271.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-14-272",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-14-272.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-15-273",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-15-273.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-16-274",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-16-274.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-17-275",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-17-275.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-2-260",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-2-260.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-3-261",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-3-261.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-4-262",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-4-262.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-5-263",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-5-263.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-6-264",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-6-264.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-7-265",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-7-265.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-8-266",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-8-266.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-pistols-9-267",
+    "destination": "/1911-gallery/1911/1911-2011-pistols-9-267.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-race-guns-1-382",
+    "destination": "/1911-gallery/1911/1911-2011-race-guns-1-382.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-race-guns-2-383",
+    "destination": "/1911-gallery/1911/1911-2011-race-guns-2-383.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-race-guns-3-384",
+    "destination": "/1911-gallery/1911/1911-2011-race-guns-3-384.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-race-guns-4-385",
+    "destination": "/1911-gallery/1911/1911-2011-race-guns-4-385.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-race-guns-5-386",
+    "destination": "/1911-gallery/1911/1911-2011-race-guns-5-386.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-race-guns-6-387",
+    "destination": "/1911-gallery/1911/1911-2011-race-guns-6-387.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-2011-race-guns-7-388",
+    "destination": "/1911-gallery/1911/1911-2011-race-guns-7-388.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-3-477",
+    "destination": "/1911-gallery/1911/1911-3-477.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-3-498",
+    "destination": "/1911-gallery/1911/1911-3-498.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-3-535",
+    "destination": "/1911-gallery/1911/1911-3-535.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-3-556",
+    "destination": "/1911-gallery/1911/1911-3-556.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-3-657",
+    "destination": "/1911-gallery/1911/1911-3-657.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-4-536",
+    "destination": "/1911-gallery/1911/1911-4-536.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-4-557",
+    "destination": "/1911-gallery/1911/1911-4-557.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-4-658",
+    "destination": "/1911-gallery/1911/1911-4-658.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-5-537",
+    "destination": "/1911-gallery/1911/1911-5-537.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-5-558",
+    "destination": "/1911-gallery/1911/1911-5-558.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-5-659",
+    "destination": "/1911-gallery/1911/1911-5-659.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-6-538",
+    "destination": "/1911-gallery/1911/1911-6-538.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-6-559",
+    "destination": "/1911-gallery/1911/1911-6-559.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-7-560",
+    "destination": "/1911-gallery/1911/1911-7-560.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-8-561",
+    "destination": "/1911-gallery/1911/1911-8-561.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-9-562",
+    "destination": "/1911-gallery/1911/1911-9-562.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-before-and-after-1-345",
+    "destination": "/1911-gallery/1911/1911-before-and-after-1-345.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-before-and-after-1-423",
+    "destination": "/1911-gallery/1911/1911-before-and-after-1-423.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-before-and-after-2-346",
+    "destination": "/1911-gallery/1911/1911-before-and-after-2-346.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-before-and-after-3-347",
+    "destination": "/1911-gallery/1911/1911-before-and-after-3-347.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-before-and-after-4-348",
+    "destination": "/1911-gallery/1911/1911-before-and-after-4-348.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-before-and-after-5-349",
+    "destination": "/1911-gallery/1911/1911-before-and-after-5-349.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-before-and-after-6-350",
+    "destination": "/1911-gallery/1911/1911-before-and-after-6-350.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-before-and-after-7-351",
+    "destination": "/1911-gallery/1911/1911-before-and-after-7-351.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-before-and-after-7-484",
+    "destination": "/1911-gallery/1911/1911-before-and-after-7-484.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-before-and-after-8-485",
+    "destination": "/1911-gallery/1911/1911-before-and-after-8-485.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-burnt-bronze-1-671",
+    "destination": "/1911-gallery/1911/1911-burnt-bronze-1-671.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-burnt-bronze-2-672",
+    "destination": "/1911-gallery/1911/1911-burnt-bronze-2-672.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-pistols-in-cerakote-1-133",
+    "destination": "/1911-gallery/1911/1911-pistols-in-cerakote-1-133.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-refinishing-before-and-after-cerakote-1-441",
+    "destination": "/1911-gallery/1911/1911-refinishing-before-and-after-cerakote-1-441.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-s-1-651",
+    "destination": "/1911-gallery/1911/1911-s-1-651.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-s-2-652",
+    "destination": "/1911-gallery/1911/1911-s-2-652.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-s-3-653",
+    "destination": "/1911-gallery/1911/1911-s-3-653.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-s-4-654",
+    "destination": "/1911-gallery/1911/1911-s-4-654.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-sports-team-colors-1-439",
+    "destination": "/1911-gallery/1911/1911-sports-team-colors-1-439.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-sports-team-colors-2-440",
+    "destination": "/1911-gallery/1911/1911-sports-team-colors-2-440.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-test-10-160",
+    "destination": "/1911-gallery/1911/1911-test-10-160.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-test-8-158",
+    "destination": "/1911-gallery/1911/1911-test-8-158.html"
+  },
+  {
+    "source": "/1911-gallery/1911/1911-test-9-159",
+    "destination": "/1911-gallery/1911/1911-test-9-159.html"
+  },
+  {
+    "source": "/1911-gallery/1911/2011-1911-custom-guns-1-605",
+    "destination": "/1911-gallery/1911/2011-1911-custom-guns-1-605.html"
+  },
+  {
+    "source": "/1911-gallery/1911/2011-1911-upgrades-1-250",
+    "destination": "/1911-gallery/1911/2011-1911-upgrades-1-250.html"
+  },
+  {
+    "source": "/1911-gallery/1911/2011-1911-upgrades-2-251",
+    "destination": "/1911-gallery/1911/2011-1911-upgrades-2-251.html"
+  },
+  {
+    "source": "/1911-gallery/1911/2011-1911-upgrades-3-252",
+    "destination": "/1911-gallery/1911/2011-1911-upgrades-3-252.html"
+  },
+  {
+    "source": "/1911-gallery/1911/2011-1911-upgrades-4-253",
+    "destination": "/1911-gallery/1911/2011-1911-upgrades-4-253.html"
+  },
+  {
+    "source": "/1911-gallery/1911/2011-1911-upgrades-5-254",
+    "destination": "/1911-gallery/1911/2011-1911-upgrades-5-254.html"
+  },
+  {
+    "source": "/1911-gallery/1911/2011-1911-upgrades-6-255",
+    "destination": "/1911-gallery/1911/2011-1911-upgrades-6-255.html"
+  },
+  {
+    "source": "/1911-gallery/1911/2011-1911-upgrades-7-256",
+    "destination": "/1911-gallery/1911/2011-1911-upgrades-7-256.html"
+  },
+  {
+    "source": "/1911-gallery/1911/2011-1911-upgrades-8-257",
+    "destination": "/1911-gallery/1911/2011-1911-upgrades-8-257.html"
+  },
+  {
+    "source": "/1911-gallery/1911/2011-1911-upgrades-9-258",
+    "destination": "/1911-gallery/1911/2011-1911-upgrades-9-258.html"
+  },
+  {
+    "source": "/1911-gallery/1911/2011-barrel-crowning-1-223",
+    "destination": "/1911-gallery/1911/2011-barrel-crowning-1-223.html"
+  },
+  {
+    "source": "/1911-gallery/1911/2011-barrel-crowning-2-224",
+    "destination": "/1911-gallery/1911/2011-barrel-crowning-2-224.html"
+  },
+  {
+    "source": "/1911-gallery/1911/2011-skull-design-7-131",
+    "destination": "/1911-gallery/1911/2011-skull-design-7-131.html"
+  },
+  {
+    "source": "/1911-gallery/1911/cerakote-gun-coatings-by-acoating-com-1-698",
+    "destination": "/1911-gallery/1911/cerakote-gun-coatings-by-acoating-com-1-698.html"
+  },
+  {
+    "source": "/1911-gallery/1911/cerakote-gun-coatings-by-acoating-com-1-700",
+    "destination": "/1911-gallery/1911/cerakote-gun-coatings-by-acoating-com-1-700.html"
+  },
+  {
+    "source": "/1911-gallery/1911/cerakote-gun-coatings-by-acoating-com-2-699",
+    "destination": "/1911-gallery/1911/cerakote-gun-coatings-by-acoating-com-2-699.html"
+  },
+  {
+    "source": "/1911-gallery/1911/cerakote-gun-coatings-by-acoating-com-2-701",
+    "destination": "/1911-gallery/1911/cerakote-gun-coatings-by-acoating-com-2-701.html"
+  },
+  {
+    "source": "/1911-gallery/1911/custom-cerakote-1911-s-by-acoating-com-1-694",
+    "destination": "/1911-gallery/1911/custom-cerakote-1911-s-by-acoating-com-1-694.html"
+  },
+  {
+    "source": "/1911-gallery/1911/custom-cerakote-1911-s-by-acoating-com-1-702",
+    "destination": "/1911-gallery/1911/custom-cerakote-1911-s-by-acoating-com-1-702.html"
+  },
+  {
+    "source": "/1911-gallery/1911/custom-cerakote-1911-s-by-acoating-com-2-695",
+    "destination": "/1911-gallery/1911/custom-cerakote-1911-s-by-acoating-com-2-695.html"
+  },
+  {
+    "source": "/1911-gallery/1911/custom-cerakote-1911-s-by-acoating-com-2-703",
+    "destination": "/1911-gallery/1911/custom-cerakote-1911-s-by-acoating-com-2-703.html"
+  },
+  {
+    "source": "/1911-gallery/1911/custom-sti-2011-open-race-gun-1-230",
+    "destination": "/1911-gallery/1911/custom-sti-2011-open-race-gun-1-230.html"
+  },
+  {
+    "source": "/1911-gallery/1911/custom-sti-2011-open-race-gun-2-231",
+    "destination": "/1911-gallery/1911/custom-sti-2011-open-race-gun-2-231.html"
+  },
+  {
+    "source": "/1911-gallery/1911/kimber-1911-45-in-patriot-brown-cerakote-by-acoating-com-1-544",
+    "destination": "/1911-gallery/1911/kimber-1911-45-in-patriot-brown-cerakote-by-acoating-com-1-544.html"
+  },
+  {
+    "source": "/1911-gallery/1911/kimber-1911-45-in-patriot-brown-cerakote-by-acoating-com-2-545",
+    "destination": "/1911-gallery/1911/kimber-1911-45-in-patriot-brown-cerakote-by-acoating-com-2-545.html"
+  },
+  {
+    "source": "/1911-gallery/1911/sti-1911-1-419",
+    "destination": "/1911-gallery/1911/sti-1911-1-419.html"
+  },
+  {
+    "source": "/1911-gallery/1911/taurus-1911-s-for-sale-1-462",
+    "destination": "/1911-gallery/1911/taurus-1911-s-for-sale-1-462.html"
+  },
+  {
+    "source": "/1911-gallery/1911/taurus-1911-s-for-sale-10-471",
+    "destination": "/1911-gallery/1911/taurus-1911-s-for-sale-10-471.html"
+  },
+  {
+    "source": "/1911-gallery/1911/taurus-1911-s-for-sale-11-472",
+    "destination": "/1911-gallery/1911/taurus-1911-s-for-sale-11-472.html"
+  },
+  {
+    "source": "/1911-gallery/1911/taurus-1911-s-for-sale-12-473",
+    "destination": "/1911-gallery/1911/taurus-1911-s-for-sale-12-473.html"
+  },
+  {
+    "source": "/1911-gallery/1911/taurus-1911-s-for-sale-13-474",
+    "destination": "/1911-gallery/1911/taurus-1911-s-for-sale-13-474.html"
+  },
+  {
+    "source": "/1911-gallery/1911/taurus-1911-s-for-sale-5-466",
+    "destination": "/1911-gallery/1911/taurus-1911-s-for-sale-5-466.html"
+  },
+  {
+    "source": "/1911-gallery/1911/taurus-1911-s-for-sale-6-467",
+    "destination": "/1911-gallery/1911/taurus-1911-s-for-sale-6-467.html"
+  },
+  {
+    "source": "/1911-gallery/1911/taurus-1911-s-for-sale-7-468",
+    "destination": "/1911-gallery/1911/taurus-1911-s-for-sale-7-468.html"
+  },
+  {
+    "source": "/1911-gallery/1911/taurus-1911-s-for-sale-8-469",
+    "destination": "/1911-gallery/1911/taurus-1911-s-for-sale-8-469.html"
+  },
+  {
+    "source": "/1911-gallery/1911",
+    "destination": "/1911-gallery/1911.html"
+  },
+  {
+    "source": "/1911-gallery/19112679",
+    "destination": "/1911-gallery/19112679.html"
+  },
+  {
+    "source": "/1911-gallery/19114658",
+    "destination": "/1911-gallery/19114658.html"
+  },
+  {
     "source": "/1911-gallery",
     "destination": "/1911-gallery.html"
   },
@@ -16,8 +504,28 @@ export default {
     "destination": "/1911-gallery4658.html"
   },
   {
+    "source": "/User/BuyerTutorial",
+    "destination": "/User/BuyerTutorial.html"
+  },
+  {
+    "source": "/User/ImportExport",
+    "destination": "/User/ImportExport.html"
+  },
+  {
     "source": "/action-truing",
     "destination": "/action-truing.html"
+  },
+  {
+    "source": "/ajax/hovercard/hovercard159f",
+    "destination": "/ajax/hovercard/hovercard159f.html"
+  },
+  {
+    "source": "/ajax/hovercard/user159f",
+    "destination": "/ajax/hovercard/user159f.html"
+  },
+  {
+    "source": "/ajax/hovercard/user828a",
+    "destination": "/ajax/hovercard/user828a.html"
   },
   {
     "source": "/barrel-chambering",
@@ -40,8 +548,184 @@ export default {
     "destination": "/bolt-knob-install.html"
   },
   {
+    "source": "/camo-gallery/camo/1911-custom-camouflage-1-208",
+    "destination": "/camo-gallery/camo/1911-custom-camouflage-1-208.html"
+  },
+  {
+    "source": "/camo-gallery/camo/1911-custom-camouflage-2-209",
+    "destination": "/camo-gallery/camo/1911-custom-camouflage-2-209.html"
+  },
+  {
+    "source": "/camo-gallery/camo/1911-custom-camouflage-3-210",
+    "destination": "/camo-gallery/camo/1911-custom-camouflage-3-210.html"
+  },
+  {
+    "source": "/camo-gallery/camo/before-and-after-shotgun-1-711",
+    "destination": "/camo-gallery/camo/before-and-after-shotgun-1-711.html"
+  },
+  {
+    "source": "/camo-gallery/camo/before-and-after-shotgun-2-712",
+    "destination": "/camo-gallery/camo/before-and-after-shotgun-2-712.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-airbrushed-ar-15-in-cerakote-coat-gun-coatings-by-acoating-com-1-677",
+    "destination": "/camo-gallery/camo/custom-airbrushed-ar-15-in-cerakote-coat-gun-coatings-by-acoating-com-1-677.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-ar-15-snow-camo-1-175",
+    "destination": "/camo-gallery/camo/custom-ar-15-snow-camo-1-175.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-camo-ar-15-and-1911-1-203",
+    "destination": "/camo-gallery/camo/custom-camo-ar-15-and-1911-1-203.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-camo-ar-15-and-1911-2-204",
+    "destination": "/camo-gallery/camo/custom-camo-ar-15-and-1911-2-204.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-camo-ar-15-and-1911-3-205",
+    "destination": "/camo-gallery/camo/custom-camo-ar-15-and-1911-3-205.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-camo-ar-15-and-1911-4-206",
+    "destination": "/camo-gallery/camo/custom-camo-ar-15-and-1911-4-206.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-design-skull-camo-sti-2011-pistol-1-195",
+    "destination": "/camo-gallery/camo/custom-design-skull-camo-sti-2011-pistol-1-195.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-design-skull-camo-sti-2011-pistol-2-196",
+    "destination": "/camo-gallery/camo/custom-design-skull-camo-sti-2011-pistol-2-196.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-design-skull-camo-sti-2011-pistol-3-197",
+    "destination": "/camo-gallery/camo/custom-design-skull-camo-sti-2011-pistol-3-197.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-design-skull-camo-sti-2011-pistol-4-198",
+    "destination": "/camo-gallery/camo/custom-design-skull-camo-sti-2011-pistol-4-198.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-design-skull-camo-sti-2011-pistol-5-199",
+    "destination": "/camo-gallery/camo/custom-design-skull-camo-sti-2011-pistol-5-199.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-design-skull-camo-sti-2011-pistol-6-200",
+    "destination": "/camo-gallery/camo/custom-design-skull-camo-sti-2011-pistol-6-200.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-skull-design-airbrushed-1-192",
+    "destination": "/camo-gallery/camo/custom-skull-design-airbrushed-1-192.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-skull-design-airbrushed-2-193",
+    "destination": "/camo-gallery/camo/custom-skull-design-airbrushed-2-193.html"
+  },
+  {
+    "source": "/camo-gallery/camo/custom-skull-design-airbrushed-3-194",
+    "destination": "/camo-gallery/camo/custom-skull-design-airbrushed-3-194.html"
+  },
+  {
+    "source": "/camo-gallery/camo/freehand-airbrush-camo-1-180",
+    "destination": "/camo-gallery/camo/freehand-airbrush-camo-1-180.html"
+  },
+  {
+    "source": "/camo-gallery/camo/freehand-airbrush-camo-2-181",
+    "destination": "/camo-gallery/camo/freehand-airbrush-camo-2-181.html"
+  },
+  {
+    "source": "/camo-gallery/camo/freehand-airbrush-camo-3-182",
+    "destination": "/camo-gallery/camo/freehand-airbrush-camo-3-182.html"
+  },
+  {
+    "source": "/camo-gallery/camo/freehand-airbrush-camo-4-183",
+    "destination": "/camo-gallery/camo/freehand-airbrush-camo-4-183.html"
+  },
+  {
+    "source": "/camo-gallery/camo/m11-in-urban-digital-by-acoating-com-1-459",
+    "destination": "/camo-gallery/camo/m11-in-urban-digital-by-acoating-com-1-459.html"
+  },
+  {
+    "source": "/camo-gallery/camo/m11-in-urban-digital-by-acoating-com-2-460",
+    "destination": "/camo-gallery/camo/m11-in-urban-digital-by-acoating-com-2-460.html"
+  },
+  {
+    "source": "/camo-gallery/camo/m11-in-urban-digital-by-acoating-com-3-461",
+    "destination": "/camo-gallery/camo/m11-in-urban-digital-by-acoating-com-3-461.html"
+  },
+  {
+    "source": "/camo-gallery/camo/skull-design-camo-by-acoating-com-1-215",
+    "destination": "/camo-gallery/camo/skull-design-camo-by-acoating-com-1-215.html"
+  },
+  {
+    "source": "/camo-gallery/camo/skull-design-camo-by-acoating-com-2-216",
+    "destination": "/camo-gallery/camo/skull-design-camo-by-acoating-com-2-216.html"
+  },
+  {
+    "source": "/camo-gallery/camo/skull-design-camo-by-acoating-com-3-217",
+    "destination": "/camo-gallery/camo/skull-design-camo-by-acoating-com-3-217.html"
+  },
+  {
+    "source": "/camo-gallery/camo/skull-design-camo-by-acoating-com-4-218",
+    "destination": "/camo-gallery/camo/skull-design-camo-by-acoating-com-4-218.html"
+  },
+  {
+    "source": "/camo-gallery/camo/skull-design-camo-by-acoating-com-5-219",
+    "destination": "/camo-gallery/camo/skull-design-camo-by-acoating-com-5-219.html"
+  },
+  {
+    "source": "/camo-gallery/camo/skull-design-camo-by-acoating-com-6-220",
+    "destination": "/camo-gallery/camo/skull-design-camo-by-acoating-com-6-220.html"
+  },
+  {
+    "source": "/camo-gallery/camo/skull-design-camo-by-acoating-com-7-221",
+    "destination": "/camo-gallery/camo/skull-design-camo-by-acoating-com-7-221.html"
+  },
+  {
+    "source": "/camo-gallery/camo/urban-camo-1-247",
+    "destination": "/camo-gallery/camo/urban-camo-1-247.html"
+  },
+  {
+    "source": "/camo-gallery/camo/urban-camo-2-248",
+    "destination": "/camo-gallery/camo/urban-camo-2-248.html"
+  },
+  {
+    "source": "/camo-gallery/camo/urban-camo-3-249",
+    "destination": "/camo-gallery/camo/urban-camo-3-249.html"
+  },
+  {
+    "source": "/camo-gallery/camo",
+    "destination": "/camo-gallery/camo.html"
+  },
+  {
     "source": "/camo-gallery",
     "destination": "/camo-gallery.html"
+  },
+  {
+    "source": "/cerakote-colors/cerakote-camo-designs",
+    "destination": "/cerakote-colors/cerakote-camo-designs.html"
+  },
+  {
+    "source": "/cerakote-colors/cerakote-color-charts/black-grey",
+    "destination": "/cerakote-colors/cerakote-color-charts/black-grey.html"
+  },
+  {
+    "source": "/cerakote-colors/cerakote-color-charts/brown-tan",
+    "destination": "/cerakote-colors/cerakote-color-charts/brown-tan.html"
+  },
+  {
+    "source": "/cerakote-colors/cerakote-color-charts/silver-white",
+    "destination": "/cerakote-colors/cerakote-color-charts/silver-white.html"
+  },
+  {
+    "source": "/cerakote-colors/cerakote-color-charts/unique",
+    "destination": "/cerakote-colors/cerakote-color-charts/unique.html"
+  },
+  {
+    "source": "/cerakote-colors/cerakote-color-charts",
+    "destination": "/cerakote-colors/cerakote-color-charts.html"
   },
   {
     "source": "/cerakote-colors",
@@ -56,8 +740,320 @@ export default {
     "destination": "/cerakote-gun-coating-prices.html"
   },
   {
+    "source": "/component/content/article/270e96f",
+    "destination": "/component/content/article/270e96f.html"
+  },
+  {
+    "source": "/component/rsform/indexb0a7",
+    "destination": "/component/rsform/indexb0a7.html"
+  },
+  {
+    "source": "/component/search/index8cbb",
+    "destination": "/component/search/index8cbb.html"
+  },
+  {
+    "source": "/contact-us/we-won-t-be-undersold-period",
+    "destination": "/contact-us/we-won-t-be-undersold-period.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/1st-place-project-photo-contest-winners-by-acoating-com-1-645",
+    "destination": "/contest-gallery/contest-gallery/1st-place-project-photo-contest-winners-by-acoating-com-1-645.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/1st-place-project-photo-contest-winners-by-acoating-com-2-646",
+    "destination": "/contest-gallery/contest-gallery/1st-place-project-photo-contest-winners-by-acoating-com-2-646.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/1st-place-project-photo-contest-winners-by-acoating-com-3-647",
+    "destination": "/contest-gallery/contest-gallery/1st-place-project-photo-contest-winners-by-acoating-com-3-647.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/1st-place-project-photo-contest-winners-by-acoating-com-4-648",
+    "destination": "/contest-gallery/contest-gallery/1st-place-project-photo-contest-winners-by-acoating-com-4-648.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/1st-place-project-photo-contest-winners-by-acoating-com-5-649",
+    "destination": "/contest-gallery/contest-gallery/1st-place-project-photo-contest-winners-by-acoating-com-5-649.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/1st-place-project-photo-contest-winners-by-acoating-com-6-650",
+    "destination": "/contest-gallery/contest-gallery/1st-place-project-photo-contest-winners-by-acoating-com-6-650.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/cerakote-gun-coatings-by-acoating-com-1-704",
+    "destination": "/contest-gallery/contest-gallery/cerakote-gun-coatings-by-acoating-com-1-704.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/cerakote-gun-coatings-by-acoating-com-1-706",
+    "destination": "/contest-gallery/contest-gallery/cerakote-gun-coatings-by-acoating-com-1-706.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/cerakote-gun-coatings-by-acoating-com-2-705",
+    "destination": "/contest-gallery/contest-gallery/cerakote-gun-coatings-by-acoating-com-2-705.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/custom-cerakote-1911-s-by-acoating-com-1-692",
+    "destination": "/contest-gallery/contest-gallery/custom-cerakote-1911-s-by-acoating-com-1-692.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/custom-cerakote-1911-s-by-acoating-com-2-693",
+    "destination": "/contest-gallery/contest-gallery/custom-cerakote-1911-s-by-acoating-com-2-693.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/desert-camo-1-552",
+    "destination": "/contest-gallery/contest-gallery/desert-camo-1-552.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/skull-design-free-hand-air-brush-1-553",
+    "destination": "/contest-gallery/contest-gallery/skull-design-free-hand-air-brush-1-553.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/winning-projects-1-328",
+    "destination": "/contest-gallery/contest-gallery/winning-projects-1-328.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/winning-projects-2-329",
+    "destination": "/contest-gallery/contest-gallery/winning-projects-2-329.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/winning-projects-3-330",
+    "destination": "/contest-gallery/contest-gallery/winning-projects-3-330.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/winning-projects-4-331",
+    "destination": "/contest-gallery/contest-gallery/winning-projects-4-331.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/winning-projects-5-332",
+    "destination": "/contest-gallery/contest-gallery/winning-projects-5-332.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/winning-projects-6-333",
+    "destination": "/contest-gallery/contest-gallery/winning-projects-6-333.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/winning-projects-7-334",
+    "destination": "/contest-gallery/contest-gallery/winning-projects-7-334.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery/zombie-1911-1-338",
+    "destination": "/contest-gallery/contest-gallery/zombie-1911-1-338.html"
+  },
+  {
+    "source": "/contest-gallery/contest-gallery",
+    "destination": "/contest-gallery/contest-gallery.html"
+  },
+  {
     "source": "/contest-gallery",
     "destination": "/contest-gallery.html"
+  },
+  {
+    "source": "/faqs/104-how-do-i-maintain-my-refinished-firearm",
+    "destination": "/faqs/104-how-do-i-maintain-my-refinished-firearm.html"
+  },
+  {
+    "source": "/faqs/105-due-i-need-to-ship-thru-a-federal-firearms-dealer",
+    "destination": "/faqs/105-due-i-need-to-ship-thru-a-federal-firearms-dealer.html"
+  },
+  {
+    "source": "/faqs/106-what-parts-of-my-firearm-will-be-refinished",
+    "destination": "/faqs/106-what-parts-of-my-firearm-will-be-refinished.html"
+  },
+  {
+    "source": "/faqs/107-do-you-remove-dings-dents-and-pitting-as-part-of-the-refinishing-process",
+    "destination": "/faqs/107-do-you-remove-dings-dents-and-pitting-as-part-of-the-refinishing-process.html"
+  },
+  {
+    "source": "/faqs/108-do-you-strip-an-existing-finish-prior-to-applying-your-coatings",
+    "destination": "/faqs/108-do-you-strip-an-existing-finish-prior-to-applying-your-coatings.html"
+  },
+  {
+    "source": "/faqs/109-what-metals-can-cerakoe-and-duracoat-be-applied-to",
+    "destination": "/faqs/109-what-metals-can-cerakoe-and-duracoat-be-applied-to.html"
+  },
+  {
+    "source": "/faqs/110-what-does-the-clearcoat-do-for-my-gun",
+    "destination": "/faqs/110-what-does-the-clearcoat-do-for-my-gun.html"
+  },
+  {
+    "source": "/faqs/111-how-soon-can-i-use-my-newly-finished-firearm",
+    "destination": "/faqs/111-how-soon-can-i-use-my-newly-finished-firearm.html"
+  },
+  {
+    "source": "/faqs/112-is-cerakote-or-duracoat-permanent",
+    "destination": "/faqs/112-is-cerakote-or-duracoat-permanent.html"
+  },
+  {
+    "source": "/faqs/113-what-patterns-are-available",
+    "destination": "/faqs/113-what-patterns-are-available.html"
+  },
+  {
+    "source": "/faqs/114-will-cerakote-or-duracoat-burn-off-my-barrel",
+    "destination": "/faqs/114-will-cerakote-or-duracoat-burn-off-my-barrel.html"
+  },
+  {
+    "source": "/faqs/115-gunsmithing",
+    "destination": "/faqs/115-gunsmithing.html"
+  },
+  {
+    "source": "/faqs/116-what-type-of-payment-do-i-send",
+    "destination": "/faqs/116-what-type-of-payment-do-i-send.html"
+  },
+  {
+    "source": "/faqs/117-limited-lifetime-warranty",
+    "destination": "/faqs/117-limited-lifetime-warranty.html"
+  },
+  {
+    "source": "/faqs/118-limited-lifetime-warranty3",
+    "destination": "/faqs/118-limited-lifetime-warranty3.html"
+  },
+  {
+    "source": "/faqs/119-due-i-need-to-ship-thru-a-federal-firearms-dealer4",
+    "destination": "/faqs/119-due-i-need-to-ship-thru-a-federal-firearms-dealer4.html"
+  },
+  {
+    "source": "/faqs/120-how-to-ship-with-usps",
+    "destination": "/faqs/120-how-to-ship-with-usps.html"
+  },
+  {
+    "source": "/faqs/121-how-to-ship-with-ups",
+    "destination": "/faqs/121-how-to-ship-with-ups.html"
+  },
+  {
+    "source": "/faqs/123-how-to-ship-with-usps6",
+    "destination": "/faqs/123-how-to-ship-with-usps6.html"
+  },
+  {
+    "source": "/faqs/149-how-to-ship-with-usps20",
+    "destination": "/faqs/149-how-to-ship-with-usps20.html"
+  },
+  {
+    "source": "/faqs/158-how-thick-is-cerakote",
+    "destination": "/faqs/158-how-thick-is-cerakote.html"
+  },
+  {
+    "source": "/faqs/159-can-cerakote-be-applied-over-other-coatings",
+    "destination": "/faqs/159-can-cerakote-be-applied-over-other-coatings.html"
+  },
+  {
+    "source": "/faqs/160-does-cerakote-cover-defects",
+    "destination": "/faqs/160-does-cerakote-cover-defects.html"
+  },
+  {
+    "source": "/faqs/161-fix-my-rifle-stock-and-repair",
+    "destination": "/faqs/161-fix-my-rifle-stock-and-repair.html"
+  },
+  {
+    "source": "/faqs/162-fix-my-rifle-stock-and-repair24",
+    "destination": "/faqs/162-fix-my-rifle-stock-and-repair24.html"
+  },
+  {
+    "source": "/faqs/163-fix-my-rifle-stock-and-repair25",
+    "destination": "/faqs/163-fix-my-rifle-stock-and-repair25.html"
+  },
+  {
+    "source": "/faqs/178-fix-my-rifle-stock-and-repair31",
+    "destination": "/faqs/178-fix-my-rifle-stock-and-repair31.html"
+  },
+  {
+    "source": "/faqs/179-fix-my-rifle-stock-and-repair32",
+    "destination": "/faqs/179-fix-my-rifle-stock-and-repair32.html"
+  },
+  {
+    "source": "/faqs/182-can-i-call-acoating",
+    "destination": "/faqs/182-can-i-call-acoating.html"
+  },
+  {
+    "source": "/faqs/183-fix-my-rifle-stock-and-repair34",
+    "destination": "/faqs/183-fix-my-rifle-stock-and-repair34.html"
+  },
+  {
+    "source": "/faqs/184-fix-my-rifle-stock-and-repair35",
+    "destination": "/faqs/184-fix-my-rifle-stock-and-repair35.html"
+  },
+  {
+    "source": "/faqs/185-fix-my-rifle-stock-and-repair36",
+    "destination": "/faqs/185-fix-my-rifle-stock-and-repair36.html"
+  },
+  {
+    "source": "/faqs/186-fix-my-rifle-stock-and-repair37",
+    "destination": "/faqs/186-fix-my-rifle-stock-and-repair37.html"
+  },
+  {
+    "source": "/faqs/187-fix-my-rifle-stock-and-repair38",
+    "destination": "/faqs/187-fix-my-rifle-stock-and-repair38.html"
+  },
+  {
+    "source": "/faqs/188-fix-my-rifle-stock-and-repair39",
+    "destination": "/faqs/188-fix-my-rifle-stock-and-repair39.html"
+  },
+  {
+    "source": "/faqs/189-fix-my-rifle-stock-and-repair40",
+    "destination": "/faqs/189-fix-my-rifle-stock-and-repair40.html"
+  },
+  {
+    "source": "/faqs/190-fix-my-rifle-stock-and-repair41",
+    "destination": "/faqs/190-fix-my-rifle-stock-and-repair41.html"
+  },
+  {
+    "source": "/faqs/284-fix-my-rifle-stock-and-repair128",
+    "destination": "/faqs/284-fix-my-rifle-stock-and-repair128.html"
+  },
+  {
+    "source": "/faqs/285-fix-my-rifle-stock-and-repair129",
+    "destination": "/faqs/285-fix-my-rifle-stock-and-repair129.html"
+  },
+  {
+    "source": "/faqs/314-fix-my-rifle-stock-and-repair158",
+    "destination": "/faqs/314-fix-my-rifle-stock-and-repair158.html"
+  },
+  {
+    "source": "/faqs/315-fix-my-rifle-stock-and-repair159",
+    "destination": "/faqs/315-fix-my-rifle-stock-and-repair159.html"
+  },
+  {
+    "source": "/faqs/316-fix-my-rifle-stock-and-repair160",
+    "destination": "/faqs/316-fix-my-rifle-stock-and-repair160.html"
+  },
+  {
+    "source": "/faqs/326-fix-my-rifle-stock-and-repair170",
+    "destination": "/faqs/326-fix-my-rifle-stock-and-repair170.html"
+  },
+  {
+    "source": "/faqs/327-fix-my-rifle-stock-and-repair171",
+    "destination": "/faqs/327-fix-my-rifle-stock-and-repair171.html"
+  },
+  {
+    "source": "/faqs/328-fix-my-rifle-stock-and-repair172",
+    "destination": "/faqs/328-fix-my-rifle-stock-and-repair172.html"
+  },
+  {
+    "source": "/faqs/336-fix-my-rifle-stock-and-repair180",
+    "destination": "/faqs/336-fix-my-rifle-stock-and-repair180.html"
+  },
+  {
+    "source": "/faqs/357-fix-my-rifle-stock-and-repair200",
+    "destination": "/faqs/357-fix-my-rifle-stock-and-repair200.html"
+  },
+  {
+    "source": "/faqs/394-simple-easy-shipping-instructions",
+    "destination": "/faqs/394-simple-easy-shipping-instructions.html"
+  },
+  {
+    "source": "/faqs/494-parts-check-list-for-all-dyi-disassembled-firearms-being-sent-in",
+    "destination": "/faqs/494-parts-check-list-for-all-dyi-disassembled-firearms-being-sent-in.html"
+  },
+  {
+    "source": "/faqs/96-how-much-does-it-cost",
+    "destination": "/faqs/96-how-much-does-it-cost.html"
+  },
+  {
+    "source": "/faqs/97-what-colors-are-available",
+    "destination": "/faqs/97-what-colors-are-available.html"
+  },
+  {
+    "source": "/faqs/98-how-long-does-it-take",
+    "destination": "/faqs/98-how-long-does-it-take.html"
   },
   {
     "source": "/faqs",
@@ -68,16 +1064,472 @@ export default {
     "destination": "/firing-pin-bushing.html"
   },
   {
+    "source": "/hunting-gallery/hunting/1-week-in-alaska-before-and-after-1-408",
+    "destination": "/hunting-gallery/hunting/1-week-in-alaska-before-and-after-1-408.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/1-week-in-alaska-before-and-after-2-409",
+    "destination": "/hunting-gallery/hunting/1-week-in-alaska-before-and-after-2-409.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/10-22-rifle-stock-multiple-designs-1-546",
+    "destination": "/hunting-gallery/hunting/10-22-rifle-stock-multiple-designs-1-546.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/basic-hunting-rifle-build-up-1-213",
+    "destination": "/hunting-gallery/hunting/basic-hunting-rifle-build-up-1-213.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/basic-hunting-rifle-build-up-2-214",
+    "destination": "/hunting-gallery/hunting/basic-hunting-rifle-build-up-2-214.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-1-597",
+    "destination": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-1-597.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-2-598",
+    "destination": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-2-598.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-3-599",
+    "destination": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-3-599.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-4-600",
+    "destination": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-4-600.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-5-601",
+    "destination": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-5-601.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-6-602",
+    "destination": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-6-602.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-7-603",
+    "destination": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-7-603.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-8-604",
+    "destination": "/hunting-gallery/hunting/bolt-action-sniper-tactical-rifles-8-604.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/cerakote-gun-coatings-by-acoating-com-1-688",
+    "destination": "/hunting-gallery/hunting/cerakote-gun-coatings-by-acoating-com-1-688.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-custom-rifles-2-572",
+    "destination": "/hunting-gallery/hunting/hunting-custom-rifles-2-572.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-custom-rifles-3-573",
+    "destination": "/hunting-gallery/hunting/hunting-custom-rifles-3-573.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-custom-rifles-5-575",
+    "destination": "/hunting-gallery/hunting/hunting-custom-rifles-5-575.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-custom-rifles-6-576",
+    "destination": "/hunting-gallery/hunting/hunting-custom-rifles-6-576.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-custom-rifles-7-577",
+    "destination": "/hunting-gallery/hunting/hunting-custom-rifles-7-577.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-rifle-1-124",
+    "destination": "/hunting-gallery/hunting/hunting-rifle-1-124.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-1-276",
+    "destination": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-1-276.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-10-285",
+    "destination": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-10-285.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-11-286",
+    "destination": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-11-286.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-12-287",
+    "destination": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-12-287.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-2-277",
+    "destination": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-2-277.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-3-278",
+    "destination": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-3-278.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-4-279",
+    "destination": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-4-279.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-5-280",
+    "destination": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-5-280.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-6-281",
+    "destination": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-6-281.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-7-282",
+    "destination": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-7-282.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-8-283",
+    "destination": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-8-283.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-9-284",
+    "destination": "/hunting-gallery/hunting/hunting-rifles-customized-or-refinished-9-284.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-tactical-1-352",
+    "destination": "/hunting-gallery/hunting/hunting-tactical-1-352.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-tactical-2-353",
+    "destination": "/hunting-gallery/hunting/hunting-tactical-2-353.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-tactical-3-354",
+    "destination": "/hunting-gallery/hunting/hunting-tactical-3-354.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-tactical-4-355",
+    "destination": "/hunting-gallery/hunting/hunting-tactical-4-355.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-tactical-5-356",
+    "destination": "/hunting-gallery/hunting/hunting-tactical-5-356.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/hunting-tactical-6-357",
+    "destination": "/hunting-gallery/hunting/hunting-tactical-6-357.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/pristine-hunting-tactical-rifle-1-172",
+    "destination": "/hunting-gallery/hunting/pristine-hunting-tactical-rifle-1-172.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/recoil-pad-installation-1-342",
+    "destination": "/hunting-gallery/hunting/recoil-pad-installation-1-342.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/recoil-pad-installation-2-343",
+    "destination": "/hunting-gallery/hunting/recoil-pad-installation-2-343.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/recoil-pad-installation-3-344",
+    "destination": "/hunting-gallery/hunting/recoil-pad-installation-3-344.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-1-232",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-1-232.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-10-241",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-10-241.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-11-242",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-11-242.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-12-243",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-12-243.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-13-244",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-13-244.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-14-245",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-14-245.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-15-246",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-15-246.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-2-233",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-2-233.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-3-234",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-3-234.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-4-235",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-4-235.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-5-236",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-5-236.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-6-237",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-6-237.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-7-238",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-7-238.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-8-239",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-8-239.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-9-240",
+    "destination": "/hunting-gallery/hunting/remington-700-or-rifle-action-gunsmith-9-240.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-s-before-and-after-acoating-refinishing-in-cerakote-gun-coatings-1-449",
+    "destination": "/hunting-gallery/hunting/remington-700-s-before-and-after-acoating-refinishing-in-cerakote-gun-coatings-1-449.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-s-before-and-after-acoating-refinishing-in-cerakote-gun-coatings-2-450",
+    "destination": "/hunting-gallery/hunting/remington-700-s-before-and-after-acoating-refinishing-in-cerakote-gun-coatings-2-450.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/remington-700-s-before-and-after-acoating-refinishing-in-cerakote-gun-coatings-3-451",
+    "destination": "/hunting-gallery/hunting/remington-700-s-before-and-after-acoating-refinishing-in-cerakote-gun-coatings-3-451.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/reminton-700-gunsmith-services-1-335",
+    "destination": "/hunting-gallery/hunting/reminton-700-gunsmith-services-1-335.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/reminton-700-gunsmith-services-2-336",
+    "destination": "/hunting-gallery/hunting/reminton-700-gunsmith-services-2-336.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/reminton-700-gunsmith-services-3-337",
+    "destination": "/hunting-gallery/hunting/reminton-700-gunsmith-services-3-337.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/rifle-and-stock-repair-refinishing-1-410",
+    "destination": "/hunting-gallery/hunting/rifle-and-stock-repair-refinishing-1-410.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/rifle-and-stock-repair-refinishing-2-411",
+    "destination": "/hunting-gallery/hunting/rifle-and-stock-repair-refinishing-2-411.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/rifle-and-stock-repair-refinishing-3-412",
+    "destination": "/hunting-gallery/hunting/rifle-and-stock-repair-refinishing-3-412.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/rifle-and-stock-repair-refinishing-4-413",
+    "destination": "/hunting-gallery/hunting/rifle-and-stock-repair-refinishing-4-413.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/rifle-and-stock-repair-refinishing-5-414",
+    "destination": "/hunting-gallery/hunting/rifle-and-stock-repair-refinishing-5-414.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/stock-refinishing-and-repair-1-405",
+    "destination": "/hunting-gallery/hunting/stock-refinishing-and-repair-1-405.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/varmint-ar-15-in-desert-camo-4-532",
+    "destination": "/hunting-gallery/hunting/varmint-ar-15-in-desert-camo-4-532.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/weatherby-rifle-and-scope-1-169",
+    "destination": "/hunting-gallery/hunting/weatherby-rifle-and-scope-1-169.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/weatherby-rifle-and-scope-2-170",
+    "destination": "/hunting-gallery/hunting/weatherby-rifle-and-scope-2-170.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting/weatherby-rifle-and-scope-3-171",
+    "destination": "/hunting-gallery/hunting/weatherby-rifle-and-scope-3-171.html"
+  },
+  {
+    "source": "/hunting-gallery/hunting",
+    "destination": "/hunting-gallery/hunting.html"
+  },
+  {
+    "source": "/hunting-gallery/image02a9",
+    "destination": "/hunting-gallery/image02a9.html"
+  },
+  {
+    "source": "/hunting-gallery/image515f",
+    "destination": "/hunting-gallery/image515f.html"
+  },
+  {
+    "source": "/hunting-gallery/imaged4f5",
+    "destination": "/hunting-gallery/imaged4f5.html"
+  },
+  {
     "source": "/hunting-gallery",
     "destination": "/hunting-gallery.html"
   },
   {
-    "source": "/index",
-    "destination": "/index.html"
+    "source": "/images/joomgallery/thumbnails/hunting_4/remington_700s_before_and_after_acoating_refinishing_in_cerakote_gun_coatings_1_20130815_1731110881",
+    "destination": "/images/joomgallery/thumbnails/hunting_4/remington_700s_before_and_after_acoating_refinishing_in_cerakote_gun_coatings_1_20130815_1731110881.html"
+  },
+  {
+    "source": "/images/joomgallery/thumbnails/hunting_4/remington_700s_before_and_after_acoating_refinishing_in_cerakote_gun_coatings_2_20130815_1104747102",
+    "destination": "/images/joomgallery/thumbnails/hunting_4/remington_700s_before_and_after_acoating_refinishing_in_cerakote_gun_coatings_2_20130815_1104747102.html"
+  },
+  {
+    "source": "/images/joomgallery/thumbnails/hunting_4/remington_700s_before_and_after_acoating_refinishing_in_cerakote_gun_coatings_3_20130815_1290957653",
+    "destination": "/images/joomgallery/thumbnails/hunting_4/remington_700s_before_and_after_acoating_refinishing_in_cerakote_gun_coatings_3_20130815_1290957653.html"
+  },
+  {
+    "source": "/images/stories/gun-images/1911-compact-after",
+    "destination": "/images/stories/gun-images/1911-compact-after.html"
+  },
+  {
+    "source": "/images/stories/gun-images/model-59s-after",
+    "destination": "/images/stories/gun-images/model-59s-after.html"
+  },
+  {
+    "source": "/images/stories/igallery/pistol_photos/original/IMG-5691",
+    "destination": "/images/stories/igallery/pistol_photos/original/IMG-5691.html"
+  },
+  {
+    "source": "/images/stories/igallery/pistol_photos/original/IMG-5693",
+    "destination": "/images/stories/igallery/pistol_photos/original/IMG-5693.html"
+  },
+  {
+    "source": "/images/stories/igallery/pistol_photos/original/IMG-6028",
+    "destination": "/images/stories/igallery/pistol_photos/original/IMG-6028.html"
+  },
+  {
+    "source": "/images/stories/igallery/pistol_photos/original/IMG-7046",
+    "destination": "/images/stories/igallery/pistol_photos/original/IMG-7046.html"
+  },
+  {
+    "source": "/images/stories/igallery/pistol_photos/original/IMG-7174",
+    "destination": "/images/stories/igallery/pistol_photos/original/IMG-7174.html"
+  },
+  {
+    "source": "/images/stories/igallery/pistol_photos/original/thumbnails/thumb_IMG-6931",
+    "destination": "/images/stories/igallery/pistol_photos/original/thumbnails/thumb_IMG-6931.html"
+  },
+  {
+    "source": "/images/stories/igallery/pistol_photos/thumbs/IMG-5618",
+    "destination": "/images/stories/igallery/pistol_photos/thumbs/IMG-5618.html"
+  },
+  {
+    "source": "/images/stories/igallery/rifles_and_other_gear/original/IMG-5980",
+    "destination": "/images/stories/igallery/rifles_and_other_gear/original/IMG-5980.html"
+  },
+  {
+    "source": "/images/stories/igallery/rifles_and_other_gear/original/IMG-7116",
+    "destination": "/images/stories/igallery/rifles_and_other_gear/original/IMG-7116.html"
+  },
+  {
+    "source": "/img/1",
+    "destination": "/img/1.html"
+  },
+  {
+    "source": "/index.php/component/content/article/270e96f",
+    "destination": "/index.php/component/content/article/270e96f.html"
+  },
+  {
+    "source": "/index.php/contact-us/we-won-t-be-undersold-period",
+    "destination": "/index.php/contact-us/we-won-t-be-undersold-period.html"
+  },
+  {
+    "source": "/index.php/services/cerakote-gun-coatings/abrasion",
+    "destination": "/index.php/services/cerakote-gun-coatings/abrasion.html"
+  },
+  {
+    "source": "/index.php/services/cerakote-gun-coatings/adhesion",
+    "destination": "/index.php/services/cerakote-gun-coatings/adhesion.html"
+  },
+  {
+    "source": "/index.php/services/cerakote-gun-coatings/chemical",
+    "destination": "/index.php/services/cerakote-gun-coatings/chemical.html"
+  },
+  {
+    "source": "/index.php/services/cerakote-gun-coatings/corrosion",
+    "destination": "/index.php/services/cerakote-gun-coatings/corrosion.html"
+  },
+  {
+    "source": "/index.php/services/cerakote-gun-coatings/durability",
+    "destination": "/index.php/services/cerakote-gun-coatings/durability.html"
+  },
+  {
+    "source": "/index.php/services/cerakote-gun-coatings/flexibility",
+    "destination": "/index.php/services/cerakote-gun-coatings/flexibility.html"
+  },
+  {
+    "source": "/index.php/services/cerakote-gun-coatings/friction",
+    "destination": "/index.php/services/cerakote-gun-coatings/friction.html"
+  },
+  {
+    "source": "/index.php/services/cerakote-gun-coatings/generation",
+    "destination": "/index.php/services/cerakote-gun-coatings/generation.html"
+  },
+  {
+    "source": "/index.php/services/cerakote-gun-coatings/hardness",
+    "destination": "/index.php/services/cerakote-gun-coatings/hardness.html"
   },
   {
     "source": "/muzzle-brakes",
     "destination": "/muzzle-brakes.html"
+  },
+  {
+    "source": "/nextjs_images/originals/1911_3/index",
+    "destination": "/nextjs_images/originals/1911_3/index.html"
+  },
+  {
+    "source": "/nextjs_images/originals/camo_10/index",
+    "destination": "/nextjs_images/originals/camo_10/index.html"
+  },
+  {
+    "source": "/nextjs_images/originals/contest_gallery_7/index",
+    "destination": "/nextjs_images/originals/contest_gallery_7/index.html"
+  },
+  {
+    "source": "/nextjs_images/originals/hunting_4/index",
+    "destination": "/nextjs_images/originals/hunting_4/index.html"
+  },
+  {
+    "source": "/nextjs_images/originals/pistols_2/index",
+    "destination": "/nextjs_images/originals/pistols_2/index.html"
+  },
+  {
+    "source": "/nextjs_images/originals/revolver_9/index",
+    "destination": "/nextjs_images/originals/revolver_9/index.html"
+  },
+  {
+    "source": "/nextjs_images/originals/scopes_11/index",
+    "destination": "/nextjs_images/originals/scopes_11/index.html"
+  },
+  {
+    "source": "/nextjs_images/originals/tactical_6/index",
+    "destination": "/nextjs_images/originals/tactical_6/index.html"
+  },
+  {
+    "source": "/nextjs_images/originals/women_8/index",
+    "destination": "/nextjs_images/originals/women_8/index.html"
+  },
+  {
+    "source": "/photo-galleries/cerakote-videos",
+    "destination": "/photo-galleries/cerakote-videos.html"
+  },
+  {
+    "source": "/photo-galleries/rifles-and-gear-gallery",
+    "destination": "/photo-galleries/rifles-and-gear-gallery.html"
+  },
+  {
+    "source": "/photo-galleries/video-gallery",
+    "destination": "/photo-galleries/video-gallery.html"
   },
   {
     "source": "/photo-galleries",
@@ -88,20 +1540,860 @@ export default {
     "destination": "/pillar-bedding.html"
   },
   {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-1-714",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-1-714.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-1-723",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-1-723.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-10-732",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-10-732.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-2-715",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-2-715.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-2-724",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-2-724.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-3-716",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-3-716.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-3-725",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-3-725.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-4-717",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-4-717.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-4-726",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-4-726.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-5-718",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-5-718.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-5-727",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-5-727.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-6-719",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-6-719.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-6-728",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-6-728.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-7-720",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-7-720.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-7-729",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-7-729.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-8-721",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-8-721.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-8-730",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-8-730.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-9-722",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-9-722.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-9-731",
+    "destination": "/pistols-gallery/pistols/acoating-com-arizonas-best-certified-cerakote-applicator-9-731.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/american-flag-1-733",
+    "destination": "/pistols-gallery/pistols/american-flag-1-733.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/basic-2-color-camo-1-211",
+    "destination": "/pistols-gallery/pistols/basic-2-color-camo-1-211.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/basic-2-color-camo-2-212",
+    "destination": "/pistols-gallery/pistols/basic-2-color-camo-2-212.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/before-and-after-repairs-1-397",
+    "destination": "/pistols-gallery/pistols/before-and-after-repairs-1-397.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/before-and-after-repairs-2-398",
+    "destination": "/pistols-gallery/pistols/before-and-after-repairs-2-398.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/beretta-92-1-167",
+    "destination": "/pistols-gallery/pistols/beretta-92-1-167.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/beretta-92-2-168",
+    "destination": "/pistols-gallery/pistols/beretta-92-2-168.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/beretta-92-compensated-pistol-1-201",
+    "destination": "/pistols-gallery/pistols/beretta-92-compensated-pistol-1-201.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/beretta-92-compensated-pistol-2-202",
+    "destination": "/pistols-gallery/pistols/beretta-92-compensated-pistol-2-202.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/black-and-white-sig-sauer-220-1-380",
+    "destination": "/pistols-gallery/pistols/black-and-white-sig-sauer-220-1-380.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/black-and-white-sig-sauer-220-2-381",
+    "destination": "/pistols-gallery/pistols/black-and-white-sig-sauer-220-2-381.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/cerakote-gun-coatings-by-acoating-com-1-678",
+    "destination": "/pistols-gallery/pistols/cerakote-gun-coatings-by-acoating-com-1-678.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/cerakote-gun-coatings-by-acoating-com-1-683",
+    "destination": "/pistols-gallery/pistols/cerakote-gun-coatings-by-acoating-com-1-683.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/cerakote-gun-coatings-by-acoating-com-1-685",
+    "destination": "/pistols-gallery/pistols/cerakote-gun-coatings-by-acoating-com-1-685.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/cerakote-gun-coatings-by-acoating-com-1-689",
+    "destination": "/pistols-gallery/pistols/cerakote-gun-coatings-by-acoating-com-1-689.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/cerakote-gun-coatings-by-acoating-com-2-679",
+    "destination": "/pistols-gallery/pistols/cerakote-gun-coatings-by-acoating-com-2-679.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/cerakote-gun-coatings-by-acoating-com-2-684",
+    "destination": "/pistols-gallery/pistols/cerakote-gun-coatings-by-acoating-com-2-684.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/customer-color-choices-1-437",
+    "destination": "/pistols-gallery/pistols/customer-color-choices-1-437.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/customer-color-choices-2-438",
+    "destination": "/pistols-gallery/pistols/customer-color-choices-2-438.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/glock-customization-1-373",
+    "destination": "/pistols-gallery/pistols/glock-customization-1-373.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/glock-customization-2-374",
+    "destination": "/pistols-gallery/pistols/glock-customization-2-374.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/glock-kryptek-cerakote-1-713",
+    "destination": "/pistols-gallery/pistols/glock-kryptek-cerakote-1-713.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-in-cerakote-by-acoating-com-1-145",
+    "destination": "/pistols-gallery/pistols/pistol-in-cerakote-by-acoating-com-1-145.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-in-cerakote-by-acoating-com-2-146",
+    "destination": "/pistols-gallery/pistols/pistol-in-cerakote-by-acoating-com-2-146.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-in-cerakote-by-acoating-com-3-147",
+    "destination": "/pistols-gallery/pistols/pistol-in-cerakote-by-acoating-com-3-147.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-in-cerakote-by-acoating-com-4-148",
+    "destination": "/pistols-gallery/pistols/pistol-in-cerakote-by-acoating-com-4-148.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-in-cerakote-by-acoating-com-5-149",
+    "destination": "/pistols-gallery/pistols/pistol-in-cerakote-by-acoating-com-5-149.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-in-cerakote-by-acoating-com-6-150",
+    "destination": "/pistols-gallery/pistols/pistol-in-cerakote-by-acoating-com-6-150.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-12-72",
+    "destination": "/pistols-gallery/pistols/pistol-sample-12-72.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-13-73",
+    "destination": "/pistols-gallery/pistols/pistol-sample-13-73.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-14-74",
+    "destination": "/pistols-gallery/pistols/pistol-sample-14-74.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-20-80",
+    "destination": "/pistols-gallery/pistols/pistol-sample-20-80.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-21-81",
+    "destination": "/pistols-gallery/pistols/pistol-sample-21-81.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-22-82",
+    "destination": "/pistols-gallery/pistols/pistol-sample-22-82.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-23-83",
+    "destination": "/pistols-gallery/pistols/pistol-sample-23-83.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-24-84",
+    "destination": "/pistols-gallery/pistols/pistol-sample-24-84.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-27-87",
+    "destination": "/pistols-gallery/pistols/pistol-sample-27-87.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-28-88",
+    "destination": "/pistols-gallery/pistols/pistol-sample-28-88.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-29-89",
+    "destination": "/pistols-gallery/pistols/pistol-sample-29-89.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-3-63",
+    "destination": "/pistols-gallery/pistols/pistol-sample-3-63.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-30-90",
+    "destination": "/pistols-gallery/pistols/pistol-sample-30-90.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-31-91",
+    "destination": "/pistols-gallery/pistols/pistol-sample-31-91.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-32-92",
+    "destination": "/pistols-gallery/pistols/pistol-sample-32-92.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-33-93",
+    "destination": "/pistols-gallery/pistols/pistol-sample-33-93.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-34-94",
+    "destination": "/pistols-gallery/pistols/pistol-sample-34-94.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-35-95",
+    "destination": "/pistols-gallery/pistols/pistol-sample-35-95.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-36-96",
+    "destination": "/pistols-gallery/pistols/pistol-sample-36-96.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-37-97",
+    "destination": "/pistols-gallery/pistols/pistol-sample-37-97.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-38-98",
+    "destination": "/pistols-gallery/pistols/pistol-sample-38-98.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-39-99",
+    "destination": "/pistols-gallery/pistols/pistol-sample-39-99.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-40-100",
+    "destination": "/pistols-gallery/pistols/pistol-sample-40-100.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-41-101",
+    "destination": "/pistols-gallery/pistols/pistol-sample-41-101.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-42-102",
+    "destination": "/pistols-gallery/pistols/pistol-sample-42-102.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-43-103",
+    "destination": "/pistols-gallery/pistols/pistol-sample-43-103.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-44-104",
+    "destination": "/pistols-gallery/pistols/pistol-sample-44-104.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-45-105",
+    "destination": "/pistols-gallery/pistols/pistol-sample-45-105.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-46-106",
+    "destination": "/pistols-gallery/pistols/pistol-sample-46-106.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-47-107",
+    "destination": "/pistols-gallery/pistols/pistol-sample-47-107.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-49-109",
+    "destination": "/pistols-gallery/pistols/pistol-sample-49-109.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-50-110",
+    "destination": "/pistols-gallery/pistols/pistol-sample-50-110.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-51-111",
+    "destination": "/pistols-gallery/pistols/pistol-sample-51-111.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-52-112",
+    "destination": "/pistols-gallery/pistols/pistol-sample-52-112.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-53-113",
+    "destination": "/pistols-gallery/pistols/pistol-sample-53-113.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-54-114",
+    "destination": "/pistols-gallery/pistols/pistol-sample-54-114.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-55-115",
+    "destination": "/pistols-gallery/pistols/pistol-sample-55-115.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-56-116",
+    "destination": "/pistols-gallery/pistols/pistol-sample-56-116.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-57-117",
+    "destination": "/pistols-gallery/pistols/pistol-sample-57-117.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-58-118",
+    "destination": "/pistols-gallery/pistols/pistol-sample-58-118.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-59-119",
+    "destination": "/pistols-gallery/pistols/pistol-sample-59-119.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-60-120",
+    "destination": "/pistols-gallery/pistols/pistol-sample-60-120.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistol-sample-9-69",
+    "destination": "/pistols-gallery/pistols/pistol-sample-9-69.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistols-1-606",
+    "destination": "/pistols-gallery/pistols/pistols-1-606.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistols-1-667",
+    "destination": "/pistols-gallery/pistols/pistols-1-667.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistols-2-607",
+    "destination": "/pistols-gallery/pistols/pistols-2-607.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistols-2-668",
+    "destination": "/pistols-gallery/pistols/pistols-2-668.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistols-3-669",
+    "destination": "/pistols-gallery/pistols/pistols-3-669.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistols-4-670",
+    "destination": "/pistols-gallery/pistols/pistols-4-670.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistols-in-cerakote-1-707",
+    "destination": "/pistols-gallery/pistols/pistols-in-cerakote-1-707.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistols-in-cerakote-2-708",
+    "destination": "/pistols-gallery/pistols/pistols-in-cerakote-2-708.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistols-in-cerakote-3-709",
+    "destination": "/pistols-gallery/pistols/pistols-in-cerakote-3-709.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/pistols-in-cerakote-4-710",
+    "destination": "/pistols-gallery/pistols/pistols-in-cerakote-4-710.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/polymer-grip-stippling-1-399",
+    "destination": "/pistols-gallery/pistols/polymer-grip-stippling-1-399.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/polymer-grip-stippling-2-400",
+    "destination": "/pistols-gallery/pistols/polymer-grip-stippling-2-400.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/polymer-grip-stippling-3-401",
+    "destination": "/pistols-gallery/pistols/polymer-grip-stippling-3-401.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/polymer-grip-stippling-4-402",
+    "destination": "/pistols-gallery/pistols/polymer-grip-stippling-4-402.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/polymer-grip-stippling-5-403",
+    "destination": "/pistols-gallery/pistols/polymer-grip-stippling-5-403.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/polymer-grip-stippling-6-404",
+    "destination": "/pistols-gallery/pistols/polymer-grip-stippling-6-404.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/springfield-xd-in-burnt-bronze-1-506",
+    "destination": "/pistols-gallery/pistols/springfield-xd-in-burnt-bronze-1-506.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/stainless-1-190",
+    "destination": "/pistols-gallery/pistols/stainless-1-190.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/stainless-2-191",
+    "destination": "/pistols-gallery/pistols/stainless-2-191.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/white-sig-1-500",
+    "destination": "/pistols-gallery/pistols/white-sig-1-500.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols/white-sig-2-501",
+    "destination": "/pistols-gallery/pistols/white-sig-2-501.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols",
+    "destination": "/pistols-gallery/pistols.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols2679",
+    "destination": "/pistols-gallery/pistols2679.html"
+  },
+  {
+    "source": "/pistols-gallery/pistols4658",
+    "destination": "/pistols-gallery/pistols4658.html"
+  },
+  {
     "source": "/pistols-gallery",
     "destination": "/pistols-gallery.html"
+  },
+  {
+    "source": "/pistols-gallery2679",
+    "destination": "/pistols-gallery2679.html"
   },
   {
     "source": "/pistols-gallery4658",
     "destination": "/pistols-gallery4658.html"
   },
   {
+    "source": "/revolver-gallery/revolver/cerakote-gun-coatings-by-acoating-com-1-680",
+    "destination": "/revolver-gallery/revolver/cerakote-gun-coatings-by-acoating-com-1-680.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/custom-revolvers-refinished-1-619",
+    "destination": "/revolver-gallery/revolver/custom-revolvers-refinished-1-619.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/custom-revolvers-refinished-10-628",
+    "destination": "/revolver-gallery/revolver/custom-revolvers-refinished-10-628.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/custom-revolvers-refinished-11-629",
+    "destination": "/revolver-gallery/revolver/custom-revolvers-refinished-11-629.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/custom-revolvers-refinished-2-620",
+    "destination": "/revolver-gallery/revolver/custom-revolvers-refinished-2-620.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/custom-revolvers-refinished-3-621",
+    "destination": "/revolver-gallery/revolver/custom-revolvers-refinished-3-621.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/custom-revolvers-refinished-4-622",
+    "destination": "/revolver-gallery/revolver/custom-revolvers-refinished-4-622.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/custom-revolvers-refinished-5-623",
+    "destination": "/revolver-gallery/revolver/custom-revolvers-refinished-5-623.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/custom-revolvers-refinished-6-624",
+    "destination": "/revolver-gallery/revolver/custom-revolvers-refinished-6-624.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/custom-revolvers-refinished-7-625",
+    "destination": "/revolver-gallery/revolver/custom-revolvers-refinished-7-625.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/custom-revolvers-refinished-8-626",
+    "destination": "/revolver-gallery/revolver/custom-revolvers-refinished-8-626.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/custom-revolvers-refinished-9-627",
+    "destination": "/revolver-gallery/revolver/custom-revolvers-refinished-9-627.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/midnight-blue-revolver-1-184",
+    "destination": "/revolver-gallery/revolver/midnight-blue-revolver-1-184.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/midnight-blue-revolver-1-365",
+    "destination": "/revolver-gallery/revolver/midnight-blue-revolver-1-365.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/midnight-blue-revolver-2-185",
+    "destination": "/revolver-gallery/revolver/midnight-blue-revolver-2-185.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/midnight-blue-revolver-2-366",
+    "destination": "/revolver-gallery/revolver/midnight-blue-revolver-2-366.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/midnight-blue-revolver-2-368",
+    "destination": "/revolver-gallery/revolver/midnight-blue-revolver-2-368.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/midnight-blue-revolver-3-369",
+    "destination": "/revolver-gallery/revolver/midnight-blue-revolver-3-369.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/midnight-blue-revolver-4-370",
+    "destination": "/revolver-gallery/revolver/midnight-blue-revolver-4-370.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/midnight-blue-revolver-6-372",
+    "destination": "/revolver-gallery/revolver/midnight-blue-revolver-6-372.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/revolver-1-581",
+    "destination": "/revolver-gallery/revolver/revolver-1-581.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/revolver-2-582",
+    "destination": "/revolver-gallery/revolver/revolver-2-582.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/revolver-before-refinishing-1-428",
+    "destination": "/revolver-gallery/revolver/revolver-before-refinishing-1-428.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/revolver-before-refinishing-2-429",
+    "destination": "/revolver-gallery/revolver/revolver-before-refinishing-2-429.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/revolver-refinished-by-acoating-com-in-cerakote-gun-coatings-1-447",
+    "destination": "/revolver-gallery/revolver/revolver-refinished-by-acoating-com-in-cerakote-gun-coatings-1-447.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver/revolver-refinished-by-acoating-com-in-cerakote-gun-coatings-2-448",
+    "destination": "/revolver-gallery/revolver/revolver-refinished-by-acoating-com-in-cerakote-gun-coatings-2-448.html"
+  },
+  {
+    "source": "/revolver-gallery/revolver",
+    "destination": "/revolver-gallery/revolver.html"
+  },
+  {
     "source": "/revolver-gallery",
     "destination": "/revolver-gallery.html"
   },
   {
+    "source": "/scopes-gallery/scopes/custom-cerakote-scopeby-acoating-com-1-674",
+    "destination": "/scopes-gallery/scopes/custom-cerakote-scopeby-acoating-com-1-674.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/custom-cerakote-scopeby-acoating-com-1-690",
+    "destination": "/scopes-gallery/scopes/custom-cerakote-scopeby-acoating-com-1-690.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/custom-cerakote-scopeby-acoating-com-2-675",
+    "destination": "/scopes-gallery/scopes/custom-cerakote-scopeby-acoating-com-2-675.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/custom-scope-cerakote-by-acoating-com-1-686",
+    "destination": "/scopes-gallery/scopes/custom-scope-cerakote-by-acoating-com-1-686.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/fdsa-1-165",
+    "destination": "/scopes-gallery/scopes/fdsa-1-165.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/fdsa-2-166",
+    "destination": "/scopes-gallery/scopes/fdsa-2-166.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/flat-dark-earth-scope-1-186",
+    "destination": "/scopes-gallery/scopes/flat-dark-earth-scope-1-186.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/flat-dark-earth-scope-2-187",
+    "destination": "/scopes-gallery/scopes/flat-dark-earth-scope-2-187.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/flat-dark-earth-scope-3-188",
+    "destination": "/scopes-gallery/scopes/flat-dark-earth-scope-3-188.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/flat-dark-earth-scope-4-189",
+    "destination": "/scopes-gallery/scopes/flat-dark-earth-scope-4-189.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-1-630",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-1-630.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-10-639",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-10-639.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-11-640",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-11-640.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-12-641",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-12-641.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-13-642",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-13-642.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-14-643",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-14-643.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-15-644",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-15-644.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-2-631",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-2-631.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-3-632",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-3-632.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-4-633",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-4-633.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-5-634",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-5-634.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-6-635",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-6-635.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-7-636",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-7-636.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-8-637",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-8-637.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/high-end-manufactures-scopes-9-638",
+    "destination": "/scopes-gallery/scopes/high-end-manufactures-scopes-9-638.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/hunting-custom-rifles-4-574",
+    "destination": "/scopes-gallery/scopes/hunting-custom-rifles-4-574.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-1-539",
+    "destination": "/scopes-gallery/scopes/scope-1-539.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-1-687",
+    "destination": "/scopes-gallery/scopes/scope-1-687.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-closeups-1-392",
+    "destination": "/scopes-gallery/scopes/scope-closeups-1-392.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-closeups-2-393",
+    "destination": "/scopes-gallery/scopes/scope-closeups-2-393.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-closeups-3-394",
+    "destination": "/scopes-gallery/scopes/scope-closeups-3-394.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-closeups-4-395",
+    "destination": "/scopes-gallery/scopes/scope-closeups-4-395.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-closeups-5-396",
+    "destination": "/scopes-gallery/scopes/scope-closeups-5-396.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-custom-colors-1-421",
+    "destination": "/scopes-gallery/scopes/scope-custom-colors-1-421.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-custom-colors-2-422",
+    "destination": "/scopes-gallery/scopes/scope-custom-colors-2-422.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-refinishing-1-443",
+    "destination": "/scopes-gallery/scopes/scope-refinishing-1-443.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-refinishing-2-444",
+    "destination": "/scopes-gallery/scopes/scope-refinishing-2-444.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-refinishing-3-445",
+    "destination": "/scopes-gallery/scopes/scope-refinishing-3-445.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-refinishing-4-446",
+    "destination": "/scopes-gallery/scopes/scope-refinishing-4-446.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-repairs-customization-1-307",
+    "destination": "/scopes-gallery/scopes/scope-repairs-customization-1-307.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-repairs-customization-2-308",
+    "destination": "/scopes-gallery/scopes/scope-repairs-customization-2-308.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-repairs-customization-3-309",
+    "destination": "/scopes-gallery/scopes/scope-repairs-customization-3-309.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-repairs-customization-4-310",
+    "destination": "/scopes-gallery/scopes/scope-repairs-customization-4-310.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-repairs-customization-5-311",
+    "destination": "/scopes-gallery/scopes/scope-repairs-customization-5-311.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-repairs-customization-6-312",
+    "destination": "/scopes-gallery/scopes/scope-repairs-customization-6-312.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scope-repairs-customization-7-313",
+    "destination": "/scopes-gallery/scopes/scope-repairs-customization-7-313.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scopes-1-452",
+    "destination": "/scopes-gallery/scopes/scopes-1-452.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scopes-2-453",
+    "destination": "/scopes-gallery/scopes/scopes-2-453.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scopes-3-454",
+    "destination": "/scopes-gallery/scopes/scopes-3-454.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scopes-4-455",
+    "destination": "/scopes-gallery/scopes/scopes-4-455.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scopes-5-456",
+    "destination": "/scopes-gallery/scopes/scopes-5-456.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scopes-6-457",
+    "destination": "/scopes-gallery/scopes/scopes-6-457.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes/scopes-7-458",
+    "destination": "/scopes-gallery/scopes/scopes-7-458.html"
+  },
+  {
+    "source": "/scopes-gallery/scopes",
+    "destination": "/scopes-gallery/scopes.html"
+  },
+  {
     "source": "/scopes-gallery",
     "destination": "/scopes-gallery.html"
+  },
+  {
+    "source": "/services/1911-gunsmith",
+    "destination": "/services/1911-gunsmith.html"
+  },
+  {
+    "source": "/services/cerakote-gun-coatings/abrasion",
+    "destination": "/services/cerakote-gun-coatings/abrasion.html"
+  },
+  {
+    "source": "/services/cerakote-gun-coatings/adhesion",
+    "destination": "/services/cerakote-gun-coatings/adhesion.html"
+  },
+  {
+    "source": "/services/cerakote-gun-coatings/chemical",
+    "destination": "/services/cerakote-gun-coatings/chemical.html"
+  },
+  {
+    "source": "/services/cerakote-gun-coatings/corrosion",
+    "destination": "/services/cerakote-gun-coatings/corrosion.html"
+  },
+  {
+    "source": "/services/cerakote-gun-coatings/durability",
+    "destination": "/services/cerakote-gun-coatings/durability.html"
+  },
+  {
+    "source": "/services/cerakote-gun-coatings/flexibility",
+    "destination": "/services/cerakote-gun-coatings/flexibility.html"
+  },
+  {
+    "source": "/services/cerakote-gun-coatings/friction",
+    "destination": "/services/cerakote-gun-coatings/friction.html"
+  },
+  {
+    "source": "/services/cerakote-gun-coatings/generation",
+    "destination": "/services/cerakote-gun-coatings/generation.html"
+  },
+  {
+    "source": "/services/cerakote-gun-coatings/hardness",
+    "destination": "/services/cerakote-gun-coatings/hardness.html"
+  },
+  {
+    "source": "/services/cerakote-gun-coatings",
+    "destination": "/services/cerakote-gun-coatings.html"
+  },
+  {
+    "source": "/services/custom-1911-2011",
+    "destination": "/services/custom-1911-2011.html"
+  },
+  {
+    "source": "/services/custom-remington-700",
+    "destination": "/services/custom-remington-700.html"
+  },
+  {
+    "source": "/services/gunsmithing-services",
+    "destination": "/services/gunsmithing-services.html"
   },
   {
     "source": "/services",
@@ -112,16 +2404,1432 @@ export default {
     "destination": "/side-bolt-release-install.html"
   },
   {
+    "source": "/tactical-gallery/tactical/ak-47-s-cerakote-gun-coatings-by-acoating-com-1-676",
+    "destination": "/tactical-gallery/tactical/ak-47-s-cerakote-gun-coatings-by-acoating-com-1-676.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ak-74-group-1-379",
+    "destination": "/tactical-gallery/tactical/ak-74-group-1-379.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-10-before-and-after-1-389",
+    "destination": "/tactical-gallery/tactical/ar-10-before-and-after-1-389.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-10-before-and-after-2-390",
+    "destination": "/tactical-gallery/tactical/ar-10-before-and-after-2-390.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-10-before-and-after-3-391",
+    "destination": "/tactical-gallery/tactical/ar-10-before-and-after-3-391.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-15-burnt-bronze-1-176",
+    "destination": "/tactical-gallery/tactical/ar-15-burnt-bronze-1-176.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-15-burnt-bronze-2-177",
+    "destination": "/tactical-gallery/tactical/ar-15-burnt-bronze-2-177.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-15-parts-1-673",
+    "destination": "/tactical-gallery/tactical/ar-15-parts-1-673.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-15-tactcial-group-1-588",
+    "destination": "/tactical-gallery/tactical/ar-15-tactcial-group-1-588.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-15-tactcial-group-2-589",
+    "destination": "/tactical-gallery/tactical/ar-15-tactcial-group-2-589.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-15-tactcial-group-3-590",
+    "destination": "/tactical-gallery/tactical/ar-15-tactcial-group-3-590.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-15-tactcial-group-4-591",
+    "destination": "/tactical-gallery/tactical/ar-15-tactcial-group-4-591.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-15-tactcial-group-5-592",
+    "destination": "/tactical-gallery/tactical/ar-15-tactcial-group-5-592.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-15-tactcial-group-6-593",
+    "destination": "/tactical-gallery/tactical/ar-15-tactcial-group-6-593.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-15-tactcial-group-7-594",
+    "destination": "/tactical-gallery/tactical/ar-15-tactcial-group-7-594.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-15-tactcial-group-8-595",
+    "destination": "/tactical-gallery/tactical/ar-15-tactcial-group-8-595.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-15-tactcial-group-9-596",
+    "destination": "/tactical-gallery/tactical/ar-15-tactcial-group-9-596.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-15s-bi-tone-in-fde-and-coyote-tan-1-547",
+    "destination": "/tactical-gallery/tactical/ar-15s-bi-tone-in-fde-and-coyote-tan-1-547.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/ar-15s-bi-tone-in-fde-and-coyote-tan-2-548",
+    "destination": "/tactical-gallery/tactical/ar-15s-bi-tone-in-fde-and-coyote-tan-2-548.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-1-375",
+    "destination": "/tactical-gallery/tactical/before-and-after-1-375.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-2-376",
+    "destination": "/tactical-gallery/tactical/before-and-after-2-376.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-3-377",
+    "destination": "/tactical-gallery/tactical/before-and-after-3-377.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-4-378",
+    "destination": "/tactical-gallery/tactical/before-and-after-4-378.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-acoating-com-cerakote-gun-coating-1-361",
+    "destination": "/tactical-gallery/tactical/before-and-after-acoating-com-cerakote-gun-coating-1-361.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-acoating-com-cerakote-gun-coating-2-362",
+    "destination": "/tactical-gallery/tactical/before-and-after-acoating-com-cerakote-gun-coating-2-362.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-acoating-com-cerakote-gun-coating-3-363",
+    "destination": "/tactical-gallery/tactical/before-and-after-acoating-com-cerakote-gun-coating-3-363.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-acoating-com-cerakote-gun-coating-4-364",
+    "destination": "/tactical-gallery/tactical/before-and-after-acoating-com-cerakote-gun-coating-4-364.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-shotgun-1-430",
+    "destination": "/tactical-gallery/tactical/before-and-after-shotgun-1-430.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-shotgun-2-431",
+    "destination": "/tactical-gallery/tactical/before-and-after-shotgun-2-431.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-shotgun-3-432",
+    "destination": "/tactical-gallery/tactical/before-and-after-shotgun-3-432.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-shotgun-4-433",
+    "destination": "/tactical-gallery/tactical/before-and-after-shotgun-4-433.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-shotgun-5-434",
+    "destination": "/tactical-gallery/tactical/before-and-after-shotgun-5-434.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-shotgun-6-435",
+    "destination": "/tactical-gallery/tactical/before-and-after-shotgun-6-435.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/before-and-after-shotgun-7-436",
+    "destination": "/tactical-gallery/tactical/before-and-after-shotgun-7-436.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/bolt-carriers-1-207",
+    "destination": "/tactical-gallery/tactical/bolt-carriers-1-207.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/fde-ar-15-1-502",
+    "destination": "/tactical-gallery/tactical/fde-ar-15-1-502.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/fde-ar-15-2-503",
+    "destination": "/tactical-gallery/tactical/fde-ar-15-2-503.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/fde-ar-15-3-504",
+    "destination": "/tactical-gallery/tactical/fde-ar-15-3-504.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/fde-ar-15-4-505",
+    "destination": "/tactical-gallery/tactical/fde-ar-15-4-505.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/group-pictures-of-tactical-firearms-1-406",
+    "destination": "/tactical-gallery/tactical/group-pictures-of-tactical-firearms-1-406.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/group-pictures-of-tactical-firearms-2-407",
+    "destination": "/tactical-gallery/tactical/group-pictures-of-tactical-firearms-2-407.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/highend-tactical-projects-1-608",
+    "destination": "/tactical-gallery/tactical/highend-tactical-projects-1-608.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/highend-tactical-projects-10-617",
+    "destination": "/tactical-gallery/tactical/highend-tactical-projects-10-617.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/highend-tactical-projects-11-618",
+    "destination": "/tactical-gallery/tactical/highend-tactical-projects-11-618.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/highend-tactical-projects-2-609",
+    "destination": "/tactical-gallery/tactical/highend-tactical-projects-2-609.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/highend-tactical-projects-3-610",
+    "destination": "/tactical-gallery/tactical/highend-tactical-projects-3-610.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/highend-tactical-projects-4-611",
+    "destination": "/tactical-gallery/tactical/highend-tactical-projects-4-611.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/highend-tactical-projects-5-612",
+    "destination": "/tactical-gallery/tactical/highend-tactical-projects-5-612.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/highend-tactical-projects-6-613",
+    "destination": "/tactical-gallery/tactical/highend-tactical-projects-6-613.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/highend-tactical-projects-7-614",
+    "destination": "/tactical-gallery/tactical/highend-tactical-projects-7-614.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/highend-tactical-projects-8-615",
+    "destination": "/tactical-gallery/tactical/highend-tactical-projects-8-615.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/highend-tactical-projects-9-616",
+    "destination": "/tactical-gallery/tactical/highend-tactical-projects-9-616.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/lage-m11-subgun-1-420",
+    "destination": "/tactical-gallery/tactical/lage-m11-subgun-1-420.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/manufactures-batch-of-ar-15-receivers-1-225",
+    "destination": "/tactical-gallery/tactical/manufactures-batch-of-ar-15-receivers-1-225.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/manufactures-batch-of-ar-15-receivers-2-226",
+    "destination": "/tactical-gallery/tactical/manufactures-batch-of-ar-15-receivers-2-226.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/manufactures-batch-of-ar-15-receivers-3-227",
+    "destination": "/tactical-gallery/tactical/manufactures-batch-of-ar-15-receivers-3-227.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/manufactures-batch-of-ar-15-receivers-4-228",
+    "destination": "/tactical-gallery/tactical/manufactures-batch-of-ar-15-receivers-4-228.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/manufactures-batch-of-ar-15-receivers-5-229",
+    "destination": "/tactical-gallery/tactical/manufactures-batch-of-ar-15-receivers-5-229.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/misc-ar-15-items-coated-in-cerakote-1-542",
+    "destination": "/tactical-gallery/tactical/misc-ar-15-items-coated-in-cerakote-1-542.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/misc-ar-15-items-coated-in-cerakote-2-543",
+    "destination": "/tactical-gallery/tactical/misc-ar-15-items-coated-in-cerakote-2-543.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/rusted-shotgun-before-1-509",
+    "destination": "/tactical-gallery/tactical/rusted-shotgun-before-1-509.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/rusted-shotgun-before-2-510",
+    "destination": "/tactical-gallery/tactical/rusted-shotgun-before-2-510.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/rusted-shotgun-before-3-511",
+    "destination": "/tactical-gallery/tactical/rusted-shotgun-before-3-511.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/rusted-shotgun-before-4-512",
+    "destination": "/tactical-gallery/tactical/rusted-shotgun-before-4-512.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/rusted-shotgun-before-5-513",
+    "destination": "/tactical-gallery/tactical/rusted-shotgun-before-5-513.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/rusty-shotgun-after-1-514",
+    "destination": "/tactical-gallery/tactical/rusty-shotgun-after-1-514.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/rusty-shotgun-after-2-515",
+    "destination": "/tactical-gallery/tactical/rusty-shotgun-after-2-515.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/rusty-shotgun-after-3-516",
+    "destination": "/tactical-gallery/tactical/rusty-shotgun-after-3-516.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/rusty-shotgun-after-4-517",
+    "destination": "/tactical-gallery/tactical/rusty-shotgun-after-4-517.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/rusty-shotgun-after-5-518",
+    "destination": "/tactical-gallery/tactical/rusty-shotgun-after-5-518.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/shotguns-1-583",
+    "destination": "/tactical-gallery/tactical/shotguns-1-583.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/shotguns-2-584",
+    "destination": "/tactical-gallery/tactical/shotguns-2-584.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/shotguns-3-585",
+    "destination": "/tactical-gallery/tactical/shotguns-3-585.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/shotguns-4-586",
+    "destination": "/tactical-gallery/tactical/shotguns-4-586.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/shotguns-5-587",
+    "destination": "/tactical-gallery/tactical/shotguns-5-587.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-ar-15-1-173",
+    "destination": "/tactical-gallery/tactical/tactical-ar-15-1-173.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-1-519",
+    "destination": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-1-519.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-10-528",
+    "destination": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-10-528.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-2-520",
+    "destination": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-2-520.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-3-521",
+    "destination": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-3-521.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-4-522",
+    "destination": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-4-522.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-5-523",
+    "destination": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-5-523.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-6-524",
+    "destination": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-6-524.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-7-525",
+    "destination": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-7-525.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-8-526",
+    "destination": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-8-526.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-9-527",
+    "destination": "/tactical-gallery/tactical/tactical-ar-15-in-pink-and-white-9-527.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-items-1-174",
+    "destination": "/tactical-gallery/tactical/tactical-items-1-174.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifle-accumulation-1-314",
+    "destination": "/tactical-gallery/tactical/tactical-rifle-accumulation-1-314.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifle-accumulation-10-323",
+    "destination": "/tactical-gallery/tactical/tactical-rifle-accumulation-10-323.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifle-accumulation-11-324",
+    "destination": "/tactical-gallery/tactical/tactical-rifle-accumulation-11-324.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifle-accumulation-12-325",
+    "destination": "/tactical-gallery/tactical/tactical-rifle-accumulation-12-325.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifle-accumulation-13-326",
+    "destination": "/tactical-gallery/tactical/tactical-rifle-accumulation-13-326.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifle-accumulation-14-327",
+    "destination": "/tactical-gallery/tactical/tactical-rifle-accumulation-14-327.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifle-accumulation-2-315",
+    "destination": "/tactical-gallery/tactical/tactical-rifle-accumulation-2-315.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifle-accumulation-3-316",
+    "destination": "/tactical-gallery/tactical/tactical-rifle-accumulation-3-316.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifle-accumulation-4-317",
+    "destination": "/tactical-gallery/tactical/tactical-rifle-accumulation-4-317.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifle-accumulation-5-318",
+    "destination": "/tactical-gallery/tactical/tactical-rifle-accumulation-5-318.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifle-accumulation-6-319",
+    "destination": "/tactical-gallery/tactical/tactical-rifle-accumulation-6-319.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifle-accumulation-7-320",
+    "destination": "/tactical-gallery/tactical/tactical-rifle-accumulation-7-320.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifle-accumulation-8-321",
+    "destination": "/tactical-gallery/tactical/tactical-rifle-accumulation-8-321.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifle-accumulation-9-322",
+    "destination": "/tactical-gallery/tactical/tactical-rifle-accumulation-9-322.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifles-1-660",
+    "destination": "/tactical-gallery/tactical/tactical-rifles-1-660.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifles-2-661",
+    "destination": "/tactical-gallery/tactical/tactical-rifles-2-661.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifles-3-662",
+    "destination": "/tactical-gallery/tactical/tactical-rifles-3-662.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifles-4-663",
+    "destination": "/tactical-gallery/tactical/tactical-rifles-4-663.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifles-5-664",
+    "destination": "/tactical-gallery/tactical/tactical-rifles-5-664.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifles-6-665",
+    "destination": "/tactical-gallery/tactical/tactical-rifles-6-665.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical/tactical-rifles-7-666",
+    "destination": "/tactical-gallery/tactical/tactical-rifles-7-666.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical",
+    "destination": "/tactical-gallery/tactical.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical2679",
+    "destination": "/tactical-gallery/tactical2679.html"
+  },
+  {
+    "source": "/tactical-gallery/tactical4658",
+    "destination": "/tactical-gallery/tactical4658.html"
+  },
+  {
     "source": "/tactical-gallery",
     "destination": "/tactical-gallery.html"
+  },
+  {
+    "source": "/tactical-gallery2679",
+    "destination": "/tactical-gallery2679.html"
   },
   {
     "source": "/tactical-gallery4658",
     "destination": "/tactical-gallery4658.html"
   },
   {
+    "source": "/templates/acoating/fonts/glyphicons-halflings-regular-2",
+    "destination": "/templates/acoating/fonts/glyphicons-halflings-regular-2.html"
+  },
+  {
+    "source": "/templates/acoating/fonts/glyphicons-halflings-regular-3",
+    "destination": "/templates/acoating/fonts/glyphicons-halflings-regular-3.html"
+  },
+  {
+    "source": "/templates/acoating/fonts/glyphicons-halflings-regular-4",
+    "destination": "/templates/acoating/fonts/glyphicons-halflings-regular-4.html"
+  },
+  {
+    "source": "/templates/acoating/fonts/glyphicons-halflings-regular-5",
+    "destination": "/templates/acoating/fonts/glyphicons-halflings-regular-5.html"
+  },
+  {
+    "source": "/templates/acoating/fonts/glyphicons-halflings-regular",
+    "destination": "/templates/acoating/fonts/glyphicons-halflings-regular.html"
+  },
+  {
+    "source": "/templates/acoating/fonts/glyphicons-halflings-regulard41d",
+    "destination": "/templates/acoating/fonts/glyphicons-halflings-regulard41d.html"
+  },
+  {
+    "source": "/testimonials/203-smith-and-wesson53",
+    "destination": "/testimonials/203-smith-and-wesson53.html"
+  },
+  {
+    "source": "/testimonials/204-smith-and-wesson54",
+    "destination": "/testimonials/204-smith-and-wesson54.html"
+  },
+  {
+    "source": "/testimonials/207-smith-and-wesson57",
+    "destination": "/testimonials/207-smith-and-wesson57.html"
+  },
+  {
+    "source": "/testimonials/208-smith-and-wesson58",
+    "destination": "/testimonials/208-smith-and-wesson58.html"
+  },
+  {
+    "source": "/testimonials/219-ruger-mark-ll-tactical-solutions-22-lr65",
+    "destination": "/testimonials/219-ruger-mark-ll-tactical-solutions-22-lr65.html"
+  },
+  {
+    "source": "/testimonials/220-ruger-mark-ll-tactical-solutions-22-lr66",
+    "destination": "/testimonials/220-ruger-mark-ll-tactical-solutions-22-lr66.html"
+  },
+  {
+    "source": "/testimonials/224-ruger-mark-ll-tactical-solutions-22-lr69",
+    "destination": "/testimonials/224-ruger-mark-ll-tactical-solutions-22-lr69.html"
+  },
+  {
+    "source": "/testimonials/231-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth75",
+    "destination": "/testimonials/231-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth75.html"
+  },
+  {
+    "source": "/testimonials/233-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth77",
+    "destination": "/testimonials/233-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth77.html"
+  },
+  {
+    "source": "/testimonials/242-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth86",
+    "destination": "/testimonials/242-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth86.html"
+  },
+  {
+    "source": "/testimonials/243-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth87",
+    "destination": "/testimonials/243-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth87.html"
+  },
+  {
+    "source": "/testimonials/264-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth108",
+    "destination": "/testimonials/264-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth108.html"
+  },
+  {
+    "source": "/testimonials/267-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth111",
+    "destination": "/testimonials/267-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth111.html"
+  },
+  {
+    "source": "/testimonials/281-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth125",
+    "destination": "/testimonials/281-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth125.html"
+  },
+  {
+    "source": "/testimonials/282-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth126",
+    "destination": "/testimonials/282-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth126.html"
+  },
+  {
+    "source": "/testimonials/283-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth127",
+    "destination": "/testimonials/283-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth127.html"
+  },
+  {
+    "source": "/testimonials/286-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth130",
+    "destination": "/testimonials/286-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth130.html"
+  },
+  {
+    "source": "/testimonials/287-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth131",
+    "destination": "/testimonials/287-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth131.html"
+  },
+  {
+    "source": "/testimonials/288-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth132",
+    "destination": "/testimonials/288-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth132.html"
+  },
+  {
+    "source": "/testimonials/289-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth133",
+    "destination": "/testimonials/289-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth133.html"
+  },
+  {
+    "source": "/testimonials/290-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth134",
+    "destination": "/testimonials/290-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth134.html"
+  },
+  {
+    "source": "/testimonials/291-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth135",
+    "destination": "/testimonials/291-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth135.html"
+  },
+  {
+    "source": "/testimonials/292-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth136",
+    "destination": "/testimonials/292-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth136.html"
+  },
+  {
+    "source": "/testimonials/293-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth137",
+    "destination": "/testimonials/293-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth137.html"
+  },
+  {
+    "source": "/testimonials/294-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth138",
+    "destination": "/testimonials/294-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth138.html"
+  },
+  {
+    "source": "/testimonials/295-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth139",
+    "destination": "/testimonials/295-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth139.html"
+  },
+  {
+    "source": "/testimonials/296-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth140",
+    "destination": "/testimonials/296-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth140.html"
+  },
+  {
+    "source": "/testimonials/297-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth141",
+    "destination": "/testimonials/297-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth141.html"
+  },
+  {
+    "source": "/testimonials/298-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth142",
+    "destination": "/testimonials/298-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth142.html"
+  },
+  {
+    "source": "/testimonials/299-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth143",
+    "destination": "/testimonials/299-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth143.html"
+  },
+  {
+    "source": "/testimonials/300-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth144",
+    "destination": "/testimonials/300-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth144.html"
+  },
+  {
+    "source": "/testimonials/301-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth145",
+    "destination": "/testimonials/301-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth145.html"
+  },
+  {
+    "source": "/testimonials/302-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth146",
+    "destination": "/testimonials/302-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth146.html"
+  },
+  {
+    "source": "/testimonials/303-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth147",
+    "destination": "/testimonials/303-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth147.html"
+  },
+  {
+    "source": "/testimonials/304-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth148",
+    "destination": "/testimonials/304-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth148.html"
+  },
+  {
+    "source": "/testimonials/305-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth149",
+    "destination": "/testimonials/305-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth149.html"
+  },
+  {
+    "source": "/testimonials/306-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth150",
+    "destination": "/testimonials/306-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth150.html"
+  },
+  {
+    "source": "/testimonials/307-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth151",
+    "destination": "/testimonials/307-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth151.html"
+  },
+  {
+    "source": "/testimonials/308-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth152",
+    "destination": "/testimonials/308-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth152.html"
+  },
+  {
+    "source": "/testimonials/309-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth153",
+    "destination": "/testimonials/309-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth153.html"
+  },
+  {
+    "source": "/testimonials/310-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth154",
+    "destination": "/testimonials/310-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth154.html"
+  },
+  {
+    "source": "/testimonials/311-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth155",
+    "destination": "/testimonials/311-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth155.html"
+  },
+  {
+    "source": "/testimonials/312-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth156",
+    "destination": "/testimonials/312-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth156.html"
+  },
+  {
+    "source": "/testimonials/313-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth157",
+    "destination": "/testimonials/313-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth157.html"
+  },
+  {
+    "source": "/testimonials/317-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth161",
+    "destination": "/testimonials/317-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth161.html"
+  },
+  {
+    "source": "/testimonials/318-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth162",
+    "destination": "/testimonials/318-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth162.html"
+  },
+  {
+    "source": "/testimonials/319-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth163",
+    "destination": "/testimonials/319-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth163.html"
+  },
+  {
+    "source": "/testimonials/320-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth164",
+    "destination": "/testimonials/320-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth164.html"
+  },
+  {
+    "source": "/testimonials/321-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth165",
+    "destination": "/testimonials/321-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth165.html"
+  },
+  {
+    "source": "/testimonials/322-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth166",
+    "destination": "/testimonials/322-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth166.html"
+  },
+  {
+    "source": "/testimonials/323-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth167",
+    "destination": "/testimonials/323-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth167.html"
+  },
+  {
+    "source": "/testimonials/324-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth168",
+    "destination": "/testimonials/324-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth168.html"
+  },
+  {
+    "source": "/testimonials/325-fix-my-rifle-stock-and-repair169",
+    "destination": "/testimonials/325-fix-my-rifle-stock-and-repair169.html"
+  },
+  {
+    "source": "/testimonials/329-fix-my-rifle-stock-and-repair173",
+    "destination": "/testimonials/329-fix-my-rifle-stock-and-repair173.html"
+  },
+  {
+    "source": "/testimonials/330-fix-my-rifle-stock-and-repair174",
+    "destination": "/testimonials/330-fix-my-rifle-stock-and-repair174.html"
+  },
+  {
+    "source": "/testimonials/331-fix-my-rifle-stock-and-repair175",
+    "destination": "/testimonials/331-fix-my-rifle-stock-and-repair175.html"
+  },
+  {
+    "source": "/testimonials/332-fix-my-rifle-stock-and-repair176",
+    "destination": "/testimonials/332-fix-my-rifle-stock-and-repair176.html"
+  },
+  {
+    "source": "/testimonials/333-fix-my-rifle-stock-and-repair177",
+    "destination": "/testimonials/333-fix-my-rifle-stock-and-repair177.html"
+  },
+  {
+    "source": "/testimonials/334-fix-my-rifle-stock-and-repair178",
+    "destination": "/testimonials/334-fix-my-rifle-stock-and-repair178.html"
+  },
+  {
+    "source": "/testimonials/335-fix-my-rifle-stock-and-repair179",
+    "destination": "/testimonials/335-fix-my-rifle-stock-and-repair179.html"
+  },
+  {
+    "source": "/testimonials/339-fix-my-rifle-stock-and-repair182",
+    "destination": "/testimonials/339-fix-my-rifle-stock-and-repair182.html"
+  },
+  {
+    "source": "/testimonials/340-fix-my-rifle-stock-and-repair183",
+    "destination": "/testimonials/340-fix-my-rifle-stock-and-repair183.html"
+  },
+  {
+    "source": "/testimonials/341-fix-my-rifle-stock-and-repair184",
+    "destination": "/testimonials/341-fix-my-rifle-stock-and-repair184.html"
+  },
+  {
+    "source": "/testimonials/342-fix-my-rifle-stock-and-repair185",
+    "destination": "/testimonials/342-fix-my-rifle-stock-and-repair185.html"
+  },
+  {
+    "source": "/testimonials/343-fix-my-rifle-stock-and-repair186",
+    "destination": "/testimonials/343-fix-my-rifle-stock-and-repair186.html"
+  },
+  {
+    "source": "/testimonials/344-fix-my-rifle-stock-and-repair187",
+    "destination": "/testimonials/344-fix-my-rifle-stock-and-repair187.html"
+  },
+  {
+    "source": "/testimonials/345-fix-my-rifle-stock-and-repair188",
+    "destination": "/testimonials/345-fix-my-rifle-stock-and-repair188.html"
+  },
+  {
+    "source": "/testimonials/346-fix-my-rifle-stock-and-repair189",
+    "destination": "/testimonials/346-fix-my-rifle-stock-and-repair189.html"
+  },
+  {
+    "source": "/testimonials/347-fix-my-rifle-stock-and-repair190",
+    "destination": "/testimonials/347-fix-my-rifle-stock-and-repair190.html"
+  },
+  {
+    "source": "/testimonials/348-fix-my-rifle-stock-and-repair191",
+    "destination": "/testimonials/348-fix-my-rifle-stock-and-repair191.html"
+  },
+  {
+    "source": "/testimonials/349-fix-my-rifle-stock-and-repair192",
+    "destination": "/testimonials/349-fix-my-rifle-stock-and-repair192.html"
+  },
+  {
+    "source": "/testimonials/350-fix-my-rifle-stock-and-repair193",
+    "destination": "/testimonials/350-fix-my-rifle-stock-and-repair193.html"
+  },
+  {
+    "source": "/testimonials/351-fix-my-rifle-stock-and-repair194",
+    "destination": "/testimonials/351-fix-my-rifle-stock-and-repair194.html"
+  },
+  {
+    "source": "/testimonials/352-fix-my-rifle-stock-and-repair195",
+    "destination": "/testimonials/352-fix-my-rifle-stock-and-repair195.html"
+  },
+  {
+    "source": "/testimonials/353-fix-my-rifle-stock-and-repair196",
+    "destination": "/testimonials/353-fix-my-rifle-stock-and-repair196.html"
+  },
+  {
+    "source": "/testimonials/354-fix-my-rifle-stock-and-repair197",
+    "destination": "/testimonials/354-fix-my-rifle-stock-and-repair197.html"
+  },
+  {
+    "source": "/testimonials/355-fix-my-rifle-stock-and-repair198",
+    "destination": "/testimonials/355-fix-my-rifle-stock-and-repair198.html"
+  },
+  {
+    "source": "/testimonials/356-fix-my-rifle-stock-and-repair199",
+    "destination": "/testimonials/356-fix-my-rifle-stock-and-repair199.html"
+  },
+  {
+    "source": "/testimonials/358-fix-my-rifle-stock-and-repair201",
+    "destination": "/testimonials/358-fix-my-rifle-stock-and-repair201.html"
+  },
+  {
+    "source": "/testimonials/359-fix-my-rifle-stock-and-repair202",
+    "destination": "/testimonials/359-fix-my-rifle-stock-and-repair202.html"
+  },
+  {
+    "source": "/testimonials/360-fix-my-rifle-stock-and-repair203",
+    "destination": "/testimonials/360-fix-my-rifle-stock-and-repair203.html"
+  },
+  {
+    "source": "/testimonials/361-fix-my-rifle-stock-and-repair204",
+    "destination": "/testimonials/361-fix-my-rifle-stock-and-repair204.html"
+  },
+  {
+    "source": "/testimonials/398-got-the-shotgun-back-looks-absolutely-awesome",
+    "destination": "/testimonials/398-got-the-shotgun-back-looks-absolutely-awesome.html"
+  },
+  {
+    "source": "/testimonials/399-bad-quality-from-another-applicator-sent-to-acoating-com-to-fix-it-wow-awesome-job-compared-to-others",
+    "destination": "/testimonials/399-bad-quality-from-another-applicator-sent-to-acoating-com-to-fix-it-wow-awesome-job-compared-to-others.html"
+  },
+  {
+    "source": "/testimonials/400-thank-you-for-the-work-on-benelli",
+    "destination": "/testimonials/400-thank-you-for-the-work-on-benelli.html"
+  },
+  {
+    "source": "/testimonials/401-thank-you-for-doing-a-nice-job-applying-the-cerakote-finish-to-my-encore-barrel-and-for-the-quick-turnaround",
+    "destination": "/testimonials/401-thank-you-for-doing-a-nice-job-applying-the-cerakote-finish-to-my-encore-barrel-and-for-the-quick-turnaround.html"
+  },
+  {
+    "source": "/testimonials/402-one-again-thank-you-very-much-and-your-workmanship-is-outstanding-you-produce-a-great-product",
+    "destination": "/testimonials/402-one-again-thank-you-very-much-and-your-workmanship-is-outstanding-you-produce-a-great-product.html"
+  },
+  {
+    "source": "/testimonials/403-your-work-exceeds-expectations",
+    "destination": "/testimonials/403-your-work-exceeds-expectations.html"
+  },
+  {
+    "source": "/testimonials/404-as-far-as-i-m-concerned-your-the-best-certified-cerakote-finisher-around",
+    "destination": "/testimonials/404-as-far-as-i-m-concerned-your-the-best-certified-cerakote-finisher-around.html"
+  },
+  {
+    "source": "/testimonials/405-thanks-for-the-superfast-turnaround-shipped-on-the-first-and-received-back-on-the-tenth-that-s-hard-to-beat",
+    "destination": "/testimonials/405-thanks-for-the-superfast-turnaround-shipped-on-the-first-and-received-back-on-the-tenth-that-s-hard-to-beat.html"
+  },
+  {
+    "source": "/testimonials/406-completely-satisfied-and-happy-with-your-work-i-m-also-very-impressed-with-the-fast-turn-around",
+    "destination": "/testimonials/406-completely-satisfied-and-happy-with-your-work-i-m-also-very-impressed-with-the-fast-turn-around.html"
+  },
+  {
+    "source": "/testimonials/407-this-restoration-exceeded-my-expectations-and-i-very-much-appreciate-the-workmanship-that-went-into-it",
+    "destination": "/testimonials/407-this-restoration-exceeded-my-expectations-and-i-very-much-appreciate-the-workmanship-that-went-into-it.html"
+  },
+  {
+    "source": "/testimonials/408-fantastic-work-acoating-com-made-the-old-sig-look-new-again-and-really-went-the-extra-mile-to-ensure-i-got-what-i-wanted",
+    "destination": "/testimonials/408-fantastic-work-acoating-com-made-the-old-sig-look-new-again-and-really-went-the-extra-mile-to-ensure-i-got-what-i-wanted.html"
+  },
+  {
+    "source": "/testimonials/409-great-customer-service-perfectly-smooth-even-application-and-quality-workmanship-got-it-all-on-my-s-w-model-547",
+    "destination": "/testimonials/409-great-customer-service-perfectly-smooth-even-application-and-quality-workmanship-got-it-all-on-my-s-w-model-547.html"
+  },
+  {
+    "source": "/testimonials/411-damn-you-re-fast",
+    "destination": "/testimonials/411-damn-you-re-fast.html"
+  },
+  {
+    "source": "/testimonials/412-kimber-arrived-today-looks-great",
+    "destination": "/testimonials/412-kimber-arrived-today-looks-great.html"
+  },
+  {
+    "source": "/testimonials/413-it-looks-great-thanks-you-so-much",
+    "destination": "/testimonials/413-it-looks-great-thanks-you-so-much.html"
+  },
+  {
+    "source": "/testimonials/414-very-nice-good-job",
+    "destination": "/testimonials/414-very-nice-good-job.html"
+  },
+  {
+    "source": "/testimonials/415-his-attention-to-quality-and-detail-is-scary",
+    "destination": "/testimonials/415-his-attention-to-quality-and-detail-is-scary.html"
+  },
+  {
+    "source": "/testimonials/416-the-finished-product-was-better-than-i-hoped",
+    "destination": "/testimonials/416-the-finished-product-was-better-than-i-hoped.html"
+  },
+  {
+    "source": "/testimonials/417-yes-and-posted-pics-everyone-loves-it-including-me-great-job",
+    "destination": "/testimonials/417-yes-and-posted-pics-everyone-loves-it-including-me-great-job.html"
+  },
+  {
+    "source": "/testimonials/418-i-am-very-fussy-and-i-must-say-the-rifle-looks-incredible-could-not-have-asked-for-anything-better",
+    "destination": "/testimonials/418-i-am-very-fussy-and-i-must-say-the-rifle-looks-incredible-could-not-have-asked-for-anything-better.html"
+  },
+  {
+    "source": "/testimonials/419-i-am-very-pleased-with-your-service",
+    "destination": "/testimonials/419-i-am-very-pleased-with-your-service.html"
+  },
+  {
+    "source": "/testimonials/420-looks-great",
+    "destination": "/testimonials/420-looks-great.html"
+  },
+  {
+    "source": "/testimonials/421-i-am-more-then-happy-with-the-service-i-received-and-quality-of-work",
+    "destination": "/testimonials/421-i-am-more-then-happy-with-the-service-i-received-and-quality-of-work.html"
+  },
+  {
+    "source": "/testimonials/422-i-will-definitely-be-reccomending-your-work-to-others",
+    "destination": "/testimonials/422-i-will-definitely-be-reccomending-your-work-to-others.html"
+  },
+  {
+    "source": "/testimonials/423-coudnt-be-happier-with-the-quality-turn-around-customer-service",
+    "destination": "/testimonials/423-coudnt-be-happier-with-the-quality-turn-around-customer-service.html"
+  },
+  {
+    "source": "/testimonials/424-the-quality-of-tim-s-product-and-workmanship-are-top-shelf-his-turnaround-time-phenomenal",
+    "destination": "/testimonials/424-the-quality-of-tim-s-product-and-workmanship-are-top-shelf-his-turnaround-time-phenomenal.html"
+  },
+  {
+    "source": "/testimonials/425-the-gun-looks-great-and-man-that-was-fast-service",
+    "destination": "/testimonials/425-the-gun-looks-great-and-man-that-was-fast-service.html"
+  },
+  {
+    "source": "/testimonials/426-scope-looks-great-thanks-for-prompt-attention",
+    "destination": "/testimonials/426-scope-looks-great-thanks-for-prompt-attention.html"
+  },
+  {
+    "source": "/testimonials/427-thanks-for-the-good-work-and-the-fast-turn-around-time",
+    "destination": "/testimonials/427-thanks-for-the-good-work-and-the-fast-turn-around-time.html"
+  },
+  {
+    "source": "/testimonials/428-i-referred-a-couple-of-guys-to-you-today",
+    "destination": "/testimonials/428-i-referred-a-couple-of-guys-to-you-today.html"
+  },
+  {
+    "source": "/testimonials/429-pink-ar15-for-my-wife",
+    "destination": "/testimonials/429-pink-ar15-for-my-wife.html"
+  },
+  {
+    "source": "/testimonials/430-gun-arrived-today-and-looks-feels-great",
+    "destination": "/testimonials/430-gun-arrived-today-and-looks-feels-great.html"
+  },
+  {
+    "source": "/testimonials/431-the-ar-looks-awesome-thank-you",
+    "destination": "/testimonials/431-the-ar-looks-awesome-thank-you.html"
+  },
+  {
+    "source": "/testimonials/432-i-got-the-gun-today-looks-great",
+    "destination": "/testimonials/432-i-got-the-gun-today-looks-great.html"
+  },
+  {
+    "source": "/testimonials/433-the-customer-service-is-unmatched-along-with-the-quality-craftsmanship-acoatings-is-the-place-to-go-period",
+    "destination": "/testimonials/433-the-customer-service-is-unmatched-along-with-the-quality-craftsmanship-acoatings-is-the-place-to-go-period.html"
+  },
+  {
+    "source": "/testimonials/434-thanks-again-for-the-awesome-customer-service-and-all-of-the-knowledge-and-ideas-you-shared",
+    "destination": "/testimonials/434-thanks-again-for-the-awesome-customer-service-and-all-of-the-knowledge-and-ideas-you-shared.html"
+  },
+  {
+    "source": "/testimonials/435-looks-fantastic",
+    "destination": "/testimonials/435-looks-fantastic.html"
+  },
+  {
+    "source": "/testimonials/436-that-gun-looks-sick-super-fast-too",
+    "destination": "/testimonials/436-that-gun-looks-sick-super-fast-too.html"
+  },
+  {
+    "source": "/testimonials/437-i-am-very-pleased-with-your-work-amazing",
+    "destination": "/testimonials/437-i-am-very-pleased-with-your-work-amazing.html"
+  },
+  {
+    "source": "/testimonials/438-rec-d-my-piece-it-s-great",
+    "destination": "/testimonials/438-rec-d-my-piece-it-s-great.html"
+  },
+  {
+    "source": "/testimonials/439-thank-you-very-much-for-the-speedy-professional-work-and-quick-communication",
+    "destination": "/testimonials/439-thank-you-very-much-for-the-speedy-professional-work-and-quick-communication.html"
+  },
+  {
+    "source": "/testimonials/440-g17-looks-great-even-better-than-i-expected",
+    "destination": "/testimonials/440-g17-looks-great-even-better-than-i-expected.html"
+  },
+  {
+    "source": "/testimonials/441-the-quality-is-perfect-or-a-notch-higher",
+    "destination": "/testimonials/441-the-quality-is-perfect-or-a-notch-higher.html"
+  },
+  {
+    "source": "/testimonials/442-cannot-thank-you-enough-for-the-excellent-craftsmanship",
+    "destination": "/testimonials/442-cannot-thank-you-enough-for-the-excellent-craftsmanship.html"
+  },
+  {
+    "source": "/testimonials/443-attention-to-detail-friendly-customer-service-and-fair-pricing-what-more-can-you-ask-for",
+    "destination": "/testimonials/443-attention-to-detail-friendly-customer-service-and-fair-pricing-what-more-can-you-ask-for.html"
+  },
+  {
+    "source": "/testimonials/444-i-keep-looking-at-the-ruger-and-thinking-it-looks-new",
+    "destination": "/testimonials/444-i-keep-looking-at-the-ruger-and-thinking-it-looks-new.html"
+  },
+  {
+    "source": "/testimonials/445-you-ve-really-done-a-great-job-with-the-cerakote-coating-superb",
+    "destination": "/testimonials/445-you-ve-really-done-a-great-job-with-the-cerakote-coating-superb.html"
+  },
+  {
+    "source": "/testimonials/446-perfect-condition-and-looking-amazing",
+    "destination": "/testimonials/446-perfect-condition-and-looking-amazing.html"
+  },
+  {
+    "source": "/testimonials/447-just-received-the-slide-very-good-job-thank-you",
+    "destination": "/testimonials/447-just-received-the-slide-very-good-job-thank-you.html"
+  },
+  {
+    "source": "/testimonials/448-im-impressed-and-will-definitely-consider-you-again-in-the-future",
+    "destination": "/testimonials/448-im-impressed-and-will-definitely-consider-you-again-in-the-future.html"
+  },
+  {
+    "source": "/testimonials/449-holy-sh-t-that-was-fast",
+    "destination": "/testimonials/449-holy-sh-t-that-was-fast.html"
+  },
+  {
+    "source": "/testimonials/450-rifle-you-built-is-performing-far-beyond-my-expectations-had-it-under-5-moa",
+    "destination": "/testimonials/450-rifle-you-built-is-performing-far-beyond-my-expectations-had-it-under-5-moa.html"
+  },
+  {
+    "source": "/testimonials/451-i-have-never-been-responded-to-faster-nor-had-my-questions-answered-as-thoroughly-as-i-experienced-with-alternative-coatings-this-is-after-25yrs-of-dealing-with-gun-companies",
+    "destination": "/testimonials/451-i-have-never-been-responded-to-faster-nor-had-my-questions-answered-as-thoroughly-as-i-experienced-with-alternative-coatings-this-is-after-25yrs-of-dealing-with-gun-companies.html"
+  },
+  {
+    "source": "/testimonials/452-i-have-referred-everyone-who-asks-about-the-pistol-to-acoating-thanks-for-the-excellent-job",
+    "destination": "/testimonials/452-i-have-referred-everyone-who-asks-about-the-pistol-to-acoating-thanks-for-the-excellent-job.html"
+  },
+  {
+    "source": "/testimonials/453-great-job-on-it-thanks-a-lot",
+    "destination": "/testimonials/453-great-job-on-it-thanks-a-lot.html"
+  },
+  {
+    "source": "/testimonials/454-awesome-that-was-fast-i-really-appreciate-your-quick-work",
+    "destination": "/testimonials/454-awesome-that-was-fast-i-really-appreciate-your-quick-work.html"
+  },
+  {
+    "source": "/testimonials/455-quality-craftsmanship-through-out-acoating-com-and-his-team-transformed-my-ria-1911-tactical-in-to-a-masterpiece-it-turns-heads-every-time-i-take-it-to-the-shooting-range",
+    "destination": "/testimonials/455-quality-craftsmanship-through-out-acoating-com-and-his-team-transformed-my-ria-1911-tactical-in-to-a-masterpiece-it-turns-heads-every-time-i-take-it-to-the-shooting-range.html"
+  },
+  {
+    "source": "/testimonials/456-the-sti-and-slides-look-great",
+    "destination": "/testimonials/456-the-sti-and-slides-look-great.html"
+  },
+  {
+    "source": "/testimonials/457-i-would-recommend-alternative-coating-to-any-one-he-is-honest-trustworthy-also-customer-satisfaction-is-always-high-on-his-list",
+    "destination": "/testimonials/457-i-would-recommend-alternative-coating-to-any-one-he-is-honest-trustworthy-also-customer-satisfaction-is-always-high-on-his-list.html"
+  },
+  {
+    "source": "/testimonials/458-acoating-has-taken-an-ugly-little-duckling-and-changed-it-into-a-beautiful-swan-with-class-and-eloquence",
+    "destination": "/testimonials/458-acoating-has-taken-an-ugly-little-duckling-and-changed-it-into-a-beautiful-swan-with-class-and-eloquence.html"
+  },
+  {
+    "source": "/testimonials/459-flashlight-and-eotech-shroud-cover-for-magpul-fde-cerakote-this-is-exactly-what-i-was-looking-for-thanks-for-your-help",
+    "destination": "/testimonials/459-flashlight-and-eotech-shroud-cover-for-magpul-fde-cerakote-this-is-exactly-what-i-was-looking-for-thanks-for-your-help.html"
+  },
+  {
+    "source": "/testimonials/460-it-s-beautiful-thank-you-so-much-for-a-job-well-done",
+    "destination": "/testimonials/460-it-s-beautiful-thank-you-so-much-for-a-job-well-done.html"
+  },
+  {
+    "source": "/testimonials/461-looking-over-my-pieces-again-and-they-are-just-awesome",
+    "destination": "/testimonials/461-looking-over-my-pieces-again-and-they-are-just-awesome.html"
+  },
+  {
+    "source": "/testimonials/462-the-color-match-is-perfect-the-finish-evenly-applied-really-nice-work-i-appreciate-your-prompt-service-and-good-communication",
+    "destination": "/testimonials/462-the-color-match-is-perfect-the-finish-evenly-applied-really-nice-work-i-appreciate-your-prompt-service-and-good-communication.html"
+  },
+  {
+    "source": "/testimonials/463-nice-work-good-communication-and-fast-turnaround",
+    "destination": "/testimonials/463-nice-work-good-communication-and-fast-turnaround.html"
+  },
+  {
+    "source": "/testimonials/464-man-you-do-some-fine-work-tx",
+    "destination": "/testimonials/464-man-you-do-some-fine-work-tx.html"
+  },
+  {
+    "source": "/testimonials/465-wow-i-appreciate-your-professional-work-and-speedy-return-time",
+    "destination": "/testimonials/465-wow-i-appreciate-your-professional-work-and-speedy-return-time.html"
+  },
+  {
+    "source": "/testimonials/466-you-do-excellent-work-have-reasonable-rates-and-a-pleasure-to-work-with",
+    "destination": "/testimonials/466-you-do-excellent-work-have-reasonable-rates-and-a-pleasure-to-work-with.html"
+  },
+  {
+    "source": "/testimonials/467-referred-a-friend-to-acoating-com-i-couldnt-be-happier-as-my-friend-cant-believe-the-quality",
+    "destination": "/testimonials/467-referred-a-friend-to-acoating-com-i-couldnt-be-happier-as-my-friend-cant-believe-the-quality.html"
+  },
+  {
+    "source": "/testimonials/468-certainly-i-did-not-find-anyone-who-could-even-come-close-to-matching-his-prices-for-cerakote",
+    "destination": "/testimonials/468-certainly-i-did-not-find-anyone-who-could-even-come-close-to-matching-his-prices-for-cerakote.html"
+  },
+  {
+    "source": "/testimonials/490-the-least-i-could-do-is-express-my-gratitude-for-the-services-rendered-that-shows-the-craftsmanship-of-your-company-at-its-finest",
+    "destination": "/testimonials/490-the-least-i-could-do-is-express-my-gratitude-for-the-services-rendered-that-shows-the-craftsmanship-of-your-company-at-its-finest.html"
+  },
+  {
+    "source": "/testimonials/497-excellent-job-i-couldn-t-be-happier",
+    "destination": "/testimonials/497-excellent-job-i-couldn-t-be-happier.html"
+  },
+  {
+    "source": "/testimonials/498-overall-i-am-very-happy-with-your-services",
+    "destination": "/testimonials/498-overall-i-am-very-happy-with-your-services.html"
+  },
+  {
+    "source": "/testimonials/499-alternative-coatings-to-the-rescue",
+    "destination": "/testimonials/499-alternative-coatings-to-the-rescue.html"
+  },
+  {
+    "source": "/testimonials/500-i-ve-already-posted-it-on-facebook-and-bragged-about-your-company",
+    "destination": "/testimonials/500-i-ve-already-posted-it-on-facebook-and-bragged-about-your-company.html"
+  },
+  {
+    "source": "/testimonials/501-this-project-came-out-perfect",
+    "destination": "/testimonials/501-this-project-came-out-perfect.html"
+  },
+  {
+    "source": "/testimonials/502-all-i-can-say-is-wow-first-class-customer-service-quick-responses-to-my-e-mails-great-website-and-a-very-fast-turnaround",
+    "destination": "/testimonials/502-all-i-can-say-is-wow-first-class-customer-service-quick-responses-to-my-e-mails-great-website-and-a-very-fast-turnaround.html"
+  },
+  {
+    "source": "/testimonials/503-you-are-top-notch-my-friend-will-get-with-you-on-future-projects-bless-you-and-your-business-ted",
+    "destination": "/testimonials/503-you-are-top-notch-my-friend-will-get-with-you-on-future-projects-bless-you-and-your-business-ted.html"
+  },
+  {
+    "source": "/testimonials/504-item-arrived-and-you-guys-did-a-great-job-the-gun-looks-awesome",
+    "destination": "/testimonials/504-item-arrived-and-you-guys-did-a-great-job-the-gun-looks-awesome.html"
+  },
+  {
+    "source": "/testimonials/505-the-attention-to-detail-and-unbelievable-turn-around-time-makes-acoating-arguably-the-most-sought-out-gunsmith-and-applicator-of-cerakote-in-the-phoenix-area",
+    "destination": "/testimonials/505-the-attention-to-detail-and-unbelievable-turn-around-time-makes-acoating-arguably-the-most-sought-out-gunsmith-and-applicator-of-cerakote-in-the-phoenix-area.html"
+  },
+  {
+    "source": "/testimonials/506-it-looks-fantastic-fast-service-i-appreciate",
+    "destination": "/testimonials/506-it-looks-fantastic-fast-service-i-appreciate.html"
+  },
+  {
+    "source": "/testimonials/507-great-work-love-what-you-did-with-my-1911",
+    "destination": "/testimonials/507-great-work-love-what-you-did-with-my-1911.html"
+  },
+  {
+    "source": "/testimonials/508-firearm-6-to-acoating-craftsmanship-and-attention-to-detail-is-awesome",
+    "destination": "/testimonials/508-firearm-6-to-acoating-craftsmanship-and-attention-to-detail-is-awesome.html"
+  },
+  {
+    "source": "/testimonials/509-i-just-wanted-to-really-thank-you-for-the-absolutely-perfect-cerakote-coating-job-you-did-on-my-sig",
+    "destination": "/testimonials/509-i-just-wanted-to-really-thank-you-for-the-absolutely-perfect-cerakote-coating-job-you-did-on-my-sig.html"
+  },
+  {
+    "source": "/testimonials/510-outstanding-service-acoating-is-on-top-of-it-he-answers-your-questions-immediately-most-of-all-he-s-happy-to-do-it",
+    "destination": "/testimonials/510-outstanding-service-acoating-is-on-top-of-it-he-answers-your-questions-immediately-most-of-all-he-s-happy-to-do-it.html"
+  },
+  {
+    "source": "/testimonials/511-acoating-did-a-great-job-at-a-great-price-they-worked-with-me-on-getting-the-right-color-service-was-very-quick-on-getting-the-parts-done-and-back-to",
+    "destination": "/testimonials/511-acoating-did-a-great-job-at-a-great-price-they-worked-with-me-on-getting-the-right-color-service-was-very-quick-on-getting-the-parts-done-and-back-to.html"
+  },
+  {
+    "source": "/testimonials/515-received-my-knife-today-nice-job-thanks-for-keeping-part-of-the-cutting-edge-for-me",
+    "destination": "/testimonials/515-received-my-knife-today-nice-job-thanks-for-keeping-part-of-the-cutting-edge-for-me.html"
+  },
+  {
+    "source": "/testimonials/517-ar-exceeds-expectations-wonderful-work-by-true-craftsman-with-master-gunsmith-abilities-what-a-combination",
+    "destination": "/testimonials/517-ar-exceeds-expectations-wonderful-work-by-true-craftsman-with-master-gunsmith-abilities-what-a-combination.html"
+  },
+  {
+    "source": "/testimonials/519-i-would-like-to-say-thank-you-for-your-work-on-my-benelli-it-looks-excellent",
+    "destination": "/testimonials/519-i-would-like-to-say-thank-you-for-your-work-on-my-benelli-it-looks-excellent.html"
+  },
+  {
+    "source": "/testimonials/524-i-received-the-slide-and-barrel-today-it-all-looks-great-thanks-for-the-superfast-turnaround-shipped-on-the-first-and-received-back-on-the-tenth-that-s-hard-to-beat-thanks-again",
+    "destination": "/testimonials/524-i-received-the-slide-and-barrel-today-it-all-looks-great-thanks-for-the-superfast-turnaround-shipped-on-the-first-and-received-back-on-the-tenth-that-s-hard-to-beat-thanks-again.html"
+  },
+  {
+    "source": "/testimonials/525-i-received-my-package-today-and-i-have-to-tell-you-that-i-am-completely-satisfied-and-happy-with-your-work-i-m-also-very-impressed-with-the-fast-turn-around",
+    "destination": "/testimonials/525-i-received-my-package-today-and-i-have-to-tell-you-that-i-am-completely-satisfied-and-happy-with-your-work-i-m-also-very-impressed-with-the-fast-turn-around.html"
+  },
+  {
+    "source": "/testimonials/526-my-25-year-old-police-beretta-92f-was-down-to-bare-metal-on-every-sharp-edge-from-daily-holster-and-handling-wear-it-now-looks-brand-new",
+    "destination": "/testimonials/526-my-25-year-old-police-beretta-92f-was-down-to-bare-metal-on-every-sharp-edge-from-daily-holster-and-handling-wear-it-now-looks-brand-new.html"
+  },
+  {
+    "source": "/testimonials/527-fantastic-work-tim-made-the-old-sig-look-new-again-and-really-went-the-extra-mile-to-ensure-i-got-what-i-wanted-wtm",
+    "destination": "/testimonials/527-fantastic-work-tim-made-the-old-sig-look-new-again-and-really-went-the-extra-mile-to-ensure-i-got-what-i-wanted-wtm.html"
+  },
+  {
+    "source": "/testimonials/528-great-customer-service-perfectly-smooth-even-application-and-quality-workmanship-got-it-all-on-my-s-w-model-547-9mm-my-new-choice-piece",
+    "destination": "/testimonials/528-great-customer-service-perfectly-smooth-even-application-and-quality-workmanship-got-it-all-on-my-s-w-model-547-9mm-my-new-choice-piece.html"
+  },
+  {
+    "source": "/testimonials/530-my-kimber-arrived-today-looks-great-thamk-you-start-rebreaking-it-in-tomorrow-thanks-dean",
+    "destination": "/testimonials/530-my-kimber-arrived-today-looks-great-thamk-you-start-rebreaking-it-in-tomorrow-thanks-dean.html"
+  },
+  {
+    "source": "/testimonials/531-received-it-it-looks-great-thanks-you-so-much-i-have-some-more-that-i-ll-definitely-be-sending-you-way",
+    "destination": "/testimonials/531-received-it-it-looks-great-thanks-you-so-much-i-have-some-more-that-i-ll-definitely-be-sending-you-way.html"
+  },
+  {
+    "source": "/testimonials/532-acoating-did-a-2-tone-cerakote-on-my-stainless-amt-longslide-almost-2-years-ago-it-looks-like-he-did-it-yesterday",
+    "destination": "/testimonials/532-acoating-did-a-2-tone-cerakote-on-my-stainless-amt-longslide-almost-2-years-ago-it-looks-like-he-did-it-yesterday.html"
+  },
+  {
+    "source": "/testimonials/86-would-recommend-him-to-anyone",
+    "destination": "/testimonials/86-would-recommend-him-to-anyone.html"
+  },
+  {
+    "source": "/testimonials/87-a-perfect-job-on-my-sti-bls-pistol",
+    "destination": "/testimonials/87-a-perfect-job-on-my-sti-bls-pistol.html"
+  },
+  {
+    "source": "/testimonials/88-model-59-born-again-with-a-whole-new-look",
+    "destination": "/testimonials/88-model-59-born-again-with-a-whole-new-look.html"
+  },
+  {
+    "source": "/testimonials/99-best-compamy-i-could-find",
+    "destination": "/testimonials/99-best-compamy-i-could-find.html"
+  },
+  {
     "source": "/testimonials",
     "destination": "/testimonials.html"
+  },
+  {
+    "source": "/virtual_gun_coater/coater76b8",
+    "destination": "/virtual_gun_coater/coater76b8.html"
+  },
+  {
+    "source": "/virtual_gun_coater/guncoater_bottom_column",
+    "destination": "/virtual_gun_coater/guncoater_bottom_column.html"
+  },
+  {
+    "source": "/virtual_gun_coater/guncoater_top_column",
+    "destination": "/virtual_gun_coater/guncoater_top_column.html"
+  },
+  {
+    "source": "/virtual_gun_coater/images/guncoat_fade_left",
+    "destination": "/virtual_gun_coater/images/guncoat_fade_left.html"
+  },
+  {
+    "source": "/virtual_gun_coater/images/guncoat_fade_right",
+    "destination": "/virtual_gun_coater/images/guncoat_fade_right.html"
+  },
+  {
+    "source": "/women-gallery/women/10-22-rifle-stock-multiple-designs-1-551",
+    "destination": "/women-gallery/women/10-22-rifle-stock-multiple-designs-1-551.html"
+  },
+  {
+    "source": "/women-gallery/women/bright-purple-1-341",
+    "destination": "/women-gallery/women/bright-purple-1-341.html"
+  },
+  {
+    "source": "/women-gallery/women/bright-purple-with-silver-specals-1-358",
+    "destination": "/women-gallery/women/bright-purple-with-silver-specals-1-358.html"
+  },
+  {
+    "source": "/women-gallery/women/bright-purple-with-silver-specals-2-359",
+    "destination": "/women-gallery/women/bright-purple-with-silver-specals-2-359.html"
+  },
+  {
+    "source": "/women-gallery/women/bright-purple-with-silver-specals-3-360",
+    "destination": "/women-gallery/women/bright-purple-with-silver-specals-3-360.html"
+  },
+  {
+    "source": "/women-gallery/women/burnt-bronze-1-339",
+    "destination": "/women-gallery/women/burnt-bronze-1-339.html"
+  },
+  {
+    "source": "/women-gallery/women/burnt-bronze-2-340",
+    "destination": "/women-gallery/women/burnt-bronze-2-340.html"
+  },
+  {
+    "source": "/women-gallery/women/cerakote-gun-coatings-by-acoating-com-1-681",
+    "destination": "/women-gallery/women/cerakote-gun-coatings-by-acoating-com-1-681.html"
+  },
+  {
+    "source": "/women-gallery/women/cerakote-gun-coatings-by-acoating-com-1-691",
+    "destination": "/women-gallery/women/cerakote-gun-coatings-by-acoating-com-1-691.html"
+  },
+  {
+    "source": "/women-gallery/women/cerakote-gun-coatings-by-acoating-com-1-696",
+    "destination": "/women-gallery/women/cerakote-gun-coatings-by-acoating-com-1-696.html"
+  },
+  {
+    "source": "/women-gallery/women/cerakote-gun-coatings-by-acoating-com-2-682",
+    "destination": "/women-gallery/women/cerakote-gun-coatings-by-acoating-com-2-682.html"
+  },
+  {
+    "source": "/women-gallery/women/cerakote-gun-coatings-by-acoating-com-2-697",
+    "destination": "/women-gallery/women/cerakote-gun-coatings-by-acoating-com-2-697.html"
+  },
+  {
+    "source": "/women-gallery/women/custom-pink-ar-15-1-486",
+    "destination": "/women-gallery/women/custom-pink-ar-15-1-486.html"
+  },
+  {
+    "source": "/women-gallery/women/custom-pink-ar-15-10-495",
+    "destination": "/women-gallery/women/custom-pink-ar-15-10-495.html"
+  },
+  {
+    "source": "/women-gallery/women/custom-pink-ar-15-2-487",
+    "destination": "/women-gallery/women/custom-pink-ar-15-2-487.html"
+  },
+  {
+    "source": "/women-gallery/women/custom-pink-ar-15-3-488",
+    "destination": "/women-gallery/women/custom-pink-ar-15-3-488.html"
+  },
+  {
+    "source": "/women-gallery/women/custom-pink-ar-15-4-489",
+    "destination": "/women-gallery/women/custom-pink-ar-15-4-489.html"
+  },
+  {
+    "source": "/women-gallery/women/custom-pink-ar-15-5-490",
+    "destination": "/women-gallery/women/custom-pink-ar-15-5-490.html"
+  },
+  {
+    "source": "/women-gallery/women/custom-pink-ar-15-6-491",
+    "destination": "/women-gallery/women/custom-pink-ar-15-6-491.html"
+  },
+  {
+    "source": "/women-gallery/women/custom-pink-ar-15-7-492",
+    "destination": "/women-gallery/women/custom-pink-ar-15-7-492.html"
+  },
+  {
+    "source": "/women-gallery/women/custom-pink-ar-15-8-493",
+    "destination": "/women-gallery/women/custom-pink-ar-15-8-493.html"
+  },
+  {
+    "source": "/women-gallery/women/custom-pink-ar-15-9-494",
+    "destination": "/women-gallery/women/custom-pink-ar-15-9-494.html"
+  },
+  {
+    "source": "/women-gallery/women/ladies-and-girls-projects-1-291",
+    "destination": "/women-gallery/women/ladies-and-girls-projects-1-291.html"
+  },
+  {
+    "source": "/women-gallery/women/ladies-and-girls-projects-10-300",
+    "destination": "/women-gallery/women/ladies-and-girls-projects-10-300.html"
+  },
+  {
+    "source": "/women-gallery/women/ladies-and-girls-projects-11-301",
+    "destination": "/women-gallery/women/ladies-and-girls-projects-11-301.html"
+  },
+  {
+    "source": "/women-gallery/women/ladies-and-girls-projects-12-302",
+    "destination": "/women-gallery/women/ladies-and-girls-projects-12-302.html"
+  },
+  {
+    "source": "/women-gallery/women/ladies-and-girls-projects-13-303",
+    "destination": "/women-gallery/women/ladies-and-girls-projects-13-303.html"
+  },
+  {
+    "source": "/women-gallery/women/ladies-and-girls-projects-14-304",
+    "destination": "/women-gallery/women/ladies-and-girls-projects-14-304.html"
+  },
+  {
+    "source": "/women-gallery/women/ladies-and-girls-projects-16-306",
+    "destination": "/women-gallery/women/ladies-and-girls-projects-16-306.html"
+  },
+  {
+    "source": "/women-gallery/women/ladies-and-girls-projects-2-292",
+    "destination": "/women-gallery/women/ladies-and-girls-projects-2-292.html"
+  },
+  {
+    "source": "/women-gallery/women/ladies-and-girls-projects-3-293",
+    "destination": "/women-gallery/women/ladies-and-girls-projects-3-293.html"
+  },
+  {
+    "source": "/women-gallery/women/ladies-and-girls-projects-4-294",
+    "destination": "/women-gallery/women/ladies-and-girls-projects-4-294.html"
+  },
+  {
+    "source": "/women-gallery/women/ladies-and-girls-projects-5-295",
+    "destination": "/women-gallery/women/ladies-and-girls-projects-5-295.html"
+  },
+  {
+    "source": "/women-gallery/women/ladies-and-girls-projects-6-296",
+    "destination": "/women-gallery/women/ladies-and-girls-projects-6-296.html"
+  },
+  {
+    "source": "/women-gallery/women/ladies-and-girls-projects-8-298",
+    "destination": "/women-gallery/women/ladies-and-girls-projects-8-298.html"
+  },
+  {
+    "source": "/women-gallery/women/ladies-and-girls-projects-9-299",
+    "destination": "/women-gallery/women/ladies-and-girls-projects-9-299.html"
+  },
+  {
+    "source": "/women-gallery/women/pink-1-578",
+    "destination": "/women-gallery/women/pink-1-578.html"
+  },
+  {
+    "source": "/women-gallery/women/pink-1911-1-424",
+    "destination": "/women-gallery/women/pink-1911-1-424.html"
+  },
+  {
+    "source": "/women-gallery/women/pink-1911-2-425",
+    "destination": "/women-gallery/women/pink-1911-2-425.html"
+  },
+  {
+    "source": "/women-gallery/women/pink-2-579",
+    "destination": "/women-gallery/women/pink-2-579.html"
+  },
+  {
+    "source": "/women-gallery/women/pink-3-580",
+    "destination": "/women-gallery/women/pink-3-580.html"
+  },
+  {
+    "source": "/women-gallery/women/pink-glock-1-178",
+    "destination": "/women-gallery/women/pink-glock-1-178.html"
+  },
+  {
+    "source": "/women-gallery/women/pink-glock-2-179",
+    "destination": "/women-gallery/women/pink-glock-2-179.html"
+  },
+  {
+    "source": "/women-gallery/women/pink-glock-silver-specals-1-415",
+    "destination": "/women-gallery/women/pink-glock-silver-specals-1-415.html"
+  },
+  {
+    "source": "/women-gallery/women/pink-glock-silver-specals-4-418",
+    "destination": "/women-gallery/women/pink-glock-silver-specals-4-418.html"
+  },
+  {
+    "source": "/women-gallery/women/pink-ruger-lcp-1-426",
+    "destination": "/women-gallery/women/pink-ruger-lcp-1-426.html"
+  },
+  {
+    "source": "/women-gallery/women/pink-ruger-lcp-2-427",
+    "destination": "/women-gallery/women/pink-ruger-lcp-2-427.html"
+  },
+  {
+    "source": "/women-gallery/women",
+    "destination": "/women-gallery/women.html"
   },
   {
     "source": "/women-gallery",

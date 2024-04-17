@@ -43,7 +43,7 @@ const Footer: React.FC = () => {
       <a href="mailto:acoating@gmail.com" className="underline hover:text-gray-400">acoating@gmail.com</a>
     </li>
     <li className="mb-3 flex items-center">
-      <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text[#d7dfe3ff]" /> Firearm Cerakote Phoenix, AZ USA
+      <FontAwesomeIcon icon={faMapMarkerAlt} className="mr-2 text[#d7dfe3ff]" />  Phoenix, AZ USA 
     </li>
     <li className="flex items-center">
       <FontAwesomeIcon icon={faGlobe} className="mr-2 text[#d7dfe3ff]" />
@@ -93,17 +93,17 @@ const Footer: React.FC = () => {
       <ul className="text-[#d7dfe3ff]">
   {/* For each list item, directly use the Link component without nested <a> tags */}
   {[
-    { href: "/services/1911-custom-engraving", icon: faShieldAlt, label: "Firearms Laser Engraving" },
-    { href: "/services/ar-15-customization", icon: faPaintBrush, label: "Custom Cerakote Jobs" },
-    { href: "/services/glock-enhancements", icon: faShieldAlt, label: "Camo Cerakote for Guns" },
-    { href: "/services/remington-700", icon: faShieldAlt, label: "Firearm Cerakote Colors" },
-    { href: "/services/ruger-10-22-customization", icon: faShieldAlt, label: "Firearm Cerakote Cost" },
-    { href: "/services/sig-sauer-p320-customization", icon: faShieldAlt, label: "Affordable Cerakote Services" },
+    { href: "/services/laser-engraving", icon: faShieldAlt, label: "Firearms Laser Engraving" },
+    { href: "/services/cerakote-coating", icon: faPaintBrush, label: "Custom Cerakote Jobs" },
+    { href: "/services/cerakote-coating/camouflage-patterns", icon: faShieldAlt, label: "Camo Cerakote for Guns" },
+    { href: "/services/cerakote-coating/color-codes", icon: faShieldAlt, label: "Firearm Cerakote Colors" },
+    { href: "/pricing", icon: faShieldAlt, label: "Firearm Cerakote Cost" },
+    { href: "/services/cerakote-coating", icon: faShieldAlt, label: "Affordable Cerakote Services" },
     { href: "/services/smith-wesson-mp-customization", icon: faShieldAlt, label: "Glock Pistol Cerakote" },
     { href: "/services/smith-wesson-mp-customization", icon: faShieldAlt, label: "Gun Trigger Upgrade" },
-    { href: "/services/smith-wesson-mp-customization", icon: faShieldAlt, label: "Gunsmith Services" },
+    { href: "/services/gunsmithing", icon: faShieldAlt, label: "Gunsmith Services" },
     { href: "/services/smith-wesson-mp-customization", icon: faShieldAlt, label: " 1911/2011 Pistol Gunsmith" },
-    { href: "/services/smith-wesson-mp-customization", icon: faShieldAlt, label: "Remington 700 Gunsmith" },
+    { href: "/services/custom-remington-700", icon: faShieldAlt, label: "Remington 700 Gunsmith" },
   ].map((item) => (
     <li key={item.href} className="mb-3">
       <Link href={item.href} passHref>
