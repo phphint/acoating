@@ -18,8 +18,8 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
-    - name: Backup existing folder
-      run: ssh -o StrictHostKeyChecking=no root@24.144.69.20 "tar -czvf /root/GitHub-delivery-backup_$(date +%Y%m%d_%H%M%S).tar.gz /root/GitHub-delivery/"
+    - name: Backup existing folder with permissions
+      run: ssh -o StrictHostKeyChecking=no root@24.144.69.20 "cd /root && tar --numeric-owner -cpzf /mnt/backups/GitHub-delivery-backup_$(date +%Y%m%d_%H%M%S).tar.gz GitHub-delivery"
 
 
     - name: Copy files to the server
