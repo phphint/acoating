@@ -15,7 +15,7 @@ services:
 
     networks:
       - proxy_app-network
-    mem_limit: 384M
+    mem_limit: 512M
     ports:
       - "3000:3000"
     environment:
@@ -34,7 +34,9 @@ services:
       - /srv/app/node_modules
     networks:
       - proxy_app-network
-    mem_limit: 512M
+    mem_limit: 256M
+    ports:
+      - "1337:1337"  # Ensure Strapi is exposed on a standard port if needed externally
     environment:
       DATABASE_CLIENT: postgres
       DATABASE_NAME: ${STRAPI_DATABASE_NAME}
@@ -42,9 +44,12 @@ services:
       DATABASE_PORT: 5432
       DATABASE_USERNAME: ${STRAPI_DATABASE_USERNAME}
       DATABASE_PASSWORD: ${STRAPI_DATABASE_PASSWORD}
+      VIRTUAL_HOST: strapi.acoating.com
+      LETSENCRYPT_HOST: strapi.acoating.com
+      LETSENCRYPT_EMAIL: jason@mavacode.com
     depends_on:
       - postgres
-    restart: always                 # Ensure the container always restarts
+    restart: always
 
   postgres:
     container_name: postgres

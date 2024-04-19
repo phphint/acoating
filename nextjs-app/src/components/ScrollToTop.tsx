@@ -19,7 +19,7 @@ const ScrollToTopButton = () => {
         width: '50px',
         borderRadius: '50%',
         textAlign: 'center',
-        backgroundColor: '#0e2228',
+        backgroundColor: '#824a1e',
         color: '#FFFFFF',
         fontSize: '24px',
         lineHeight: '50px',

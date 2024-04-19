@@ -28,13 +28,13 @@ jobs:
 
 
     - name: Copy files to the server
-      run: rsync -avz --exclude='/root/.env' --exclude='/root/proxy/' --exclude='/root/strapi-cms/' -e "ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" ./ root@24.144.69.20:/root/GitHub-delivery/ && ssh -o StrictHostKeyChecking=no root@24.144.69.20 "echo 'Rsync Completed Successfully' &> /root/GitHub-delivery/rsync_log.txt"
+      run: rsync -avz --exclude='/root/.env' --exclude='/root/proxy/' --exclude='/root/strapi-cms/'  --exclude='/root/postgres-data/' -e "ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" ./ root@24.144.69.20:/root/GitHub-delivery/ && ssh -o StrictHostKeyChecking=no root@24.144.69.20 "echo 'Rsync Completed Successfully' &> /root/GitHub-delivery/rsync_log.txt"
 
     - name: Build and Run Docker Compose with Logging
       run: |
         ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
         cd /root/GitHub-delivery/ && \
-        docker system prune -f --volumes&& \
+        docker system prune -f --volumes && \
         docker-compose down && \
         docker-compose build >> deployment.log 2>&1 && \
         docker-compose up -d >> deployment.log 2>&1"
