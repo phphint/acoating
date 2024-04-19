@@ -2,6 +2,7 @@ import React from 'react';
 import Head from 'next/head';
 import MainMenu from '../components/MainMenu'; // Adjust the import path as necessary
 import Footer from '../components/Footer'; // Adjust the import path as necessary
+import ScrollToTopButton from '../components/ScrollToTop';  // Ensure this path matches where your ScrollToTopButton component is saved
 
 export default function TermsOfService() {
   return (
@@ -62,6 +63,7 @@ export default function TermsOfService() {
       </main>
 
       <Footer />
+      <ScrollToTopButton/>
     </div>
   );
 }

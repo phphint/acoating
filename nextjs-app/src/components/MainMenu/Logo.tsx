@@ -12,7 +12,7 @@ interface LogoProps {
 const Logo: React.FC<LogoProps> = ({ src, alt, className, style }) => {
   return (
     // Wrap the image inside a Link component
-    <Link href="/">
+    <Link href="/" scroll={true}>
     
         <img src={src} alt={alt} className={`${className} w-auto pt-1`} style={{ ...style, height: '7.4rem' }} />
      

@@ -104,8 +104,8 @@ const Footer: React.FC = () => {
     { href: "/services/gunsmithing", icon: faShieldAlt, label: "Gunsmith Services" },
     { href: "/services/custom-1911-2011", icon: faShieldAlt, label: " 1911/2011 Pistol Gunsmith" },
     { href: "/services/custom-remington-700", icon: faShieldAlt, label: "Remington 700 Gunsmith" },
-  ].map((item) => (
-    <li key={item.href} className="mb-3">
+  ].map((item, index) => (
+    <li key={`${item.href}-${index}`} className="mb-3">
       <Link href={item.href} passHref>
         <div className="hover:text-gray-400 flex items-center cursor-pointer">
           <FontAwesomeIcon icon={item.icon} className="mr-2 text-[#d7dfe3ff]" />
@@ -122,10 +122,10 @@ const Footer: React.FC = () => {
     <div className="col-span-1 lg:col-span-4 mt-4 border-t border-[#202a2e] pt-4 flex justify-between items-center">
   <p>&copy; {new Date().getFullYear()} Acoating. All rights reserved.</p>
   <div>
-    <Link href="/privacy" passHref>
+    <Link href="/privacy" passHref scroll={true}>
       <div className="inline-block hover:text-gray-400 text-sm mr-4 cursor-pointer">Privacy Policy</div>
     </Link>
-    <Link href="/terms" passHref>
+    <Link href="/terms" passHref scroll={true}>
       <div className="inline-block hover:text-gray-400 text-sm cursor-pointer">Terms & Conditions</div>
     </Link>
   </div>

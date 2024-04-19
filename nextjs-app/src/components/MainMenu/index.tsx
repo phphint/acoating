@@ -71,7 +71,7 @@ const MainMenu: React.FC = () => {
               { href: "/gallery", text: "Gallery" },
               { href: "mailto:acoating@gmail.com", text: "Contact Us" },
             ].map((item) => (
-              <Link href={item.href} passHref key={item.href}>
+              <Link href={item.href} passHref key={item.href} scroll={true}>
               <ListItem button className="text-white hover:bg-gray-700">
                 <ListItemText primary={item.text} />
               </ListItem>
@@ -83,10 +83,10 @@ const MainMenu: React.FC = () => {
 
       {/* Desktop Menu Items */}
       <div className="hidden xl:flex items-center">
-        <Link href="/about" className="px-4">About </Link>
+        <Link href="/about" className="px-4" scroll={true}>About </Link>
         <ServicesMenu />
         <PricingMenu />
-        <Link href="/gallery" className="px-4"> Gallery </Link>
+        <Link href="/gallery" className="px-4" scroll={true}> Gallery </Link>
         <ContactUsMenu />
         <CTAButton />
       </div>

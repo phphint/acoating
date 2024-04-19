@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'; // Import the Link component
 
 const CerakoteHeader: React.FC = () => {
   return (
@@ -20,12 +21,16 @@ const CerakoteHeader: React.FC = () => {
             Discover the ultimate firearm finish with Cerakote. Enhance your firearm&lsquo;s durability, resistance, and overall appearance with a custom Cerakote coating.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <button className="bg-[#42595c] text-[#b6b6bc] py-3 px-6 border-[#b6b6bc] border hover:bg-[#36474a] transition-colors">
-              See Pricing
-            </button>
-            <button className="bg-[#42595c] text-[#b6b6bc] py-3 px-6 border-[#b6b6bc] border hover:bg-[#36474a] transition-colors">
-              See Colors
-            </button>
+            <Link href="/pricing" passHref>
+              <button className="bg-[#42595c] text-[#b6b6bc] py-3 px-6 border-[#b6b6bc] border hover:bg-[#36474a] transition-colors">
+                See Pricing
+              </button>
+            </Link>
+            <Link href="/services/cerakote-coating/color-codes" passHref>
+              <button className="bg-[#42595c] text-[#b6b6bc] py-3 px-6 border-[#b6b6bc] border hover:bg-[#36474a] transition-colors">
+                See Colors
+              </button>
+            </Link>
           </div>
         </div>
         <div className="flex-1 hidden lg:flex justify-end flex-col items-center">
@@ -37,4 +42,3 @@ const CerakoteHeader: React.FC = () => {
 };
 
 export default CerakoteHeader;
- 

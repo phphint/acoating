@@ -1,4 +1,5 @@
 import React from 'react';
+import Link from 'next/link'; // Import the Link component
 
 const TestimonialsSection: React.FC = () => {
   return (
@@ -12,8 +13,7 @@ const TestimonialsSection: React.FC = () => {
           {/* Testimonials Column */}
           <div className="space-y-8">
             <div className="text-white mx-auto max-w-md">
-              <p className="italic">&quot;Tim, Wow!!! what a beautiful job! Colors matched perfectly, my Beretta Cougar Inox looks better than the factory finish. As far as I&lsquo;m concerned your the best certified Cerakote finisher around! I will be sending you more business all the way from PA. Thanks again.&quot; 
-</p>
+              <p className="italic">&quot;Wow!!! what a beautiful job! Colors matched perfectly, my Beretta Cougar Inox looks better than the factory finish. As far as I'm concerned you're the best certified Cerakote finisher around! I will be sending you more business all the way from PA. Thanks again.&quot;</p>
               <p className="font-bold mt-4">- Customer</p>
             </div>
             {/* Repeat for additional testimonials */}
@@ -23,7 +23,6 @@ const TestimonialsSection: React.FC = () => {
           <div className="space-y-8">
             <div className="text-white mx-auto max-w-md">
               <p className="mb-4">Choose from a wide range of durable and vibrant Cerakote colors to customize your firearm exactly the way you want.</p>
-              {/* Color swatches or list here */}
               <div className="flex flex-wrap justify-center gap-2">
                 {/* Example swatches */}
                 <div className="w-8 h-8 bg-red-500 rounded-full"></div>
@@ -31,9 +30,11 @@ const TestimonialsSection: React.FC = () => {
                 <div className="w-8 h-8 bg-green-500 rounded-full"></div>
                 {/* More swatches */}
               </div>
-              <button className="text-white border-white border py-2 px-4 mt-4 hover:bg-white hover:text-black transition-colors">
-                See Cerakote Colors
-              </button>
+              <Link href="/pricing/faq/shipping-instructions" passHref>
+                <button className="text-white border-white border py-2 px-4 mt-4 hover:bg-white hover:text-black transition-colors">
+                  See Cerakote Colors
+                </button>
+              </Link>
             </div>
           </div>
 
@@ -41,13 +42,14 @@ const TestimonialsSection: React.FC = () => {
           <div className="space-y-8">
             <div className="text-white mx-auto max-w-md">
               <p className="mb-4">Ready to get your firearm coated? Ship it to us safely and securely to start the transformation.</p>
-              <button className="text-white border-white border py-2 px-4 mt-4 hover:bg-white hover:text-black transition-colors">
-                Ship Us Your Firearms
-              </button>
+              <Link href="/pricing/faq/shipping-instructions" passHref>
+                <button className="text-white border-white border py-2 px-4 mt-4 hover:bg-white hover:text-black transition-colors">
+                  Ship Us Your Firearms
+                </button>
+              </Link>
             </div>
           </div>
         </div>
-
       </div>
     </section>
   );

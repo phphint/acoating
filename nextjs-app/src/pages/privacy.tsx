@@ -2,6 +2,8 @@ import React from 'react';
 import Head from 'next/head';
 import MainMenu from '../components/MainMenu'; // Ensure the correct import path
 import Footer from '../components/Footer'; // Ensure the correct import path
+import ScrollToTopButton from '../components/ScrollToTop';  // Ensure this path matches where your ScrollToTopButton component is saved
+
 
 export default function PrivacyPolicy() {
   return (
@@ -57,6 +59,7 @@ export default function PrivacyPolicy() {
       </main>
 
       <Footer />
+      <ScrollToTopButton/>
     </div>
   );
 }

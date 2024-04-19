@@ -30,12 +30,9 @@
 
 /* Reset default margins and paddings */
 html, body, #root {
-    margin: 0 !important;
-    padding: 0 !important;
-    overflow-x: hidden; /* Prevents horizontal scroll */
-    height: 100%;
-  }
-  
+ 
+}
+
   /* Ensure the sticky menu overlays content properly */
   .sticky-menu {
     position: sticky !important;
@@ -128,3 +125,6 @@ html, body, #root {
 .brands-logos img {
   color: green; /* This changes the color of your SVG if paths use `fill="currentColor"` */
 }
+
+
+ 

@@ -2,15 +2,15 @@ import React from 'react';
 
 const CamoPatterns = () => {
   const patternImages = [
-    { id: 1, src: '/nextjs_images/portfolio/portfolio-gun-001.jpg', alt: 'Acu' },
-    { id: 2, src: '/nextjs_images/portfolio/portfolio-gun-002.jpg', alt: 'Advanced Amstripe' },
-    { id: 3, src: '/nextjs_images/portfolio/portfolio-gun-003.jpg', alt: 'Advanced Tigerstripe' },
-    { id: 4, src: '/nextjs_images/portfolio/portfolio-gun-004.jpg', alt: 'Afghan' },
-    { id: 5, src: '/nextjs_images/portfolio/portfolio-gun-005.jpg', alt: 'Airforceabu' },
-    { id: 6, src: '/nextjs_images/portfolio/portfolio-gun-006.jpg', alt: 'Amstripe' },
-    { id: 7, src: '/nextjs_images/portfolio/portfolio-gun-007.jpg', alt: 'Arctic Mirageflage' },
-    { id: 8, src: '/nextjs_images/portfolio/portfolio-gun-008.jpg', alt: 'Barbed Wire' },
-    { id: 9, src: '/nextjs_images/portfolio/portfolio-gun-009.jpg', alt: 'Belgian' },
+    { id: 1, src: '/nextjs_images/portfolio/portfolio-gun-001.jpg', alt: 'MultiCam' },
+    { id: 2, src: '/nextjs_images/portfolio/portfolio-gun-002.jpg', alt: 'Urban Camo' },
+    { id: 3, src: '/nextjs_images/portfolio/portfolio-gun-003.jpg', alt: 'Woodland Camo' },
+    { id: 4, src: '/nextjs_images/portfolio/portfolio-gun-004.jpg', alt: 'Desert Camo' },
+    { id: 5, src: '/nextjs_images/portfolio/portfolio-gun-005.jpg', alt: 'Digital Camo' },
+    { id: 6, src: '/nextjs_images/portfolio/portfolio-gun-006.jpg', alt: 'MultiCam Black' },
+    { id: 7, src: '/nextjs_images/portfolio/portfolio-gun-007.jpg', alt: 'AOR' },
+    { id: 8, src: '/nextjs_images/portfolio/portfolio-gun-008.jpg', alt: 'Kryptek Camo' },
+    { id: 9, src: '/nextjs_images/portfolio/portfolio-gun-009.jpg', alt: 'Urban Tactical' },
   ];
 
   // Define custom styles for text shadows
@@ -30,6 +30,8 @@ const CamoPatterns = () => {
             </div>
           ))}
         </div>
+        <p className="text-white text-base">Popular Cerakote camo options include military-inspired patterns like MultiCam, MultiCam Black, AOR (Area of Responsibility) variants, and Kryptek. Hunters often choose Obscure Camo, TrueTimber, Blaze Orange/Pink integrated patterns, or season-specific camo like Realtree or Sitka. Tactical applications might favor Urban Tactical Camo, Multi-environment Camo, or FDE/Sniper Grey finishes. For a unique look, consider custom combinations of solid Cerakote colors and stencils.</p>
+
       </div>
     </section>
   );

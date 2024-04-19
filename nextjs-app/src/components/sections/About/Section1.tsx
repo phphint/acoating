@@ -24,19 +24,15 @@ const Section1 = () => {
   }, [currentSlide]);
 
   return (
-    <div className="w-full bg-no-repeat bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: "url('/nextjs_images/backgrounds/section-bg.png')", minHeight: '22vh' }}>
-      <div className="text-center">
+    <div className="w-full bg-no-repeat bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: "url('/nextjs_images/backgrounds/section-bg.png')", minHeight: '30vh', maxHeight: '30vh', height: '30vh' }}>
+      <div className="text-center" style={{ height: '100%' }}>
         <img
           src={`/nextjs_images/guns/${serviceLinks[currentSlide].title.replace(/\s+/g, '-').toLowerCase()}.png`}
           alt={serviceLinks[currentSlide].title}
-          className="mx-auto max-h-[27vh] object-contain" // This ensures the image is contained within the viewport height, adjusting as necessary
+          className="mx-auto h-full object-contain" // Using `h-full` to use full height of the parent div
           style={{ maxWidth: "100%" }}
         />
-        <button
-          className="mb-10 mt-4 bg-[#0e2228] text-[#62787b] px-4 py-2 font-semibold   shadow-md hover:bg-[#0f2a30]"
-          onClick={() => window.location.href = serviceLinks[currentSlide].link}>
-          {serviceLinks[currentSlide].title}
-        </button>
+    
       </div>
     </div>
   );
