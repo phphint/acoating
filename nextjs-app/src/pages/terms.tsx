@@ -18,7 +18,7 @@ export default function TermsOfService() {
       <MainMenu />
 
       <main className="py-10 text-[#1F211D]">
-        <div className="container mx-auto bg-[#fefffe] border-[#EFEEED] border p-6 rounded-lg">
+        <div className="container mx-auto bg-[#fefffe] border-[#EFEEED]   p-6  ">
           <h1 className="text-2xl font-bold">Terms of Service</h1>
           <p className="mt-4">Understanding and agreeing to our Terms of Service is essential for all projects undertaken with Acoating.com. Below, find the key policies governing our services.</p>
 

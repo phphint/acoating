@@ -99,10 +99,10 @@ const Footer: React.FC = () => {
     { href: "/services/cerakote-coating/color-codes", icon: faShieldAlt, label: "Firearm Cerakote Colors" },
     { href: "/pricing", icon: faShieldAlt, label: "Firearm Cerakote Cost" },
     { href: "/services/cerakote-coating", icon: faShieldAlt, label: "Affordable Cerakote Services" },
-    { href: "/services/smith-wesson-mp-customization", icon: faShieldAlt, label: "Glock Pistol Cerakote" },
-    { href: "/services/smith-wesson-mp-customization", icon: faShieldAlt, label: "Gun Trigger Upgrade" },
+    { href: "/services/cerakote-coating", icon: faShieldAlt, label: "Glock Pistol Cerakote" },
+    { href: "/pricing", icon: faShieldAlt, label: "Gun Trigger Upgrade" },
     { href: "/services/gunsmithing", icon: faShieldAlt, label: "Gunsmith Services" },
-    { href: "/services/smith-wesson-mp-customization", icon: faShieldAlt, label: " 1911/2011 Pistol Gunsmith" },
+    { href: "/services/custom-1911-2011", icon: faShieldAlt, label: " 1911/2011 Pistol Gunsmith" },
     { href: "/services/custom-remington-700", icon: faShieldAlt, label: "Remington 700 Gunsmith" },
   ].map((item) => (
     <li key={item.href} className="mb-3">

@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
       <MainMenu />
 
       <main className="py-10 text-[#1F211D]">
-        <div className="container mx-auto bg-[#fefffe] border-[#EFEEED] border p-6 rounded-lg">
+        <div className="container mx-auto bg-[#fefffe] border-[#EFEEED] border p-6  ">
           <h1 className="text-2xl font-bold">Privacy Policy</h1>
           <p className="mt-4">At Acoating.com, your privacy is of utmost importance to us. This policy provides detailed information on how we collect, use, and protect your personal data.</p>
 
