@@ -10,6 +10,7 @@ COPY package*.json ./
 # Install dependencies, ensure clean install
 RUN npm install --verbose --force
 
+
 # Copy the rest of your app's source code from your host to your image filesystem.
 COPY . .
 

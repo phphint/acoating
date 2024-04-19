@@ -10,7 +10,7 @@ services:
         NODE_ENV: ${NODE_ENV}
     volumes:
       - ./nextjs-app:/app
-      - /app/node_modules
+      #- /app/node_modules
       - /app/.next  # This line adds a Docker-managed volume for the .next directory
 
     networks:
