@@ -102,7 +102,7 @@ const Footer: React.FC = () => {
     { href: "/services/cerakote-coating", icon: faShieldAlt, label: "Glock Pistol Cerakote" },
     { href: "/pricing", icon: faShieldAlt, label: "Gun Trigger Upgrade" },
     { href: "/services/gunsmithing", icon: faShieldAlt, label: "Gunsmith Services" },
-    { href: "/services/custom-1911-2011", icon: faShieldAlt, label: " 1911/2011 Pistol Gunsmith" },
+    { href: "/services/1911-gunsmith", icon: faShieldAlt, label: " 1911/2011 Pistol Gunsmith" },
     { href: "/services/custom-remington-700", icon: faShieldAlt, label: "Remington 700 Gunsmith" },
   ].map((item, index) => (
     <li key={`${item.href}-${index}`} className="mb-3">
