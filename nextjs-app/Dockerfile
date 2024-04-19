@@ -4,6 +4,10 @@ FROM node:18
 # Set the working directory in the container
 WORKDIR /app
 
+# Increase Node.js max memory size to 4GB
+ENV NODE_OPTIONS="--max-old-space-size=4096"
+
+
 # Copy the package.json and package-lock.json (if available)
 COPY package*.json ./
 
