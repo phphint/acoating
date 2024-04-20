@@ -15,7 +15,7 @@ export default function ShippingInstructions() {
         <Header />
 
         <main className="py-10">
-          <div className="container mx-auto bg-[#FFFFFE] border-[#EFEEED] border p-6 rounded-lg">
+          <div className="container mx-auto bg-[#FFFFFE] border-[#EFEEED] border p-6  ">
             <h1 className="text-2xl font-bold">Prepare Your Firearm for Shipment</h1>
             <p className="mt-4">Ensure your firearm arrives safely and is ready for servicing with our detailed shipping instructions.</p>
 

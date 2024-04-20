@@ -3,19 +3,20 @@ import ServiceTable from '../ServiceTable';
 
 const Gunsmithing: React.FC = () => {
     const services = [
-        { 'service': "Firearm Inspection and Cleaning", 'price': "$80" },
-        { 'service': "Trigger Job - Standard", 'price': "$100" },
-        { 'service': "Sight Installation - Iron Sights", 'price': "$45" },
-        { 'service': "Sight Installation - Optical Sights", 'price': "$55" },
-        { 'service': "Action Smoothing", 'price': "$150" },
-        { 'service': "Barrel Threading", 'price': "$120" },
-        { 'service': "Recoil Pad Installation", 'price': "$70" },
-        { 'service': "Custom Engraving", 'price': "Starts at $200" },
-        { 'service': "Stock Refinishing", 'price': "$130" },
-        { 'service': "Complete Firearm Build/Assembly", 'price': "Varies" }
+        { 'service': "General Services (Pistol/Rifle/Shotgun)", 'price': "$50" },
+        { 'service': "Sight Installation", 'price': "$50+" },
+        { 'service': "Trigger Tuning", 'price': "$50+" },
+        { 'service': "Shop Supplies Minimum per Project", 'price': "$20" },
+        { 'service': "Disassembly and Reassembly", 'price': "$80+" },
+        { 'service': "Metal Defect Repairs/Removal", 'price': "$60+ Supplies" },
+        { 'service': "Press Sights In/Out", 'price': "$40-65" },
+        { 'service': "Masking", 'price': "$30+ Material Cost" },
+        { 'service': "Partial Disassembly/Assembly", 'price': "$30+" }
     ];
 
-    return <ServiceTable category="Gunsmithing Services Pricing" services={services} />;
+    return (
+        <ServiceTable category="Gunsmithing Services Pricing" services={services} />
+    );
 };
 
 export default Gunsmithing;

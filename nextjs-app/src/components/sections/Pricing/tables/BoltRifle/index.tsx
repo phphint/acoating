@@ -3,17 +3,14 @@ import ServiceTable from '../ServiceTable';
 
 const BoltRifle: React.FC = () => {
     const services = [
-        { 'service': "Complete Rifle - Single Color", 'price': "$280" },
-        { 'service': "Barrel Only - Single Color", 'price': "$100" },
-        { 'service': "Action & Receiver - Single Color", 'price': "$130" },
-        { 'service': "Stock Only - Single Color", 'price': "$130" },
-        { 'service': "Complete Rifle - Two-Tone", 'price': "$330" },
-        { 'service': "Complete Rifle - Camouflage (up to 3 colors)", 'price': "$380" },
-        { 'service': "Custom Graphic or Pattern", 'price': "Starts at $400" },
-        { 'service': "Precision Masking for Accuracy Preservation", 'price': "$50" },
+        { 'service': "Single Color - Complete Bolt Rifle", 'price': "$295" },  // Simplest option, one color over the entire rifle
+        { 'service': "Bi-Color - Complete Bolt Rifle", 'price': "$350" },  // Two colors used on the rifle for a distinct look
+        { 'service': "Camo Pattern - Complete Bolt Rifle", 'price': "$400" }  // The most complex option involving camouflage patterns
     ];
 
-    return <ServiceTable category="BoltRifle Cerakote Pricing" services={services} />;
+    return (
+        <ServiceTable category="Bolt Rifle Cerakote Pricing" services={services} />
+    );
 };
 
 export default BoltRifle;

@@ -30,7 +30,7 @@ const TestimonialsSection: React.FC = () => {
                 <div className="w-8 h-8 bg-green-500 rounded-full"></div>
                 {/* More swatches */}
               </div>
-              <Link href="/pricing/faq/shipping-instructions" passHref>
+              <Link href="/services/cerakote-coating/color-codes" passHref>
                 <button className="text-white border-white border py-2 px-4 mt-4 hover:bg-white hover:text-black transition-colors">
                   See Cerakote Colors
                 </button>

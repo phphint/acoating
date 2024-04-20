@@ -3,18 +3,13 @@ import ServiceTable from '../ServiceTable';
 
 const ARVariant: React.FC = () => {
     const services = [
-        { 'service': "Single Color - Entire Rifle", 'price': "$250" },
-        { 'service': "Two-Tone Color - Rifle", 'price': "$300" },
-        { 'service': "Multi-Color Camouflage Pattern", 'price': "$400" },
-        { 'service': "Custom Design Patterns", 'price': "Starts at $450" },
-        { 'service': "Upper or Lower Receiver Only", 'price': "$150" },
-        { 'service': "Barrel Only", 'price': "$100" },
-        { 'service': "Stock - Single Color", 'price': "$80" },
-        { 'service': "Add-on: Tactical Markings", 'price': "$50" }
+        { 'service': "Single Color - Complete AR", 'price': "$450" },  // Basic single color application for the entire AR
+        { 'service': "Bi-Color - Complete AR", 'price': "$500" },  // Two colors used on the AR for enhanced aesthetics
+        { 'service': "Camo Pattern - Complete AR", 'price': "$550" }  // Camouflage patterns for a tactical or custom look
     ];
 
     return (
-        <ServiceTable category="ARVariant Cerakote Pricing" services={services} />
+        <ServiceTable category="AR Variant Cerakote Pricing" services={services} />
     );
 };
 

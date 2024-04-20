@@ -3,12 +3,9 @@ import ServiceTable from '../ServiceTable';
 
 const SemiAuto: React.FC = () => {
     const services = [
-        { 'service': "Single Color", 'price': "$200" },  // Standard single color Cerakote application for semi-auto firearms
-        { 'service': "Two-Tone Color", 'price': "$240" },  // Two-tone color application
-        { 'service': "Tri-Tone Color", 'price': "$280" },  // Adding a third color for more complex designs
-        { 'service': "Camouflage Pattern (up to 4 colors)", 'price': "$320" },  // Camouflage patterns using up to four colors
-        { 'service': "Custom Airbrush Design", 'price': "Starts at $400" },  // Custom designs that may involve detailed airbrushing
-        { 'service': "Graphic or Thematic Designs", 'price': "Quote based" }  // Specialized graphic or thematic designs (e.g., patriotic themes, wildlife)
+        { 'service': "Single Color - Complete SemiAuto", 'price': "$300" },  // Single color Cerakote for the entire semi-auto firearm
+        { 'service': "Bi-Color - Complete SemiAuto", 'price': "$350" },  // Two color scheme for an enhanced aesthetic
+        { 'service': "Camo Pattern - Complete SemiAuto", 'price': "$400" }  // Camouflage pattern for a tactical or custom appearance
     ];
 
     return (

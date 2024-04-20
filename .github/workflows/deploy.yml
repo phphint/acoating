@@ -18,6 +18,10 @@ jobs:
       with:
         ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
+    - name: Docker System Prune
+      run: ssh -o StrictHostKeyChecking=no root@24.144.69.20 "docker system prune -f --volumes"
+      # This command will remove all unused containers, networks, images (both dangling and unreferenced), and optionally, volumes.
+
     - name: Cleanup old backups
       run: ssh -o StrictHostKeyChecking=no root@24.144.69.20 "cd /mnt/backups && ls -tp | grep -v '/$' | tail -n +2 | xargs -I {} rm -- {}"
       # This command will keep the 5 most recent backups and delete the rest.

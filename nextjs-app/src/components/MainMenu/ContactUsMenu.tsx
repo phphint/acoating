@@ -39,7 +39,7 @@ const ContactUsMenu: React.FC = () => {
             ↳ Printable Form Download
           </div>
         </Link>
-        <Link href="/mail-in-form/shipping-guidelines" passHref>
+        <Link href="/pricing/faq/shipping-instructions" passHref>
           <div className="block px-4 py-2 hover:bg-gray-700 cursor-pointer">
             ↳ Shipping Guidelines
           </div>

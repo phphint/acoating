@@ -7,6 +7,7 @@ import BoltRifle from './BoltRifle';
 import Shotgun from './Shotgun';
 import Gunsmithing from './Gunsmithing';
 import Laser from './Laser';
+ 
 
 const PricingTables = () => {
   return (
@@ -20,6 +21,7 @@ const PricingTables = () => {
         <Shotgun />
         <Gunsmithing />
         <Laser />
+       
       </div>
     </section>
   );

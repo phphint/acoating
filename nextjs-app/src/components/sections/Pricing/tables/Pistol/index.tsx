@@ -3,15 +3,13 @@ import ServiceTable from '../ServiceTable';
 
 const Pistol: React.FC = () => {
     const services = [
-        { 'service': "Single Color", 'price': "$180" }, // Standard single color Cerakote application
-        { 'service': "Two-Tone Color", 'price': "$220" }, // Two-tone color application, distinct primary and secondary colors
-        { 'service': "Camouflage Pattern (up to 3 colors)", 'price': "$280" }, // Camouflage patterns using up to three colors
-        { 'service': "Custom Airbrush Design", 'price': "Starts at $350" }, // Custom airbrush designs, starting price
-        { 'service': "Detailed Airbrush Patterns (complex designs)", 'price': "Quote based" } // More complex airbrush patterns, price on request
+        { 'service': "Single Color - Complete Pistol", 'price': "$265" },  // Single color application for the entire pistol
+        { 'service': "Bi-Color - Complete Pistol", 'price': "$305" },  // Application of two colors for a unique aesthetic
+        { 'service': "Camo Pattern - Complete Pistol", 'price': "$345" }  // Camouflage pattern for enhanced visual appeal
     ];
 
     return (
-        <ServiceTable category="Cerakote Pistol Pricing" services={services} />
+        <ServiceTable category="Pistol Cerakote Pricing" services={services} />
     );
 };
 
