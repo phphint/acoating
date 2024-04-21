@@ -39,7 +39,7 @@ const ShippingHeader: React.FC = () => {
                         Your guide to <b>secure and efficient firearm shipping</b>.
                     </p>
                     <p className="text-sm md:text-base lg:text-lg mb-6 text-[#d5dedc]">
-                        At <b>Acoating</b>, we understand the importance of safety and precision in shipping your firearms. Follow our detailed instructions to ensure your items are prepared correctly for their journey. Whether you're sending in for customization or maintenance, trust in our expertise for a hassle-free experience.
+                        At <b>Acoating</b>, we understand the importance of safety and precision in shipping your firearms. Follow our detailed instructions to ensure your items are prepared correctly for their journey. Whether you&lsquo;re sending in for customization or maintenance, trust in our expertise for a hassle-free experience.
                     </p>
                     <p className="text-lg mb-4 text-[#a99ea6] font-bold text-center lg:text-left">
                         Launch Your Project With Us
