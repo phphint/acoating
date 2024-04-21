@@ -30,7 +30,7 @@ const ServicesMenu: React.FC = () => {
         <Link href="/services/cerakote-coating" className="block px-4 py-2 hover:bg-gray-700">Cerakote Coating</Link>
         <Link href="/services/cerakote-coating/color-codes" className="block px-8 py-2 hover:bg-gray-700">↳ Color Codes</Link>
         <Link href="/services/cerakote-coating/camouflage-patterns" className="block px-8 py-2 hover:bg-gray-700">↳ Camouflage Patterns</Link>
-        <Link href="/services/cerakote-coating/custom-airbrush-designs" className="block px-8 py-2 hover:bg-gray-700">↳ Custom Airbrush Designs</Link>
+        <Link href="/services/cerakote-coating/firearm-airbrushing" className="block px-8 py-2 hover:bg-gray-700">↳ Custom Airbrushing</Link>
 
         <Link href="/services/laser-engraving" className="block px-4 py-2 hover:bg-gray-700">Laser Engraving</Link>
 

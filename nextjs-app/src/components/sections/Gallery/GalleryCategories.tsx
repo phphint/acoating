@@ -5,7 +5,7 @@ const GalleryCategories = () => {
     {
       id: 1,
       imgSrc: '/media/popular-services/guns/firearm-engraving.png', // Update with your image path
-      title: 'Pistol',
+      title: '1911 Pistol',
       text: 'Our custom Cerakote coatings, precision laser engraving, and comprehensive gunsmithing services bring out the best in your pistols.',
     },
     {
