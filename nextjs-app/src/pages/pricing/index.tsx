@@ -4,6 +4,8 @@ import Header from '../../components/Header/Pricing'; // Adjust if you have a sp
 import Layout from '../../components/Layout'; // Reusable layout component
 import PricingTables from '../../components/sections/Pricing/tables'; // Reusable layout component
 import PricingFaqs from '../../components/sections/Pricing/PricingFaqs'; // Reusable layout component
+import BulkRushPricing from '../../components/sections/Pricing/BulkRushPricing';  // Adjust the path according to your file structure
+
 
 const PricingPage: React.FC = () => {
   return (
@@ -23,7 +25,7 @@ const PricingPage: React.FC = () => {
 
       </Head>
       <Header />
-
+<BulkRushPricing/>
       <PricingTables/>
       <PricingFaqs/>
       <div>

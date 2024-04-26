@@ -36,7 +36,7 @@ const ContactUsMenu: React.FC = () => {
         {/* Corrected Next.js Link usage */}
         <Link href="/mail-in-form/printable-form" passHref>
           <div className="block px-4 py-2 hover:bg-gray-700 cursor-pointer">
-            ↳ Printable Form Download
+            ↳ Download Order Form
           </div>
         </Link>
         <Link href="/pricing/faq/shipping-instructions" passHref>

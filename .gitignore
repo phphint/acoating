@@ -1,3 +1,8 @@
 postgres-data/
 .env
 proxy/
+# Ignore everything in the strapi-cms directory
+strapi-cms/*
+
+# But not the Dockerfile
+!strapi-cms/Dockerfile

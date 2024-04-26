@@ -4,6 +4,8 @@ import Layout from '../../../components/Layout'; // Reusable layout component
 import CamoPortfolio from '../../../components/sections/Camouflage/CamoPortfolio'; // Component for showcasing camo pattern portfolio
 import CamoPatterns from '../../../components/sections/Camouflage/CamoPatterns'; // Component for listing camo patterns
 import CamoCTA from '../../../components/sections/Camouflage/CamoCTA'; // Call-to-action component related to camo patterns
+import CamoBanner from '../../../components/sections/Camouflage/CamoBanner'; // Component for showcasing camo pattern portfolio
+
 
 const CamouflagePatternsPage: React.FC = () => {
   return (
@@ -21,6 +23,7 @@ const CamouflagePatternsPage: React.FC = () => {
         <link rel="canonical" href="https://www.acoating.com/camouflage-patterns" />
       </Head>
 <CamoPortfolio/>
+<CamoBanner/>
       <CamoPatterns />
       <CamoCTA />
     </Layout>

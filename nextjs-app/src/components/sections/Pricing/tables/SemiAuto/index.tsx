@@ -1,15 +1,89 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ServiceTable from '../ServiceTable';
+import Modal from '../../../../../components/Modal';
+import Link from 'next/link';
+
+// Define a separate component for the modal's content
+const ModalDescription: React.FC = () => {
+    return (
+        <>
+            <h2 className="text-lg font-bold text-gray-800">Overview</h2>
+            <p className="text-sm text-gray-700">Explore comprehensive details about our Cerakote application services for semi-automatic firearms, designed to enhance both the aesthetic and functional qualities of your firearms.</p>
+
+            <h3 className="text-lg font-bold text-gray-800 mt-4">Service Options</h3>
+            <p className="text-sm text-gray-700"><strong>Single Color:</strong> Covers the slide, frame, slide release, safety features, and other components. Specific components like the barrel may be added with additional costs.</p>
+            <p className="text-sm text-gray-700"><strong>Bi-Tone Color:</strong> Features primary and secondary colors applied to different parts for a custom look. Includes detailed process information and component handling precautions.</p>
+            <p className="text-sm text-gray-700"><strong>Camouflage:</strong> Detailed camouflage patterns applied with precision across multiple layers. Extensive process coverage including the use of specialized jigs and additional equipment.</p>
+
+            <h3 className="text-lg font-bold text-gray-800 mt-4">Important Notes</h3>
+            <ul className="list-disc list-inside space-y-1 text-sm text-gray-600">
+                <li>Sights that are staked in (e.g., Springfield Xd&lsquo;s) are taped off and NOT removed from the slide; they are coated as part of the slide to prevent damage.</li>
+                <li>Trigger shoe assemblies with built-in safeties are NOT coated to maintain functional operation.</li>
+                <li>All internal parts and sights must be removed prior to service to avoid additional disassemble and reassemble charges. If DIY degrease is not done before sending in parts, additional costs will apply.</li>
+            </ul>
+
+            <h3 className="text-lg font-bold text-gray-800 mt-4">Camo Patterns Available</h3>
+            <ul className="list-disc list-inside space-y-1 text-sm text-gray-600">
+                <li>Multi-Cam</li>
+                <li>Kryptek (Nomad)</li>
+                <li>Woodland Camo</li>
+                <li>Digital</li>
+                <li>Tiger Stripe</li>
+            
+                <li>Battleworn Finish</li>
+              
+            </ul>
+
+            <p className="text-sm text-gray-700 mt-2">For more color options and detailed service descriptions, please visit our <Link href="/services/cerakote-coating" className="text-blue-500 hover:text-blue-700"> Cerakote colors page </Link>.</p>
+        </>
+    );
+};
 
 const SemiAuto: React.FC = () => {
+    const [isModalOpen, setModalOpen] = useState(false);
+
     const services = [
-        { 'service': "Single Color - Complete SemiAuto", 'price': "$300" },  // Single color Cerakote for the entire semi-auto firearm
-        { 'service': "Bi-Color - Complete SemiAuto", 'price': "$350" },  // Two color scheme for an enhanced aesthetic
-        { 'service': "Camo Pattern - Complete SemiAuto", 'price': "$400" }  // Camouflage pattern for a tactical or custom appearance
+        { 'service': "Single Color - Complete SemiAuto", 'price': "$300" },
+        { 'service': "Bi-Color - Complete SemiAuto", 'price': "$350" },
+        { 'service': "Camo Pattern - Complete SemiAuto", 'price': "$400" },
+        { 'service': "Disassembly / Reassembly", 'price': "$75" },  // General service for all parts
+        { 'service': "Barrel", 'price': "$80" },  // Includes polishing of the feed ramp
+        { 'service': "Slide", 'price': "$100" },  // Coating of the slide
+        { 'service': "Frame Only", 'price': "$120" },  // Coating of the main frame
+        { 'service': "Controls (Each)", 'price': "$30-35" },  // Includes magazine release, slide stop lever
+        { 'service': "Trigger", 'price': "$25" },  // Coating of the trigger component
+        { 'service': "Magazine Baseplate", 'price': "$20" },  // Coating of the baseplate of the magazine
+        { 'service': "Complete Internal Overhaul and Polishing", 'price': "$80+" },  // Trigger job and internal polishing
+        { 'service': "Cerakote Rebrush (Frame and Slide)", 'price': "$40" },  // Additional cost for a rebrush finish
+        { 'service': "Custom Graphics and Markings", 'price': "$60+" },  // Custom designs, logos, or text
+        { 'service': "Enhanced Durability Coating for High Wear Parts", 'price': "$50+" },  // High wear areas like the slide rail
+        { 'service': "Optics Installation", 'price': "$45" },  // Mounting and alignment, excluding cost of the optics
+        { 'service': "Extended Controls Package", 'price': "$70" },  // Extended slide stop lever, extended mag release
+        { 'service': "Grip Enhancement", 'price': "$90" },  // Texturing and stippling for improved grip
+        { 'service': "Night Sights Installation", 'price': "$55" }  // Excludes the cost of the sights
     ];
+    
 
     return (
-        <ServiceTable category="SemiAuto Cerakote Pricing" services={services} />
+        <div>
+            <ServiceTable category="SemiAuto Cerakote Pricing" services={services} />
+            <p className="mt-4 text-white">
+               
+                <button 
+                    onClick={() => setModalOpen(true)}
+                    className="text-white underline pl-1 hover:text-gray-300"
+                >
+                    More Details
+                </button>.
+            </p>
+            
+            <Modal 
+                title="Detailed SemiAuto Coating Information"
+                description={<ModalDescription />}
+                isOpen={isModalOpen}
+                onClose={() => setModalOpen(false)}
+            />
+        </div>
     );
 };
 

@@ -1,4 +1,3 @@
-// ServicesOverview.tsx
 import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image'; // Import the Image component for optimized images
@@ -15,9 +14,8 @@ const ServicesOverview: React.FC = () => {
       {/* Container for the row of columns */}
       <div className="container mx-auto mt-10">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-left">
-          {/* Adjustments for responsive image fitting */}
           {/* Firearm Cerakote Coating */}
-          <div className="flex flex-col gap-4 items-center">
+          <Link href="/services/cerakote-coating" className="flex flex-col gap-4 items-center cursor-pointer">
             <div className="relative h-56 w-full bg-cover bg-center" style={{ backgroundImage: `url('/nextjs_images/backgrounds/wood-bg-1.png')` }}>
               <Image src="/nextjs_images/guns/cerkote-coatings.png" alt="Cerakote Coatings" layout="fill" objectFit="contain" />
             </div>
@@ -25,10 +23,10 @@ const ServicesOverview: React.FC = () => {
               <h3 className="text-[#431709] font-bold">Firearm Cerakote Coating</h3>
               <p className="text-[#307278]">Elevate your firearm with durable, stylish Cerakote coatings. Known for corrosion and wear resistance, Cerakote ensures your weapon&lsquo;s longevity. Personalize with a spectrum of colors.</p>
             </div>
-          </div>
+          </Link>
 
           {/* Firearm Laser Engraving */}
-          <div className="flex flex-col gap-4 items-center">
+          <Link href="/services/laser-engraving" className="flex flex-col gap-4 items-center cursor-pointer">
             <div className="relative h-56 w-full bg-cover bg-center" style={{ backgroundImage: `url('/nextjs_images/backgrounds/wood-bg-2.png')` }}>
               <Image src="/media/popular-services/guns/firearm-engraving.png" alt="Laser Engraving" layout="fill" objectFit="contain" />
             </div>
@@ -36,10 +34,10 @@ const ServicesOverview: React.FC = () => {
               <h3 className="text-[#431709] font-bold">Firearm Laser Engraving</h3>
               <p className="text-[#307278]">Personalize with precision laser engraving. Perfect for unique customization and identification, our service offers detailed, lasting engravings for any firearm.</p>
             </div>
-          </div>
+          </Link>
 
           {/* Gunsmithing */}
-          <div className="flex flex-col gap-4 items-center">
+          <Link href="/services/gunsmithing" className="flex flex-col gap-4 items-center cursor-pointer">
             <div className="relative h-56 w-full bg-cover bg-center" style={{ backgroundImage: `url('/nextjs_images/backgrounds/wood-bg-3.png')` }}>
               <Image src="/media/popular-services/guns/gunsmithing.png" alt="Gunsmithing" layout="fill" objectFit="contain" />
             </div>
@@ -47,7 +45,7 @@ const ServicesOverview: React.FC = () => {
               <h3 className="text-[#431709] font-bold">Gunsmithing</h3>
               <p className="text-[#307278]">Trust our experts for top-notch gunsmithing. From routine maintenance to bespoke modifications, we ensure your firearm&lsquo;s peak performance.</p>
             </div>
-          </div>
+          </Link>
         </div>
 
         <LogosRow/>
@@ -57,4 +55,3 @@ const ServicesOverview: React.FC = () => {
 };
 
 export default ServicesOverview;
- 
