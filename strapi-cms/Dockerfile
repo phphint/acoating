@@ -7,20 +7,22 @@ RUN apk add --no-cache git
 # Set the working directory in the container
 WORKDIR /app
 
-# Copy the package.json and yarn.lock files
-COPY package.json yarn.lock ./
+# Copy only the package.json and package-lock.json to utilize Docker cache layering
+# This assumes you have a package-lock.json; if not, it will be generated in the npm install step
+COPY package.json package-lock.json* ./
 
-# Copy workspace directories if your Strapi project uses them
-COPY packages packages
-
-# Install dependencies using Yarn in production mode
-RUN yarn install --production --ignore-scripts --non-interactive
+# Install dependencies using npm in production mode
+RUN npm install --production
 
 # Copy the rest of your application's code
 COPY . .
 
+# If the application uses a 'packages' directory, make sure it exists; otherwise, remove this line.
+# If this line is necessary, and the directory is missing, you need to check your project structure.
+# COPY packages packages
+
 # Build the Strapi project (if necessary)
-RUN yarn build
+RUN npm run build
 
 # Expose port 1337 to the outside once the container is launched
 EXPOSE 1337
@@ -29,4 +31,4 @@ EXPOSE 1337
 ENV NODE_ENV production
 
 # Run the app in production mode
-CMD ["yarn", "start"]
+CMD ["npm", "start"]
