@@ -26,21 +26,33 @@ services:
     restart: always                 # Ensure the container always restarts
 
 
-  postgres:
-    container_name: postgres
-    image: postgres:16.2
+  strapi:
+    build:
+      context: ./strapi-cms  # Local path to the cloned repository
+      dockerfile: Dockerfile  # Ensure this Dockerfile is in the root of your repo
+    container_name: strapi-app
+    environment:
+     DATABASE_CLIENT: postgres
+     DATABASE_NAME: ${STRAPI_DATABASE_NAME}
+     DATABASE_USERNAME: ${STRAPI_DATABASE_USERNAME}
+     DATABASE_PASSWORD: ${STRAPI_DATABASE_PASSWORD}
+     DATABASE_HOST: postgres  # This should match the service name of PostgreSQL in Docker Compose
+     DATABASE_PORT: ${DATABASE_PORT}  # Ensure this matches the port exposed by the PostgreSQL service, typically 5432
+     DATABASE_SSL: false
+     NODE_ENV: ${NODE_ENV}
+     VIRTUAL_HOST: strapi.acoating.com
+     LETSENCRYPT_HOST: strapi.acoating.com
+     LETSENCRYPT_EMAIL: jason@mavacode.com
     volumes:
-      - ./postgres-data:/var/lib/postgresql/data
+      - strapi-data:/app  # Mounts the volume to the application directory
+    ports:
+      - "1337:1337"
     networks:
       - proxy_app-network
-    environment:
-      POSTGRES_DB: ${POSTGRES_DB}
-      POSTGRES_USER: ${POSTGRES_USER}
-      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    depends_on:
+      - postgres
     restart: always
-
-volumes:
-  postgres-data:
+    mem_limit: 512m  # Limit memory to 512 MB
 
 networks:
   proxy_app-network:
