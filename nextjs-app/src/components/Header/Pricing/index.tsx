@@ -50,10 +50,10 @@ const Header: React.FC = () => {
             <p className="text-sm lg:text-base mb-4 text-[#a09183]">
               Explore our expert Cerakote coatings, laser engraving, and comprehensive gunsmithing services to personalize and enhance your firearms.
             </p>
-            <Link href="/pricing/faq/shipping-instructions">
-  <button className="bg-[#35352e] text-[#fef8bc] border border-[#969e9e] py-2 px-4">
+            <Link href="/pricing/faq/shipping-instructions" className="bg-[#35352e] text-[#fef8bc] border border-[#969e9e] py-2 px-4">
+ 
     Ship Us Your Firearm
-  </button>
+ 
 </Link>
           </div>
         </div>

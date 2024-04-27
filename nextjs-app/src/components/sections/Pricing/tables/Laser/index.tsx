@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import ServiceTable from '../ServiceTable';
 import Modal from '../../../../../components/Modal';  // Adjust the import path as needed
+import Link from 'next/link';
+
  
 const ModalDescription: React.FC = () => {
     return (
@@ -20,7 +22,9 @@ const ModalDescription: React.FC = () => {
             <h4 className="text-md font-bold text-gray-700">Why Choose Our Engraving Services?</h4>
             <p className="text-sm text-gray-700">Laser engraving not only enhances the aesthetic appeal of your firearm but also increases its value and uniqueness. Our precise engraving techniques ensure high-quality results that are durable and meet all regulatory standards.</p>
 
-            <p className="text-sm text-gray-700 mt-2">To learn more about how you can customize your firearm with our laser engraving services or to get a quote, please visit our <a href="/services/laser-engraving" className="text-blue-500 hover:text-blue-700">service page</a> or contact us directly.</p>
+            <p className="text-sm text-gray-700 mt-2">To learn more about how you can customize your firearm with our laser engraving services or to get a quote, please visit our     <Link href="/services/laser-engraving" className="text-blue-500 hover:text-blue-700" passHref>
+     service page 
+    </Link> or contact us directly.</p>
         </>
     );
 };
