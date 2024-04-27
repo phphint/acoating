@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 
 interface ModalProps {
     title: string;
-    description: string;
+    description: React.ReactNode;
     isOpen: boolean;
     onClose: () => void;
 }
