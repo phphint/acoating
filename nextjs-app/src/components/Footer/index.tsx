@@ -13,7 +13,7 @@ import Link from "next/link"; // Import the Link component
 const Logo = () => (
   <Link href="/">
   
-     <img src="/nextjs_images/logo-trans-white.png" alt="Logo" className="h-auto w-auto mb-3" />
+     <img src="/nextjs_images/logo-white.svg" alt="Logo" className="h-auto w-auto mb-3" style={{ height: '7.4rem' }}  />
     
   </Link>
 );

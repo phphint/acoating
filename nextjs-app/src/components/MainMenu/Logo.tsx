@@ -2,6 +2,7 @@
 import React from 'react';
 import Link from 'next/link';  // Import Link from Next.js
 
+
 interface LogoProps {
   src: string;
   alt: string;

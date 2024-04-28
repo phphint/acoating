@@ -9,7 +9,7 @@ const Header: React.FC = () => {
     <header
       className="relative z-10 overflow-visible -mb-8" // Changed to overflow-visible to allow image overflow
       style={{ 
-        backgroundImage: `url('/nextjs_images/backgrounds/section-bg-pricing2.png')`, 
+        backgroundImage: `url('/nextjs_images/backgrounds/section-bg-pricing2.webp')`, 
         backgroundColor: '#3b3a2f',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center top',
@@ -22,7 +22,7 @@ const Header: React.FC = () => {
       <div 
         className="container mx-auto flex flex-col items-center justify-center px-4 py-8 text-center pt-40"
         style={{
-          backgroundImage: `url('/nextjs_images/backgrounds/section-container-bg-pricing.png')`,
+          backgroundImage: `url('/nextjs_images/backgrounds/section-container-bg-pricing.webp')`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           backgroundRepeat: 'no-repeat',
