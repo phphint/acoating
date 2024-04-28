@@ -1,4 +1,3 @@
-// ServicesOverview.tsx
 import React from 'react';
 import Image from 'next/image';
 
@@ -11,21 +10,29 @@ const ServicesHeader: React.FC = () => {
            marginTop: '-8rem', // Adjusted top margin
          }}>
 
-      {/* Title with custom size, color, and a heavy dark drop shadow */}
-      <h1 className="text-8xl font-bold" style={{ 
+      {/* Responsive Title with custom size, color, and a heavy dark drop shadow */}
+      <h1 className="font-bold" style={{ 
           color: '#88c7cb', 
-          marginTop: '110rem',
           textShadow: '0 4px 6px rgba(0, 0, 0, 0.8)', // Heavy dark drop shadow
+          fontSize: 'calc(5vw + 1.5rem)', // Responsive font size based on viewport width
+          marginTop: 'calc(5vw + 30rem)'
         }}>
-        Cerekote Color Codes
+        Cerakote Color Codes
       </h1>
 
       {/* Adjusting the image container */}
       <div className="relative w-full flex justify-center mt-0"> 
-        {/* Container for the image without forcing aspect ratio preservation */}
-        <div className="relative h-[155vh] w-full max-w-4xl"> 
-          {/* Image without objectFit to allow natural aspect ratio */}
-          <Image src="/nextjs_images/guns/glock-17.png" alt="Service Overview" layout="responsive" width={500} height={300} objectPosition="center" />
+        {/* Responsive container for the image */}
+        <div className="relative h-auto w-full max-w-4xl"> 
+          {/* Responsive Image with natural aspect ratio */}
+          <Image 
+            src="/nextjs_images/guns/glock-17.png" 
+            alt="Service Overview" 
+            layout="responsive" 
+            width={500} 
+            height={300} 
+            objectPosition="center"
+          />
         </div>
       </div>
     </div>

@@ -57,7 +57,7 @@ const Services = () => {
           
           </Link>
           {/* Custom Airbrush Designs */}
-          <Link href="/services/cerakote-coating/custom-airbrush-designs" passHref>
+          <Link href="/services/cerakote-coating/firearm-airbrushing" passHref>
          
               <div className="bg-[#332212] shadow-md relative">
                 <div className="h-48 bg-cover bg-center relative flex justify-center items-center" style={{ backgroundImage: "url('/nextjs_images/backgrounds/card-bg3-2.png')" }}>

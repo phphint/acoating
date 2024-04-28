@@ -5,6 +5,7 @@ import Layout from '../../../../components/Layout'; // Reusable layout component
 import ColorOverview from '../../../../components/sections/CerakoteColors/ColorOverview'; // Overview of Cerakote colors
 import FirstRow from '../../../../components/sections/CerakoteColors/FirstRow'; // Overview of Cerakote colors
 import SecondRow from '../../../../components/sections/CerakoteColors/SecondRow'; // Overview of Cerakote colors
+import ColorCodes from '../../../../components/sections/CerakoteColors/ColorCodes'; // Overview of Cerakote colors
 
 const CerakoteColorCodePage: React.FC = () => {
   return (
@@ -25,6 +26,7 @@ const CerakoteColorCodePage: React.FC = () => {
       <div style={{ backgroundImage: `url('/media/colors-bg.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <FirstRow/>
       <SecondRow/>
+      <ColorCodes/>
         <ColorOverview />
   
       </div>

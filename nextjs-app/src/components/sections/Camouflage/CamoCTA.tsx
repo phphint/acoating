@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';  // Importing the Next.js Link component
 
 const CamoCTA = () => {
   return (
@@ -14,21 +15,27 @@ const CamoCTA = () => {
         <div className="w-full md:w-1/2 flex flex-col md:flex-row justify-between md:pl-8">
           <div className="flex-1 md:pr-4">
             <h2 className="text-3xl font-bold border-b-2 border-[#08232b] pb-2">Explore Pricing Options</h2>
-            <p className="mt-4">
+            <p className="mt-4 mb-4">
               Get detailed information on pricing for our camouflage patterns and customization services to make an informed decision.
             </p>
-            <button className="mt-8 border-2  border-[#0e1816] text-[#0e1816] bg-[#66a1a7] py-2 px-4 hover:bg-[#08232b] hover:text-[#a4d2da] transition-colors duration-300">
-              See Pricing
-            </button>
+            {/* Updated to use Link component */}
+            <Link href="/pricing" className="mt-8 border-2 border-[#0e1816] text-[#0e1816] bg-[#66a1a7] py-2 px-4 hover:bg-[#08232b] hover:text-[#a4d2da] transition-colors duration-300" passHref>
+         
+                See Pricing
+          
+            </Link>
           </div>
           <div className="flex-1 mt-4 md:mt-0 md:pl-4">
             <h2 className="text-3xl font-bold border-b-2 border-[#0e1816] border-[#08232b] pb-2">Cerakote Color Codes</h2>
-            <p className="mt-4">
+            <p className="mt-4 mb-4">
               Explore the wide range of Cerakote color codes available for customizing your firearm to match your personal style.
             </p>
-            <button className="mt-8 border-2 border-[#0e1816]  text-[#0e1816] bg-[#66a1a7] py-2 px-4 hover:bg-[#08232b] hover:text-[#a4d2da] transition-colors duration-300">
-              See Color Codes
-            </button>
+            {/* Updated to use Link component */}
+            <Link href="/services/cerakote-coating/color-codes" className="mt-8 border-2 border-[#0e1816] text-[#0e1816] bg-[#66a1a7] py-2 px-4 hover:bg-[#08232b] hover:text-[#a4d2da] transition-colors duration-300" passHref>
+          
+                See Color Codes
+           
+            </Link>
           </div>
         </div>
       </div>
