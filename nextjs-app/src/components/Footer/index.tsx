@@ -88,7 +88,7 @@ const Footer: React.FC = () => {
   </div>
 
 
-    <div className="p-8" style={{ backgroundImage: `url('/nextjs_images/backgrounds/footer-col-bg.png')` }}>
+    <div className="p-8" style={{ backgroundImage: `url('/nextjs_images/backgrounds/footer-col-bg.webp')` }}>
       <h3 className="font-bold text-lg mb-4 text[#d7dfe3ff] ">Popular </h3>
       <ul className="text-[#d7dfe3ff]">
   {/* For each list item, directly use the Link component without nested <a> tags */}
