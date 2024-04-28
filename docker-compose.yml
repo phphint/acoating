@@ -39,6 +39,8 @@ services:
     restart: always
 
   strapi:
+  env_file:
+      - ../.env
     build:
       context: ./strapi-cms
       dockerfile: Dockerfile
