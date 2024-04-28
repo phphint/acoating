@@ -14,7 +14,7 @@ import ServicesMenu from './ServicesMenu';
 import PricingMenu from './PricingMenu';
 import ContactUsMenu from './ContactUsMenu';
 
-const LogoWhite = () => <img src="/nextjs_images/logo-trans-white.png" alt="Logo" className="h-auto w-auto mb-3 m-4" />;
+const LogoWhite = () => <img src="/nextjs_images/logo-white.svg" alt="Logo" className="h-auto w-auto mb-3 m-4" />;
 
 const MainMenu: React.FC = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);

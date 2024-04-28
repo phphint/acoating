@@ -47,7 +47,7 @@ const Services = () => {
       
               <div className="bg-[#332212] shadow-md relative">
                 <div className="h-48 bg-cover bg-center relative flex justify-center items-center" style={{ backgroundImage: "url('/nextjs_images/backgrounds/intro-bg-2.png')" }}>
-                  <img src="/nextjs_images/guns/firearm-engraving.png" alt="Laser Engraving" style={{ maxWidth: "100%", maxHeight: "100%" }} />
+                  <img src="/nextjs_images/guns/1911-custom-engraving.png" alt="Laser Engraving" style={{ maxWidth: "100%", maxHeight: "100%" }} />
                 </div>
                 <div className="p-4">
                   <h3 className="text-lg text-[#b8bab9] font-semibold mb-2">Firearm Laser Engraving</h3>
@@ -61,7 +61,7 @@ const Services = () => {
          
               <div className="bg-[#332212] shadow-md relative">
                 <div className="h-48 bg-cover bg-center relative flex justify-center items-center" style={{ backgroundImage: "url('/nextjs_images/backgrounds/card-bg3-2.png')" }}>
-                  <img src="/media/popular-services/guns/custom-airbrush.png" alt="Custom Airbrush Designs" style={{ maxWidth: "100%", maxHeight: "100%" }} />
+                  <img src="/media/popular-services/guns/ar-15-customization.png" alt="Custom Airbrush Designs" style={{ maxWidth: "100%", maxHeight: "100%" }} />
                 </div>
                 <div className="p-4">
                   <h3 className="text-lg text-[#b8bab9] font-semibold mb-2">Custom Firearm Airbrush Designs</h3>
