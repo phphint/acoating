@@ -6,7 +6,7 @@ const ServicesHeader: React.FC = () => {
   return (
     <div className="relative z-10 flex flex-col items-center justify-center bg-cover bg-center text-center overflow-hidden"
          style={{ 
-           backgroundImage: `url('/nextjs_images/backgrounds/header-bg-services.png')`,
+           backgroundImage: `url('/nextjs_images/backgrounds/header-bg-services.webp')`,
            maxHeight: '80vh',
            marginTop: '-8rem', // Adjusted top margin
          }}>

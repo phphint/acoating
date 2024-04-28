@@ -29,7 +29,7 @@ const IndexPage: React.FC = () => {
       </Head>
       <Header />
       <LogosRow/>
-      <div className="pb-10" style={{ backgroundImage: `url('/nextjs_images/backgrounds/section-bg-3.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+      <div className="pb-10" style={{ backgroundImage: `url('/nextjs_images/backgrounds/section-bg-3.webp')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
         <Home1 />      
         <ServicesSection/>
         <GallerySlider/>{/* Include Home1 component right after Header */}

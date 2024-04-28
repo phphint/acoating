@@ -6,7 +6,7 @@ const Header: React.FC = () => {
   return (
     <header
       className="relative z-10 overflow-hidden flex items-center justify-center bg-cover bg-center"
-      style={{ backgroundImage: `url('/nextjs_images/backgrounds/header-bg.png')`, height: '88vh' }}
+      style={{ backgroundImage: `url('/nextjs_images/backgrounds/header-bg.webp')`, height: '88vh' }}
     >
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4 lg:px-8 text-center lg:text-left">
         <img 

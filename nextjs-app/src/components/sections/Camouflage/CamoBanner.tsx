@@ -26,7 +26,7 @@ const CamoPortfolio = () => {
   return (
     <section className="w-full bg-no-repeat bg-top relative pt-30"
              style={{
-               backgroundImage: `url('/nextjs_images/backgrounds/camo-banner-bg-2.png')`,
+               backgroundImage: `url('/nextjs_images/backgrounds/camo-banner-bg-2.webp')`,
                backgroundSize: 'cover',
              }}>
       <div className="container mx-auto px-4 py-12 overflow-visible pb-0">

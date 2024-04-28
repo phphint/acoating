@@ -6,7 +6,7 @@ const CerakoteHeader: React.FC = () => {
     <section
       className="w-full bg-cover bg-center"
       style={{
-        backgroundImage: `url('/nextjs_images/cerkote-page/header-bg-cerkote-page.png')`,
+        backgroundImage: `url('/nextjs_images/cerkote-page/header-bg-cerkote-page.webp')`,
         minHeight: '67vh',
         marginTop: '-8rem', // Applying negative top margin to the section
       }}

@@ -9,7 +9,7 @@ const ServicesOverview: React.FC = () => {
   return (
 <div className="w-full bg-cover bg-center text-[#282c30] py-10 px-4 sm:px-6 lg:px-8" 
      style={{ 
-         backgroundImage: "url('/nextjs_images/backgrounds/gunsmithing-page-bg.png')",
+         backgroundImage: "url('/nextjs_images/backgrounds/gunsmithing-page-bg.webp')",
          marginTop: '-8rem',  // Adding negative top margin
          paddingTop: '8rem'    // Adding padding top
      }}>
