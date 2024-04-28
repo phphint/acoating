@@ -9,7 +9,7 @@ import {
   faPaintBrush,
 } from "@fortawesome/free-solid-svg-icons";
 import Link from "next/link"; // Import the Link component
-
+ 
 const Logo = () => (
   <Link href="/">
   
