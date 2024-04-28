@@ -39,11 +39,11 @@ services:
     restart: always
 
   strapi:
-  env_file:
-      - ../.env
     build:
       context: ./strapi-cms
       dockerfile: Dockerfile
+    env_file:
+    - .env
     container_name: strapi-app
     environment:
       DATABASE_CLIENT: postgres
