@@ -11,24 +11,21 @@ WORKDIR /app
 # This assumes you have a package-lock.json; if not, it will be generated in the npm install step
 COPY package.json package-lock.json* ./
 
-# Install dependencies using npm in production mode
-RUN npm install --production
+# Install dependencies using npm
+RUN npm install
 
 # Copy the rest of your application's code
 COPY . .
 
-# If the application uses a 'packages' directory, make sure it exists; otherwise, remove this line.
-# If this line is necessary, and the directory is missing, you need to check your project structure.
-# COPY packages packages
+# Set environment variable to define the mode, defaults to production if not specified
+ARG NODE_ENV=production
+ENV NODE_ENV ${NODE_ENV}
 
-# Build the Strapi project (if necessary)
-RUN npm run build
+# Conditional build step based on environment variable
+RUN if [ "$NODE_ENV" = "production" ]; then npm run build; else npm run develop; fi
 
 # Expose port 1337 to the outside once the container is launched
 EXPOSE 1337
 
-# Set environment variable to production
-ENV NODE_ENV production
-
-# Run the app in production mode
-CMD ["npm", "start"]
+# Command to run the app depends on the NODE_ENV
+CMD if [ "$NODE_ENV" = "production" ]; then npm start; else npm run develop; fi

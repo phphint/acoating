@@ -7,7 +7,7 @@ interface TabContentProps {
 }
 
 const TabContent: React.FC<TabContentProps> = ({ seriesType }) => (
-    <div className="grid grid-cols-4 gap-4">
+    <div className="grid grid-cols-8 gap-4">
         {/* Using a placeholder image for each color slot */}
         <Image src="/nextjs_images/super-grip-sg-100-dt20240115165859855987-thumbnail.jpg" alt={`${seriesType} Color 1`} layout="responsive" width={100} height={100} />
         <Image src="/nextjs_images/super-grip-sg-100-dt20240115165859855987-thumbnail.jpg" alt={`${seriesType} Color 2`} layout="responsive" width={100} height={100} />
@@ -18,6 +18,18 @@ const TabContent: React.FC<TabContentProps> = ({ seriesType }) => (
         <Image src="/nextjs_images/super-grip-sg-100-dt20240115165859855987-thumbnail.jpg" alt={`${seriesType} Color 6`} layout="responsive" width={100} height={100} />
         <Image src="/nextjs_images/super-grip-sg-100-dt20240115165859855987-thumbnail.jpg" alt={`${seriesType} Color 7`} layout="responsive" width={100} height={100} />
         <Image src="/nextjs_images/super-grip-sg-100-dt20240115165859855987-thumbnail.jpg" alt={`${seriesType} Color 8`} layout="responsive" width={100} height={100} />
+           {/* Using a placeholder image for each color slot */}
+           <Image src="/nextjs_images/super-grip-sg-100-dt20240115165859855987-thumbnail.jpg" alt={`${seriesType} Color 1`} layout="responsive" width={100} height={100} />
+        <Image src="/nextjs_images/super-grip-sg-100-dt20240115165859855987-thumbnail.jpg" alt={`${seriesType} Color 2`} layout="responsive" width={100} height={100} />
+        <Image src="/nextjs_images/super-grip-sg-100-dt20240115165859855987-thumbnail.jpg" alt={`${seriesType} Color 3`} layout="responsive" width={100} height={100} />
+        <Image src="/nextjs_images/super-grip-sg-100-dt20240115165859855987-thumbnail.jpg" alt={`${seriesType} Color 4`} layout="responsive" width={100} height={100} />
+        {/* Repeat the pattern above for the second row */}
+        <Image src="/nextjs_images/super-grip-sg-100-dt20240115165859855987-thumbnail.jpg" alt={`${seriesType} Color 5`} layout="responsive" width={100} height={100} />
+        <Image src="/nextjs_images/super-grip-sg-100-dt20240115165859855987-thumbnail.jpg" alt={`${seriesType} Color 6`} layout="responsive" width={100} height={100} />
+        <Image src="/nextjs_images/super-grip-sg-100-dt20240115165859855987-thumbnail.jpg" alt={`${seriesType} Color 7`} layout="responsive" width={100} height={100} />
+        <Image src="/nextjs_images/super-grip-sg-100-dt20240115165859855987-thumbnail.jpg" alt={`${seriesType} Color 8`} layout="responsive" width={100} height={100} />
+
+   
     </div>
 );
 
