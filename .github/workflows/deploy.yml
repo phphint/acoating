@@ -38,8 +38,8 @@ jobs:
       run: |
          ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
          cd /root/GitHub-delivery/ && \
-         docker system prune -f --volumes
-         docker-compose pull && \  # Ensures all images are up-to-date
+         docker system prune -f --volumes &&  \
+         docker-compose pull && \ 
          docker-compose build --pull >> deployment.log 2>&1 && \
          docker-compose up -d --no-deps --build >> deployment.log 2>&1 && \
          docker system prune -f --volumes >> deployment.log 2>&1"
