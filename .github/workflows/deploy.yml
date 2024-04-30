@@ -35,7 +35,7 @@ jobs:
       run: rsync -avz --exclude='/root/.env' --exclude='/root/proxy/' --exclude='/root/strapi-cms/'  --exclude='/root/postgres-data/' -e "ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" ./ root@24.144.69.20:/root/GitHub-delivery/ && ssh -o StrictHostKeyChecking=no root@24.144.69.20 "echo 'Rsync Completed Successfully' &> /root/GitHub-delivery/rsync_log.txt"
 
     - name: Build and Run Docker Compose with Logging
-        run: |
+      run: |
          ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
          cd /root/GitHub-delivery/ && \
          docker-compose pull && \  # Ensures all images are up-to-date
