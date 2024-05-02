@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "cerakote_color_codes",
+  "collectionName": "colors",
   "info": {
-    "singularName": "cerakote-color-code",
-    "pluralName": "cerakote-color-codes",
-    "displayName": "CerakoteColorCode"
+    "singularName": "color",
+    "pluralName": "colors",
+    "displayName": "Color"
   },
   "options": {
     "draftAndPublish": true
@@ -27,7 +27,7 @@
     "name": {
       "type": "string"
     },
-    "colorGroup": {
+    "color": {
       "type": "string"
     }
   }
