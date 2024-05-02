@@ -60,8 +60,7 @@ services:
     volumes:
       - ./strapi-data:/app/public/uploads  # Persistent volume for uploads
       - ./strapi-config:/app/config  # Persistent volume for configurations
-      - ./strapi-api:/app/src/api  # Persistent volume for custom API files
-      - ./strapi-extensions:/app/src/extensions  # Persistent volume for extensions
+
 
     ports:
       - "1337:1337"
