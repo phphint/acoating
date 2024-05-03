@@ -37,31 +37,31 @@ jobs:
 
     - name: Pull Latest Code and Docker Images
       run: |
-          ssh -o StrictHostKeyChecking=no -i root@24.144.69.20 "\
+          ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
           cd /root/GitHub-delivery/ && \
           docker-compose pull"
 
     - name: Build Docker Images
       run: |
-          ssh -o StrictHostKeyChecking=no -i root@24.144.69.20 "\
+          ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
           cd /root/GitHub-delivery/ && \
           docker-compose build --pull >> deployment.log 2>&1"
 
     - name: Stop Running Containers
       run: |
-          ssh -o StrictHostKeyChecking=no -i root@24.144.69.20 "\
+          ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
           cd /root/GitHub-delivery/ && \
           docker-compose down"
 
     - name: Start Containers
       run: |
-          ssh -o StrictHostKeyChecking=no -i root@24.144.69.20 "\
+          ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
           cd /root/GitHub-delivery/ && \
           docker-compose up -d --no-deps --build >> deployment.log 2>&1"
 
       # Optional step for cleanup after deployment, if necessary
     - name: System Cleanup
       run: |
-          ssh -o StrictHostKeyChecking=no -i root@24.144.69.20 "\
+          ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
           cd /root/GitHub-delivery/ && \
           docker system prune -f --volumes >> deployment.log 2>&1"
