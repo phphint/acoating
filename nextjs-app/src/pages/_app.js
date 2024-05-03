@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import '../nextjs_assets/styles/global.css'; // Adjust the path as necessary
+ 
 import '@fortawesome/fontawesome-svg-core/styles.css'; // Import the CSS
 import { config } from '@fortawesome/fontawesome-svg-core';
 

@@ -1,0 +1,55 @@
+.galleryContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .mainImageContainer {
+    width: 85%;
+    height: 800px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+  
+  .arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+  }
+  
+  .arrow:first-child {
+    left: 10px;
+  }
+  
+  .arrow:last-child {
+    right: 10px;
+  }
+  
+  .thumbnailContainer {
+    width: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    overflow-y: auto;
+    height: 800px; /* Adjust based on the height of the main image container */
+  }
+  
+  .thumbnail {
+    width: 100px;
+    height: 75px;
+    cursor: pointer;
+    opacity: 0.6;
+  }
+  
+  .selectedThumbnail {
+    opacity: 1;
+    border: 2px solid blue;
+  }
+  
