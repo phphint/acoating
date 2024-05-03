@@ -37,6 +37,7 @@ jobs:
 
     - name: Build Docker Images
       run: |
+          set -e
           ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
           cd /root/GitHub-delivery/ && \
           docker-compose build --pull >> deployment.log 2>&1"
