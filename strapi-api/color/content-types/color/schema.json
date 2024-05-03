@@ -29,9 +29,6 @@
     "name": {
       "type": "string"
     },
-    "color": {
-      "type": "string"
-    },
     "group": {
       "type": "enumeration",
       "enum": [
