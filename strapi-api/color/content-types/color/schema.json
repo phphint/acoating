@@ -51,6 +51,13 @@
         "Tan",
         "Brown"
       ]
+    },
+    "series": {
+      "type": "enumeration",
+      "enum": [
+        "H",
+        "C"
+      ]
     }
   }
 }
