@@ -28,12 +28,6 @@
     },
     "Description": {
       "type": "text"
-    },
-    "galleries": {
-      "type": "relation",
-      "relation": "oneToMany",
-      "target": "api::gallery.gallery",
-      "mappedBy": "category"
     }
   }
 }

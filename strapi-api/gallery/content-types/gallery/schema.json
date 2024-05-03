@@ -31,9 +31,8 @@
     },
     "category": {
       "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::category.category",
-      "inversedBy": "galleries"
+      "relation": "oneToOne",
+      "target": "api::category.category"
     }
   }
 }
