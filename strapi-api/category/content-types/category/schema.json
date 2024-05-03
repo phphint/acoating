@@ -15,12 +15,6 @@
     "Name": {
       "type": "text"
     },
-    "gallery": {
-      "type": "relation",
-      "relation": "manyToOne",
-      "target": "api::gallery.gallery",
-      "inversedBy": "categories"
-    },
     "Image": {
       "type": "media",
       "multiple": false,
@@ -34,6 +28,12 @@
     },
     "Description": {
       "type": "text"
+    },
+    "galleries": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::gallery.gallery",
+      "mappedBy": "category"
     }
   }
 }
