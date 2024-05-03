@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "price_tables",
+  "info": {
+    "singularName": "price-table",
+    "pluralName": "price-tables",
+    "displayName": "PriceTable"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "entries": {
+      "displayName": "ServicePrice",
+      "type": "component",
+      "repeatable": true,
+      "component": "default.service-price",
+      "required": true
+    }
+  }
+}
