@@ -29,10 +29,16 @@
     "Description": {
       "type": "text"
     },
-    "category": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::category.category"
+    "Category": {
+      "type": "enumeration",
+      "enum": [
+        "Pistol 1911",
+        "Semi Auto",
+        "Revolver",
+        "AR Variant",
+        "Bolt Rifle",
+        "Shotgun"
+      ]
     }
   }
 }
