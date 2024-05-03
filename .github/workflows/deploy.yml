@@ -51,7 +51,7 @@ jobs:
       run: |
           ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
           cd /root/GitHub-delivery/ && \
-          docker-compose up -d --no-deps --build >> deployment.log 2>&1"
+          docker-compose up -d --build >> deployment.log 2>&1"
 
       # Optional step for cleanup after deployment, if necessary
     - name: System Cleanup
