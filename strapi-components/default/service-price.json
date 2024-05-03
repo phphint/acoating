@@ -1,15 +1,18 @@
 {
   "collectionName": "components_default_service_prices",
   "info": {
-    "displayName": "ServicePrice"
+    "displayName": "ServicePrice",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "Price": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "Service": {
-      "type": "string"
+      "type": "string",
+      "required": true
     }
   }
 }

@@ -24,10 +24,12 @@
       ]
     },
     "code": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "name": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "group": {
       "type": "enumeration",
@@ -47,14 +49,16 @@
         "Gold",
         "Tan",
         "Brown"
-      ]
+      ],
+      "required": true
     },
     "series": {
       "type": "enumeration",
       "enum": [
         "H",
         "C"
-      ]
+      ],
+      "required": true
     }
   }
 }
