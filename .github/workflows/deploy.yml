@@ -35,15 +35,33 @@ jobs:
     - name: Copy files to the server
       run: rsync -avz --exclude='/root/.env' --exclude='/root/proxy/' --exclude='/root/strapi-cms/'  --exclude='/root/postgres-data/' -e "ssh -o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no" ./ root@24.144.69.20:/root/GitHub-delivery/ && ssh -o StrictHostKeyChecking=no root@24.144.69.20 "echo 'Rsync Completed Successfully' &> /root/GitHub-delivery/rsync_log.txt"
 
-    - name: Build and Run Docker Compose with Logging
+    - name: Pull Latest Code and Docker Images
       run: |
-         ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
-         cd /root/GitHub-delivery/ && \
-         docker image prune -a --force && \
-         docker builder prune --force && \
-         docker system prune -f --volumes && \
-         docker-compose pull && \
-         docker-compose build --pull >> deployment.log 2>&1 && \
-         docker-compose down && \
-         docker-compose up -d --no-deps --build >> deployment.log 2>&1 && \
-         docker system prune -f --volumes >> deployment.log 2>&1"
+          ssh -o StrictHostKeyChecking=no -i id_rsa root@24.144.69.20 "\
+          cd /root/GitHub-delivery/ && \
+          docker-compose pull"
+
+    - name: Build Docker Images
+      run: |
+          ssh -o StrictHostKeyChecking=no -i id_rsa root@24.144.69.20 "\
+          cd /root/GitHub-delivery/ && \
+          docker-compose build --pull >> deployment.log 2>&1"
+
+    - name: Stop Running Containers
+      run: |
+          ssh -o StrictHostKeyChecking=no -i id_rsa root@24.144.69.20 "\
+          cd /root/GitHub-delivery/ && \
+          docker-compose down"
+
+    - name: Start Containers
+      run: |
+          ssh -o StrictHostKeyChecking=no -i id_rsa root@24.144.69.20 "\
+          cd /root/GitHub-delivery/ && \
+          docker-compose up -d --no-deps --build >> deployment.log 2>&1"
+
+      # Optional step for cleanup after deployment, if necessary
+    - name: System Cleanup
+      run: |
+          ssh -o StrictHostKeyChecking=no -i id_rsa root@24.144.69.20 "\
+          cd /root/GitHub-delivery/ && \
+          docker system prune -f --volumes >> deployment.log 2>&1"
