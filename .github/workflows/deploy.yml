@@ -60,11 +60,11 @@ jobs:
          docker builder prune --force && \
          docker system prune -f --volumes >> deployment.log 2>&1"
 
-     - name: Prune .git Directory Detached
-       run: |
+    - name: Prune .git Directory Detached
+      run: |
            ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
            screen -dm bash -c 'cd /root/GitHub-delivery/ && git gc --prune=now --aggressive'"
 
-     - name: Backup existing folder with permissions
+    - name: Backup existing folder with permissions
        run: ssh -o ServerAliveInterval=60 -o ServerAliveCountMax=2 -o StrictHostKeyChecking=no root@24.144.69.20 "\
            screen -dm bash -c 'cd /root && tar --numeric-owner --ignore-failed-read --warning=no-file-changed -cpzf /mnt/backups/GitHub-delivery-backup_$(date +%Y%m%d_%H%M%S).tar.gz GitHub-delivery'"
