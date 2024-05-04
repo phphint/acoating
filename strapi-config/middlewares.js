@@ -1,28 +1,39 @@
-module.exports = {
+module.exports = ({ env }) => ({
   settings: {
-    // Keep the existing middleware and add configurations as needed
-    'strapi::body': {
+    parser: {
       enabled: true,
       multipart: true,
       formidable: {
-        maxFileSize: 100 * 1024 * 1024 // Sets the max file size to 100 MB
+        maxFileSize: 100 * 1024 * 1024 // 100 MB
       }
     },
-    // You can configure other middlewares similarly if needed
+    // Include configurations for other middlewares if necessary
+    // For example, if you need specific CORS settings:
+    'strapi::cors': {
+      origin: ['http://example.com'], // specify your frontend URL
+    }
   },
-  // If you need to maintain the loading order
   load: {
-    order: [
+    // Define middleware loading order, if specific ordering is required
+    before: [
+      // List of middlewares that should load before your routes
       'strapi::errors',
       'strapi::security',
       'strapi::cors',
       'strapi::poweredBy',
       'strapi::logger',
       'strapi::query',
-      'strapi::body', // Ensure the parser is correctly positioned in the middleware order
+      'strapi::body', // Correctly positioned to parse body before handling requests
       'strapi::session',
       'strapi::favicon',
       'strapi::public',
     ],
+    order: [
+      // 'Define the order of core middleware load' (if any specific order is needed)
+      // Typically, Strapi's default order is sufficient for most cases
+    ],
+    after: [
+      // List of middlewares to load after your routes if needed
+    ],
   }
-};
+});
