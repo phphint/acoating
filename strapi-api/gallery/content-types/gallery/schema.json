@@ -37,7 +37,10 @@
         "Revolver",
         "AR Variant",
         "Bolt Rifle",
-        "Shotgun"
+        "Shotgun",
+        "Scope",
+        "GunSmith",
+        "Engraving"
       ],
       "required": true
     }
