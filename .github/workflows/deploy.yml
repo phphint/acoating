@@ -25,6 +25,12 @@ jobs:
          docker builder prune --force && \
          docker system prune -f --volumes >> deployment.log 2>&1"
 
+    - name: Prune .git Directory
+      run: |
+         ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
+         cd /root/GitHub-delivery/ && \
+         git gc --prune=now --aggressive"
+
     - name: Cleanup old backups
       run: ssh -o StrictHostKeyChecking=no root@24.144.69.20 "cd /mnt/backups && ls -tp | grep -v '/$' | tail -n +2 | xargs -I {} rm -- {}"
       # This command will keep the 5 most recent backups and delete the rest.
