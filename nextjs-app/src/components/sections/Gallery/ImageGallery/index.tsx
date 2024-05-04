@@ -10,11 +10,13 @@ interface Image {
 // Define a TypeScript interface for props
 interface ImageGalleryProps {
     images: { id: string; url: string; title: string; description: string }[];
-    category: string;
+    category?: string; // Now optional
+
   }
   
 
-const ImageGallery = ({ images, category }: ImageGalleryProps & { category: string }) => {
+  const ImageGallery = ({ images, category }: ImageGalleryProps) => {
+
   const [selectedImage, setSelectedImage] = React.useState(0);
 
   // Check and handle if images array is empty or selectedImage is invalid
@@ -30,7 +32,9 @@ const ImageGallery = ({ images, category }: ImageGalleryProps & { category: stri
 
   return (
     <section className="w-full mt-10">
-      <h2 className="text-6xl font-bold text-white mb-4 text-center">{`${category} Cerakote Gallery`}</h2>
+       <h2 className="text-6xl font-bold text-white mb-4 text-center">
+        {category ? `${category} Cerakote Gallery` : 'Loading Gallery...'}
+      </h2>
       <div className={styles.galleryContainer}>
         <div className={styles.mainImageContainer} style={{ backgroundImage: `url(${currentImage})` }}>
           <button className={styles.arrow} onClick={handlePrev}>&lt;</button>

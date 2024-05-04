@@ -62,8 +62,9 @@ jobs:
          docker builder prune --force && \
          docker system prune -f --volumes >> deployment.log 2>&1"
 
-    - name: Prune .git Directory
+    - name: Prune .git Directory Detached
       run: |
          ssh -o StrictHostKeyChecking=no root@24.144.69.20 "\
          cd /root/GitHub-delivery/ && \
-         git gc --prune=now --aggressive"      
+         nohup git gc --prune=now --aggressive > /dev/null 2>&1 &"
+   
