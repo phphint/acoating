@@ -129,20 +129,20 @@ html, body, #root {
 
  
   /* Custom Color Definitions for Tailwind */
-.bg-red-500 { background-color: #f56565; }
-.bg-orange-500 { background-color: #ed8936; }
-.bg-yellow-500 { background-color: #ecc94b; }
-.bg-green-500 { background-color: #48bb78; }
-.bg-blue-500 { background-color: #4299e1; }
-.bg-purple-500 { background-color: #9f7aea; }
+.bg-red-500 { background-color: #b03d4e; }
+.bg-orange-500 { background-color: #e37d14; }
+.bg-yellow-500 { background-color: #f7ec36; }
+.bg-green-500 { background-color: #157e0c; }
+.bg-blue-500 { background-color: #1043d8; }
+.bg-purple-500 { background-color: #cd26a2; }
 .bg-pink-500 { background-color: #ed64a6; }
 .bg-black-500 { background-color: #000000; } /* Usually, you'd use bg-black in Tailwind for black */
-.bg-white-500 { background-color: #ffffff; } /* Usually, you'd use bg-white in Tailwind for white */
-.bg-silver-500 { background-color: #c0c0c0; }
-.bg-grey-500 { background-color: #a0aec0; } /* Tailwind's gray, usually spelt as bg-gray-500 */
-.bg-bronze-500 { background-color: #cd7f32; }
-.bg-gold-500 { background-color: #ffd700; }
-.bg-tan-500 { background-color: #d2b48c; }
-.bg-brown-500 { background-color: #8b4513; }
+.bg-white-500 { background-color: #ececee; } /* Usually, you'd use bg-white in Tailwind for white */
+.bg-silver-500 { background-color: #bab9ba; }
+.bg-grey-500 { background-color: #6d6d6d; } /* Tailwind's gray, usually spelt as bg-gray-500 */
+.bg-bronze-500 { background-color: #ef993d; }
+.bg-gold-500 { background-color: #f4c630; }
+.bg-tan-500 { background-color: #b5965d; }
+.bg-brown-500 { background-color: #514b33; }
 
 /* To ensure compatibility, consider adding more specific class names or IDs if there's a conflict. */

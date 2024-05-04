@@ -40,6 +40,24 @@ const GalleryCategories = () => {
       title: 'Shotgun',
       text: 'Enhance your shotgun with our custom Cerakote applications, laser engraving services, and comprehensive gunsmithing for reliability and style.',
     },
+    {
+      id: 7,
+      imgSrc: '/nextjs_images/guns/gunsmith-before/gunsmith-before.png', // Replace with the correct image path
+      title: 'Gunsmithing',
+      text: 'Expert gunsmithing services to maintain, repair, and enhance the performance of your firearms.',
+    },
+    {
+      id: 8,
+      imgSrc: '/nextjs_images/guns/lasre-engraving-3.png', // Replace with the correct image path
+      title: 'Laser Engraving',
+      text: 'Precision laser engraving to customize and personalize your firearm with unique designs.',
+    },
+    {
+      id: 9,
+      imgSrc: '/media/popular-services/guns/scopes.png', // Replace with the correct image path
+      title: 'Scopes',
+      text: 'High-quality scopes to improve the accuracy and range of your rifles and firearms.',
+    }
   ];
 
   return (

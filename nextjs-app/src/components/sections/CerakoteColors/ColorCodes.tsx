@@ -2,51 +2,61 @@ import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
 
 interface Color {
-  id: number;
-  code: string;
-  name: string;
-  group: string;
-  series: string;
-  imageUrl: string;
-}
-
-const ColorCodes: React.FC = () => {
-  const [colors, setColors] = useState<Color[]>([]);
-  const [activeTab, setActiveTab] = useState<'c' | 'h'>('c');
-  const [filteredColors, setFilteredColors] = useState<Color[]>([]);
-  const [selectedColor, setSelectedColor] = useState<string | null>(null);
-
-  useEffect(() => {
-    fetch('https://strapi.acoating.com/api/colors?populate=image')
-      .then(response => response.json())
-      .then(data => {
-        const loadedColors = data.data.map((item: any) => ({
-          id: item.id,
-          code: item.attributes.code,
-          name: item.attributes.name,
-          group: item.attributes.group,
-          series: item.attributes.series,
-          imageUrl: `https://strapi.acoating.com${item.attributes.image.data.attributes.url}`,
-        }));
-        setColors(loadedColors);
-        setFilteredColors(loadedColors.filter((color: Color) => color.series.toLowerCase() === activeTab));
-      })
-      .catch(error => console.error('Failed to load colors:', error));
-  }, [activeTab]);
-
-  const handleColorFilter = (group: string) => {
-    if (selectedColor === group) {
+    id: number;
+    code: string;
+    name: string;
+    group: string;
+    series: string;
+    imageUrl: string;
+  }
+  
+  type Series = 'c' | 'h';  // Type alias for series
+  
+  const ColorCodes: React.FC = () => {
+    const [colors, setColors] = useState<Color[]>([]);
+    const [activeTab, setActiveTab] = useState<Series>('c');
+    const [filteredColors, setFilteredColors] = useState<Color[]>([]);
+    const [selectedColor, setSelectedColor] = useState<string | null>(null);
+  
+    useEffect(() => {
+      fetch('https://strapi.acoating.com/api/colors?populate=image')
+        .then(response => response.json())
+        .then(data => {
+          const loadedColors = data.data.map((item: any) => ({
+            id: item.id,
+            code: item.attributes.code,
+            name: item.attributes.name,
+            group: item.attributes.group,
+            series: item.attributes.series,
+            imageUrl: `https://strapi.acoating.com${item.attributes.image.data.attributes.url}`,
+          }));
+          setColors(loadedColors);
+          updateFilteredColors(loadedColors, activeTab);
+        })
+        .catch(error => console.error('Failed to load colors:', error));
+    }, [activeTab]);
+  
+    const updateFilteredColors = (allColors: Color[], series: Series) => {
       setSelectedColor(null);
-      setFilteredColors(colors.filter((color: Color) => color.series.toLowerCase() === activeTab));
-    } else {
-      setSelectedColor(group);
-      setFilteredColors(colors.filter((color: Color) => color.group === group && color.series.toLowerCase() === activeTab));
-    }
-  };
+      setFilteredColors(allColors.filter(color => color.series.toLowerCase() === series));
+    };
+  
+    const handleTabChange = (series: Series) => {
+      setActiveTab(series);
+      updateFilteredColors(colors, series);
+    };
+  
+    const handleColorFilter = (group: string) => {
+      if (selectedColor === group) {
+        updateFilteredColors(colors, activeTab);
+      } else {
+        setSelectedColor(group);
+        setFilteredColors(colors.filter(color => color.group === group && color.series.toLowerCase() === activeTab));
+      }
+    };
 
   const clearFilters = () => {
-    setSelectedColor(null);
-    setFilteredColors(colors.filter((color: Color) => color.series.toLowerCase() === activeTab));
+    updateFilteredColors(colors, activeTab); // Reset to initial state based on active series
   };
 
   return (
@@ -54,10 +64,10 @@ const ColorCodes: React.FC = () => {
       <div className="container mx-auto px-4">
         <h1 className="text-3xl font-bold mb-6">Cerakote Color Codes</h1>
         <div className="flex justify-center space-x-4 mb-6">
-          <button onClick={() => setActiveTab('c')} className={`py-2 px-4 ${activeTab === 'c' ? 'bg-black text-white' : 'bg-transparent text-gray-300 hover:bg-gray-200'}`}>
+          <button onClick={() => handleTabChange('c')} className={`py-2 px-4 ${activeTab === 'c' ? 'bg-black text-white' : 'bg-transparent text-gray-300 hover:bg-gray-200'}`}>
             C-Series
           </button>
-          <button onClick={() => setActiveTab('h')} className={`py-2 px-4 ${activeTab === 'h' ? 'bg-black text-white' : 'bg-transparent text-gray-300 hover:bg-gray-200'}`}>
+          <button onClick={() => handleTabChange('h')} className={`py-2 px-4 ${activeTab === 'h' ? 'bg-black text-white' : 'bg-transparent text-gray-300 hover:bg-gray-200'}`}>
             H-Series
           </button>
         </div>
