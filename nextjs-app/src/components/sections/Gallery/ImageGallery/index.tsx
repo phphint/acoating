@@ -9,8 +9,10 @@ interface Image {
 
 // Define a TypeScript interface for props
 interface ImageGalleryProps {
-  images: Image[];
-}
+    images: { id: string; url: string; title: string; description: string }[];
+    category: string;
+  }
+  
 
 const ImageGallery = ({ images, category }: ImageGalleryProps & { category: string }) => {
   const [selectedImage, setSelectedImage] = React.useState(0);
