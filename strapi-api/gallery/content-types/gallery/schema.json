@@ -40,7 +40,8 @@
         "Shotgun",
         "Scope",
         "GunSmith",
-        "Engraving"
+        "Engraving",
+        "Slider"
       ],
       "required": true
     }
