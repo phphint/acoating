@@ -12,7 +12,7 @@ interface ImageGalleryProps {
   images: Image[];
 }
 
-const ImageGallery = ({ images }: ImageGalleryProps) => {
+const ImageGallery = ({ images, category }: ImageGalleryProps & { category: string }) => {
   const [selectedImage, setSelectedImage] = React.useState(0);
 
   // Check and handle if images array is empty or selectedImage is invalid
@@ -28,7 +28,7 @@ const ImageGallery = ({ images }: ImageGalleryProps) => {
 
   return (
     <section className="w-full mt-10">
-      <h2 className="text-center text-xl text-white">1911 Pistol Cerakote Gallery</h2>
+      <h2 className="text-6xl font-bold text-white mb-4 text-center">{`${category} Cerakote Gallery`}</h2>
       <div className={styles.galleryContainer}>
         <div className={styles.mainImageContainer} style={{ backgroundImage: `url(${currentImage})` }}>
           <button className={styles.arrow} onClick={handlePrev}>&lt;</button>

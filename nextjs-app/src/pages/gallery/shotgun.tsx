@@ -29,19 +29,19 @@ interface ApiResponse {
   data: GalleryItem[];
 }
 
-const Pistol1911GalleryPage: React.FC = () => {
+const ShotgunGalleryPage: React.FC = () => {
   const [images, setImages] = useState<{ id: string, url: string, title: string, description: string }[]>([]);
-  const [categoryName, setCategoryName] = useState<string>('1911 Pistol'); // Default category name
+  const [categoryName, setCategoryName] = useState<string>('Shotgun'); // Default category name
 
   useEffect(() => {
     fetch(
-      'https://strapi.acoating.com/api/galleries?filters[Category][$eq]=Pistol%201911&populate=Image&pagination[start]=0&pagination[limit]=1000'
+      'https://strapi.acoating.com/api/galleries?filters[Category][$eq]=Shotgun&populate=Image&pagination[start]=0&pagination[limit]=1000'
     )
       .then(response => response.json())
       .then((data: ApiResponse) => {
         const loadedImages = data.data.map((item: GalleryItem) => {
           // Set category name from the first item, assuming all items have the same category
-          if (item.attributes.Category && !categoryName) {
+          if (item.attributes.Category && categoryName === 'Shotgun') {
             setCategoryName(item.attributes.Category);
           }
 
@@ -78,4 +78,4 @@ const Pistol1911GalleryPage: React.FC = () => {
   );
 };
 
-export default Pistol1911GalleryPage;
+export default ShotgunGalleryPage;
