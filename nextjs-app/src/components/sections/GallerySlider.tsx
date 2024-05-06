@@ -19,7 +19,7 @@ const GallerySlider = () => {
   useEffect(() => {
     async function fetchImages() {
       try {
-        const response = await fetch('https://strapi.acoating.com/api/galleries?populate=Image&pagination[limit]=5');
+        const response = await fetch('https://strapi.acoating.com/api/galleries?filters[Category][$eq]=Slider&populate=Image&pagination[start]=0&pagination[limit]=1000');
         const data = await response.json();
         const fetchedImages = data.data.flatMap((galleryItem: any) =>
           galleryItem.attributes?.Image?.data?.map((imageData: any) => {
