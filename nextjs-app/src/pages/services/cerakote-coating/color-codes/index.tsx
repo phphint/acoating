@@ -25,7 +25,7 @@ const CerakoteColorCodePage: React.FC = () => {
       <Header />
       <div style={{ backgroundImage: `url('/media/colors-bg.png')`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
       <FirstRow/>
-      <SecondRow/>
+     
       <ColorCodes/>
         <ColorOverview />
   
