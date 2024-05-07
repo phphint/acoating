@@ -15,39 +15,25 @@ type Series = 'C' | 'H';
 const ColorCodes: React.FC = () => {
   const [colors, setColors] = useState<Color[]>([]);
   const [filteredColors, setFilteredColors] = useState<Color[]>([]);
-  const [pagination, setPagination] = useState({ page: 1, pageCount: 1, total: 0 });
   const [activeTab, setActiveTab] = useState<Series>('C');
   const [selectedColor, setSelectedColor] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
-  const [cancelFetch, setCancelFetch] = useState<boolean>(false);
 
-  // Fetch colors based on series and page
-  useEffect(() => {
-    setFilteredColors(colors);
-  }, [colors]);
-  
-  const fetchColors = useCallback(async (series: Series, page: number) => {
-    setCancelFetch(false); // Reset the cancelFetch flag
+  // Fetch colors based on series
+  const fetchColors = useCallback(async (series: Series) => {
     setLoading(true);
     try {
-      const response = await fetch(`https://strapi.acoating.com/api/colors?populate=image&filters[series][$eq]=${series}&pagination[page]=${page}&pagination[pageSize]=50`);
+      const response = await fetch(`https://strapi.acoating.com/api/colors?populate=image&filters[series][$eq]=${series}&pagination[pageSize]=250`);
       const data = await response.json();
-      if (!cancelFetch) { // Check if the fetch should be canceled
-        setPagination({
-          page: data.meta.pagination.page,
-          pageCount: data.meta.pagination.pageCount,
-          total: data.meta.pagination.total,
-        });
-        const newColors = data.data.map((item: any) => ({
-          id: item.id,
-          code: item.attributes.code,
-          name: item.attributes.name,
-          group: item.attributes.group,
-          series: item.attributes.series,
-          imageUrl: `https://strapi.acoating.com${item.attributes.image.data.attributes.url}`,
-        }));
-        setColors(newColors);
-      }
+      const newColors = data.data.map((item: any) => ({
+        id: item.id,
+        code: item.attributes.code,
+        name: item.attributes.name,
+        group: item.attributes.group,
+        series: item.attributes.series,
+        imageUrl: `https://strapi.acoating.com${item.attributes.image.data.attributes.url}`,
+      }));
+      setColors(newColors);
     } catch (error) {
       console.error('Failed to load colors:', error);
     } finally {
@@ -55,22 +41,13 @@ const ColorCodes: React.FC = () => {
     }
   }, []);
 
-  // Effect for fetching colors when tab changes or page changes
+  // Effect for fetching colors when tab changes
   useEffect(() => {
-    const abortController = new AbortController();
-
-    fetchColors(activeTab, pagination.page);
-
-    // Clean up function to cancel the fetch when activeTab or pagination.page changes
-    return () => {
-      abortController.abort(); // Abort the fetch request
-      setCancelFetch(true); // Set the cancelFetch flag to true
-    };
-  }, [activeTab, pagination.page, fetchColors]);
+    fetchColors(activeTab);
+  }, [activeTab, fetchColors]);
 
   const handleTabChange = (series: Series) => {
     setActiveTab(series);
-    setPagination(prev => ({ ...prev, page: 1 })); // Reset to page 1
     clearFilters();
   };
 
@@ -83,12 +60,6 @@ const ColorCodes: React.FC = () => {
   const clearFilters = () => {
     setFilteredColors(colors);
     setSelectedColor(null);
-  };
-
-  const changePage = (newPage: number) => {
-    // Create a copy of the pagination state
-    const updatedPagination = { ...pagination, page: newPage };
-    setPagination(updatedPagination);
   };
 
   return (
@@ -119,16 +90,6 @@ const ColorCodes: React.FC = () => {
                 </div>
               ))}
             </div>
-            {pagination.pageCount > 1 && (
-              <div className="flex justify-between my-4">
-                <button onClick={() => changePage(pagination.page - 1)} disabled={pagination.page === 1} className={`py-2 px-4 ${pagination.page === 1 ? 'bg-[#306069]' : 'bg-white'} text-[#306069]`}>
-                  Previous
-                </button>
-                <button onClick={() => changePage(pagination.page + 1)} disabled={pagination.page === pagination.pageCount} className={`py-2 px-4 ${pagination.page === pagination.pageCount ? 'bg-[#306069]' : 'bg-white'} text-[#306069]`}>
-                  Next
-                </button>
-              </div>
-            )}
           </>
         )}
       </div>
