@@ -15,45 +15,61 @@ type Series = 'C' | 'H';
 const ColorCodes: React.FC = () => {
   const [colors, setColors] = useState<Color[]>([]);
   const [filteredColors, setFilteredColors] = useState<Color[]>([]);
+  const [pagination, setPagination] = useState({ page: 1, pageCount: 1, total: 0 });
   const [activeTab, setActiveTab] = useState<Series>('C');
   const [selectedColor, setSelectedColor] = useState<string | null>(null);
   const [loading, setLoading] = useState(false);
 
-  // Fetch colors based on series
-  const fetchColors = useCallback(async (series: Series) => {
+  const fetchColors = useCallback((series: Series, page: number) => {
     setLoading(true);
-    try {
-      const response = await fetch(`https://strapi.acoating.com/api/colors?populate=image&filters[series][$eq]=${series}&pagination[pageSize]=250`);
-      const data = await response.json();
-      const newColors = data.data.map((item: any) => ({
-        id: item.id,
-        code: item.attributes.code,
-        name: item.attributes.name,
-        group: item.attributes.group,
-        series: item.attributes.series,
-        imageUrl: `https://strapi.acoating.com${item.attributes.image.data.attributes.url}`,
-      }));
-      setColors(newColors);
-    } catch (error) {
-      console.error('Failed to load colors:', error);
-    } finally {
-      setLoading(false);
-    }
+    const abortController = new AbortController();
+    const fetchData = async () => {
+      try {
+        const response = await fetch(`https://strapi.acoating.com/api/colors?populate=image&filters[series][$eq]=${series}&pagination[page]=${page}&pagination[pageSize]=250&sort=code`, {
+          signal: abortController.signal
+        });
+        const data = await response.json();
+        setPagination({
+          page: data.meta.pagination.page,
+          pageCount: data.meta.pagination.pageCount,
+          total: data.meta.pagination.total,
+        });
+        const newColors = data.data.map((item: any) => ({
+          id: item.id,
+          code: item.attributes.code,
+          name: item.attributes.name,
+          group: item.attributes.group,
+          series: item.attributes.series,
+          imageUrl: item.attributes.image && item.attributes.image.data && item.attributes.image.data.attributes ? `https://strapi.acoating.com${item.attributes.image.data.attributes.url}` : '/nextjs_images/logo.svg',
+        }));
+        setColors(newColors);  
+        setFilteredColors(newColors);  
+      } catch (error) {
+        console.error('Failed to load colors:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+    return () => abortController.abort();
   }, []);
 
-  // Effect for fetching colors when tab changes
   useEffect(() => {
-    fetchColors(activeTab);
-  }, [activeTab, fetchColors]);
+    fetchColors(activeTab, pagination.page);
+  }, [activeTab, pagination.page, fetchColors]);
 
   const handleTabChange = (series: Series) => {
-    setActiveTab(series);
-    clearFilters();
+    if (activeTab !== series) { // Only update if series has changed
+      setActiveTab(series);
+      setPagination(prev => ({ ...prev, page: 1 }));
+      setSelectedColor(null);  // Clear selected color on series change
+    }
   };
 
-  const handleColorFilter = (group: string) => {
-    setSelectedColor(group);
-    const filtered = colors.filter(color => color.group === group && color.series === activeTab);
+  const handleColorFilter = (color: string) => {
+    setSelectedColor(color);
+    const filtered = colors.filter(col => col.group === color && col.series === activeTab);
     setFilteredColors(filtered);
   };
 
@@ -61,6 +77,8 @@ const ColorCodes: React.FC = () => {
     setFilteredColors(colors);
     setSelectedColor(null);
   };
+
+
 
   return (
     <div className="bg-[#306069] text-white text-center py-12 pt-0">
@@ -90,6 +108,16 @@ const ColorCodes: React.FC = () => {
                 </div>
               ))}
             </div>
+            {pagination.pageCount > 1 && (
+              <div className="flex justify-between my-4">
+                <button onClick={() => changePage(pagination.page - 1)} disabled={pagination.page === 1} className={`py-2 px-4 ${pagination.page === 1 ? 'bg-[#306069]' : 'bg-white'} text-[#306069]`}>
+                  Previous
+                </button>
+                <button onClick={() => changePage(pagination.page + 1)} disabled={pagination.page === pagination.pageCount} className={`py-2 px-4 ${pagination.page === pagination.pageCount ? 'bg-[#306069]' : 'bg-white'} text-[#306069]`}>
+                  Next
+                </button>
+              </div>
+            )}
           </>
         )}
       </div>

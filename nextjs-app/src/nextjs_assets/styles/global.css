@@ -140,8 +140,8 @@ html, body, #root {
 .bg-white-500 { background-color: #ececee; } /* Usually, you'd use bg-white in Tailwind for white */
 .bg-silver-500 { background-color: #bab9ba; }
 .bg-grey-500 { background-color: #6d6d6d; } /* Tailwind's gray, usually spelt as bg-gray-500 */
-.bg-bronze-500 { background-color: #ef993d; }
-.bg-gold-500 { background-color: #f4c630; }
+.bg-bronze-500 { background-color: #CD7F32; }
+.bg-gold-500 { background-color: #FFD700; }
 .bg-tan-500 { background-color: #b5965d; }
 .bg-brown-500 { background-color: #514b33; }
 
