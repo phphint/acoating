@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import ServiceTable from '../ServiceTable';
 import Modal from '../../../../../components/Modal';
 import Link from 'next/link';
+import useFetchServices from '../../../../../hooks/useFetchServices'; // Ensure correct import path
+
 
 // Define a separate component for the modal's content
 const ModalDescription: React.FC = () => {
@@ -46,28 +48,17 @@ const ModalDescription: React.FC = () => {
 
 const Revolver: React.FC = () => {
     const [isModalOpen, setModalOpen] = useState(false);
-    const services = [
-        { 'service': "Complete Revolver Single Color", 'price': "$200" },
-        { 'service': "Complete Revolver Bi-Color", 'price': "$250" },
-        { 'service': "Complete Revolver Camouflage Pattern", 'price': "$300" },
-        { 'service': "Revolver Frame Cerakote", 'price': "$100" },
-        { 'service': "Revolver Cylinder Cerakote", 'price': "$75" },
-        { 'service': "Revolver Controls and Pins Cerakote", 'price': "$60" },
-        { 'service': "Revolver Small Parts Cerakote", 'price': "$50" },
-        { 'service': "Comprehensive Disassembly + Reassembly", 'price': "$75" },  // Enhanced description for clarity
-        { 'service': "Custom Accent Cerakote", 'price': "$40+" },  // New service for custom accents on specific parts
-        { 'service': "Trigger and Hammer Polish", 'price': "$90" },  // Additional service targeting performance improvements
-        { 'service': "Detailed Cleaning and Inspection", 'price': "$30" },  // Additional maintenance service
-        { 'service': "Rust Prevention Coating", 'price': "$65" }  // Protective service against corrosion
-    ];
-    
-    
+    const { services, loading, error } = useFetchServices('price-tables', 'Revolver Cerakote Pricing');
+
+    // Handle loading and error states
+    if (loading) return <p>Loading services...</p>;
+    if (error) return <p>Error loading services: {error.message}</p>;
 
     return (
         <div>
             <ServiceTable category="Revolver Cerakote Pricing" services={services} />
             <p className="mt-4 text-white">
-                 <button 
+                <button 
                     onClick={() => setModalOpen(true)}
                     className="text-white underline pl-1 hover:text-gray-300"
                 >
@@ -86,3 +77,4 @@ const Revolver: React.FC = () => {
 };
 
 export default Revolver;
+

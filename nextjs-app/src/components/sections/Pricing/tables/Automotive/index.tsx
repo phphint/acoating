@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ServiceTable from '../ServiceTable';
 import Modal from '../../../../../components/Modal';
 import Link from 'next/link';
+import useFetchServices from '../../../../../hooks/useFetchServices'; // Ensure this is the correct path
 
 const ModalDescription: React.FC = () => {
     return (
@@ -30,27 +31,11 @@ const ModalDescription: React.FC = () => {
 
 const AutomotiveParts: React.FC = () => {
     const [isModalOpen, setModalOpen] = useState(false);
+    const { services, loading, error } = useFetchServices('price-tables', 'Automotive Parts Cerakote Pricing');
 
-    const services = [
-        { 'service': "V8 Long Tube Headers Cerakote", 'price': "$350 per Pair" },
-        { 'service': "V8 Short Tube Headers Cerakote", 'price': "$325 per Pair" },
-        { 'service': "V6 Long Tube Headers Cerakote", 'price': "$250 per Pair" },
-        { 'service': "V6 Short Tube Headers Cerakote", 'price': "$200 per Pair" },
-        { 'service': "4 Cylinder Long Tube Header Cerakote", 'price': "$200" },
-        { 'service': "4 Cylinder Short Tube Header Cerakote", 'price': "$150" },
-        { 'service': "Exhaust Downpipes Cerakote", 'price': "$150" },
-        { 'service': "Turbo Housing Cerakote (Hot Side)", 'price': "$150" },
-        { 'service': "Turbo Elbow Cerakote", 'price': "$50" },
-        { 'service': "Exhaust Heat Shield Cerakote", 'price': "$50" },
-        { 'service': "Mufflers Cerakote", 'price': "From $75 to $150" },  // Specified price range
-        { 'service': "Exhaust Tip Cerakote (<12 inches)", 'price': "$50 Each" },
-        { 'service': "Exhaust Tip Cerakote (>12 inches)", 'price': "$75 Each" },
-        { 'service': "Full Disassembly + Reassembly Service", 'price': "From $25 to $100" },  // Clarified service scope
-        { 'service': "Custom Cerakote Applications", 'price': "Contact for Pricing" },  // Added for custom requests
-        { 'service': "Protective High-Temp Coating for Components", 'price': "$100+" },  // Added for engine parts
-        { 'service': "Performance Enhancing Ceramic Coatings", 'price': "$200+" }  // High-performance option
-    ];
-    
+    // Conditional rendering based on loading and error state
+    if (loading) return <p>Loading services...</p>;
+    if (error) return <p>Error loading services: {error.message}</p>;
 
     return (
         <div>

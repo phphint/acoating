@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import ServiceTable from '../ServiceTable';
 import Modal from '../../../../../components/Modal';
 import Link from 'next/link';
+import useFetchServices from '../../../../../hooks/useFetchServices'; // Ensure correct import path
+
 
 // Define a separate component for the modal's content
 const ModalDescription: React.FC = () => {
@@ -41,34 +43,16 @@ const ModalDescription: React.FC = () => {
 
 const SemiAuto: React.FC = () => {
     const [isModalOpen, setModalOpen] = useState(false);
+    const { services, loading, error } = useFetchServices('price-tables', 'SemiAuto Cerakote Pricing');
 
-    const services = [
-        { 'service': "Single Color - Complete SemiAuto", 'price': "$300" },
-        { 'service': "Bi-Color - Complete SemiAuto", 'price': "$350" },
-        { 'service': "Camo Pattern - Complete SemiAuto", 'price': "$400" },
-        { 'service': "Disassembly / Reassembly", 'price': "$75" },  // General service for all parts
-        { 'service': "Barrel", 'price': "$80" },  // Includes polishing of the feed ramp
-        { 'service': "Slide", 'price': "$100" },  // Coating of the slide
-        { 'service': "Frame Only", 'price': "$120" },  // Coating of the main frame
-        { 'service': "Controls (Each)", 'price': "$30-35" },  // Includes magazine release, slide stop lever
-        { 'service': "Trigger", 'price': "$25" },  // Coating of the trigger component
-        { 'service': "Magazine Baseplate", 'price': "$20" },  // Coating of the baseplate of the magazine
-        { 'service': "Complete Internal Overhaul and Polishing", 'price': "$80+" },  // Trigger job and internal polishing
-        { 'service': "Cerakote Rebrush (Frame and Slide)", 'price': "$40" },  // Additional cost for a rebrush finish
-        { 'service': "Custom Graphics and Markings", 'price': "$60+" },  // Custom designs, logos, or text
-        { 'service': "Enhanced Durability Coating for High Wear Parts", 'price': "$50+" },  // High wear areas like the slide rail
-        { 'service': "Optics Installation", 'price': "$45" },  // Mounting and alignment, excluding cost of the optics
-        { 'service': "Extended Controls Package", 'price': "$70" },  // Extended slide stop lever, extended mag release
-        { 'service': "Grip Enhancement", 'price': "$90" },  // Texturing and stippling for improved grip
-        { 'service': "Night Sights Installation", 'price': "$55" }  // Excludes the cost of the sights
-    ];
-    
+    // Handle loading and error states
+    if (loading) return <p>Loading services...</p>;
+    if (error) return <p>Error loading services: {error.message}</p>;
 
     return (
         <div>
             <ServiceTable category="SemiAuto Cerakote Pricing" services={services} />
             <p className="mt-4 text-white">
-               
                 <button 
                     onClick={() => setModalOpen(true)}
                     className="text-white underline pl-1 hover:text-gray-300"

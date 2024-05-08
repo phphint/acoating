@@ -3,6 +3,8 @@ import React, { useState } from 'react';
 import ServiceTable from '../ServiceTable';
 import Modal from '../../../../../components/Modal';  // Assuming Modal is in the same directory for simplicity
 import Link from 'next/link';
+import useFetchServices from '../../../../../hooks/useFetchServices'; // Correct import path
+
 
 const ModalDescription: React.FC = () => {
     return (
@@ -26,32 +28,19 @@ const ModalDescription: React.FC = () => {
         </>
     );
 };
-
 const Gunsmithing: React.FC = () => {
     const [isModalOpen, setModalOpen] = useState(false);
+    const { services, loading, error } = useFetchServices('price-tables', 'Gunsmithing Services Pricing');
 
-    const services = [
-        { 'service': "General Services (Pistol/Rifle/Shotgun)", 'price': "$50" },
-        { 'service': "Sight Installation", 'price': "$50+" },
-        { 'service': "Trigger Tuning (Jobs)", 'price': "$50+" }, // Consider combining if similar
-        { 'service': "Custom Fabrication", 'price': "Quote Based" }, // Assuming pricing is custom
-        { 'service': "Slide Milling", 'price': "Quote Based" },
-        { 'service': "Tig Welding", 'price': "Quote Based" },
-        { 'service': "Glass Bedding", 'price': "Quote Based" },
-        { 'service': "Gun Cleaning - Detailed", 'price': "Varies" }, // Could list individual types if space allows
-        { 'service': "Ultra Sonic Deep Cleanse", 'price': "$25+" },
-        { 'service': "Shop Supplies Minimum per Project", 'price': "$20" },
-        { 'service': "Disassembly and Reassembly", 'price': "$80+" },
-        { 'service': "Metal Defect Repairs/Removal", 'price': "$60+ Supplies" },
-        { 'service': "Partial Disassembly/Assembly", 'price': "$30+" }
-    ];
-    
+    // Handle loading and error states
+    if (loading) return <p>Loading services...</p>;
+    if (error) return <p>Error loading services: {error.message}</p>;
 
     return (
         <div>
             <ServiceTable category="Gunsmithing Services Pricing" services={services} />
             <p className="mt-4 text-white">
-                 <button 
+                <button 
                     onClick={() => setModalOpen(true)}
                     className="text-white underline pl-1 hover:text-blue-700"
                 >
@@ -70,3 +59,4 @@ const Gunsmithing: React.FC = () => {
 };
 
 export default Gunsmithing;
+

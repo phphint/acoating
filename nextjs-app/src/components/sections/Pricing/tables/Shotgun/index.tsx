@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import ServiceTable from '../ServiceTable';
 import Modal from '../../../../../components/Modal';  // Ensure this path is correct
+import useFetchServices from '../../../../../hooks/useFetchServices'; // Ensure correct import path
+
 
 // Define a separate component for the modal's content
 import Link from 'next/link';
@@ -45,36 +47,22 @@ const ModalDescription: React.FC = () => {
 
 const Shotgun: React.FC = () => {
     const [isModalOpen, setModalOpen] = useState(false);
+    const { services, loading, error } = useFetchServices('price-tables', 'Shotgun Cerakote Pricing');
 
-    const services = [
-        { 'service': "Complete Shotgun Single Color", 'price': "$295" },
-        { 'service': "Complete Shotgun Bi-Color", 'price': "$350" },
-        { 'service': "Complete Shotgun Camouflage Pattern", 'price': "$400" },
-        { 'service': "Shotgun Barrel and Action Cerakote", 'price': "$200" },
-        { 'service': "Shotgun Stock and Forend Cerakote", 'price': "$110" },
-        { 'service': "Shotgun Bolt Cerakote", 'price': "$75" },
-        { 'service': "Additional Shotgun Barrel Cerakote", 'price': "$75" },
-        { 'service': "Thorough Disassembly and Reassembly", 'price': "$75" },  // Enhanced description for clarity
-        { 'service': "Optic and Sight Remounting Service", 'price': "Starts at $100" },  // More detailed description
-        { 'service': "Custom Engraving on Receiver or Barrel", 'price': "$100+" },  // New service for customization
-        { 'service': "Protective Coating for Rust Prevention", 'price': "$65" },  // New service for maintenance
-        { 'service': "Internal Component Polishing", 'price': "$90" },  // New service to improve mechanism smoothness
-        { 'service': "External Detailing and Finish Touch-up", 'price': "$50" }  // New service for aesthetic enhancements
-    ];
-    
-    
+    // Handle loading and error states
+    if (loading) return <p>Loading services...</p>;
+    if (error) return <p>Error loading services: {error.message}</p>;
 
     return (
         <div>
             <ServiceTable category="Shotgun Cerakote Pricing" services={services} />
             <p className="mt-4 text-white">
-             
                 <button 
                     onClick={() => setModalOpen(true)}
                     className="text-white underline pl-1 hover:text-gray-300"
                 >
                     More Details
-                </button> 
+                </button>.
             </p>
             
             <Modal 

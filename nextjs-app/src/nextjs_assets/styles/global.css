@@ -146,3 +146,11 @@ html, body, #root {
 .bg-brown-500 { background-color: #514b33; }
 
 /* To ensure compatibility, consider adding more specific class names or IDs if there's a conflict. */
+@media (min-width: 768px) {
+  .custom-container {
+    min-width: 100% !important;
+    max-width: 100% !important;
+    width: 100% !important;
+
+  }
+}

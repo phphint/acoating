@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import ServiceTable from '../ServiceTable';
 import Modal from '../../../../../components/Modal';
 import Link from 'next/link';
+import useFetchServices from '../../../../../hooks/useFetchServices'; // Ensure correct import path
+
 
 const TumblerModalDescription: React.FC = () => {
     return (
@@ -26,17 +28,11 @@ const TumblerModalDescription: React.FC = () => {
 
 const Tumblers: React.FC = () => {
     const [isModalOpen, setModalOpen] = useState(false);
+    const { services, loading, error } = useFetchServices('price-tables', 'Tumbler/Cups Cerakote Pricing');
 
-    const services = [
-        { 'service': "Cerakote Single Color - 30oz Tumbler", 'price': "$45+" },
-        { 'service': "Cerakote Single Color - 20oz Tumbler", 'price': "$35+" },
-        { 'service': "Cerakote Camouflage Patterns", 'price': "$50+" },
-        { 'service': "Cerakote Battle Worn Finish", 'price': "$50+" },
-        { 'service': "Custom Cerakote Logos and Graphics", 'price': "$60+" },
-        { 'service': "Cerakote for Yeti - 30oz (Customer Supplied)", 'price': "$30+" },
-        { 'service': "Cerakote for RTIC - 30oz (Customer Supplied)", 'price': "Quote Based" }
-    ];
-    
+    // Handle loading and error states
+    if (loading) return <p>Loading services...</p>;
+    if (error) return <p>Error loading services: {error.message}</p>;
 
     return (
         <div>

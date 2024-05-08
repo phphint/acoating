@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import ServiceTable from '../ServiceTable';
 import Modal from '../../../../../components/Modal';  // Ensure this path is correct
 import Link from 'next/link';
+import useFetchServices from '../../../../../hooks/useFetchServices'; // Correct import path
+
 
 // Define a separate component for the modal's content
 const ModalDescription: React.FC = () => {
@@ -44,29 +46,15 @@ const ModalDescription: React.FC = () => {
 
 const BoltRifle: React.FC = () => {
     const [isModalOpen, setModalOpen] = useState(false);
+    const { services, loading, error } = useFetchServices('price-tables', 'Bolt Rifle Cerakote Pricing');
 
-    const services = [
-        { 'service': "Single Color - Complete Bolt Rifle", 'price': "$295" },
-        { 'service': "Bi-Color - Complete Bolt Rifle", 'price': "$350" },
-        { 'service': "Camouflage Pattern - Complete Bolt Rifle", 'price': "$400" },
-        { 'service': "Rifle Stock Cerakote", 'price': "$110" },
-        { 'service': "Barrel & Action Cerakote", 'price': "$200" },
-        { 'service': "Bolt Cerakote", 'price': "$75" },
-        { 'service': "Magazine Cerakote", 'price': "$30" },
-        { 'service': "Full Disassembly & Reassembly", 'price': "$75" },  // More concise description
-        { 'service': "Scope & Sight Remounting", 'price': "$100+" },  // Simplified service title
-        { 'service': "Custom Design Consultation", 'price': "Quote Based" },  // Shortened for better fit
-        { 'service': "Precision Part Protective Coating", 'price': "$50+" },  // Slightly altered for compactness
-        { 'service': "High-Wear Component Protection", 'price': "$90+" }  // Streamlined description
-    ];
-    
-    
-    
+    if (loading) return <p>Loading services...</p>;
+    if (error) return <p>Error loading services: {error.message}</p>;
+
     return (
         <div>
             <ServiceTable category="Bolt Rifle Cerakote Pricing" services={services} />
             <p className="mt-4 text-white">
-               
                 <button 
                     onClick={() => setModalOpen(true)}
                     className="text-white underline pl-1 hover:text-gray-300"

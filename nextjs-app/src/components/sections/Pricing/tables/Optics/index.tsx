@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import ServiceTable from '../ServiceTable';
 import Modal from '../../../../../components/Modal';
 import Link from 'next/link';
+import useFetchServices from '../../../../../hooks/useFetchServices'; // Make sure this path is correct
+
 
 const OpticsModalDescription: React.FC = () => {
     return (
@@ -38,20 +40,15 @@ const OpticsModalDescription: React.FC = () => {
 
 const OpticsAccessories: React.FC = () => {
     const [isModalOpen, setModalOpen] = useState(false);
+    const { services, loading, error } = useFetchServices('price-tables', 'Optics/Accessories Cerekote Camo Pricing');
 
-    const services = [
-        {'service': "Scope LG + Masking", 'price': "$300-450"},
-        {'service': "Scope Mount", 'price': "$60"},
-        {'service': "Scope SM + Masking", 'price': "$250-350"},
-        {'service': "Reddot + Masking", 'price': "$200-350"},
-        {'service': "Weapon Light", 'price': "$100"},
-        {'service': "Bipod", 'price': "$100-250"},
-        {'service': "Disassembly + Reassembly", 'price': "$25-100"}
-    ];
+    // Handle loading and error states
+    if (loading) return <p>Loading services...</p>;
+    if (error) return <p>Error loading services: {error.message}</p>;
 
     return (
         <div>
-            <ServiceTable category="Optics/Accessories Cerekote Camo  Pricing" services={services} />
+            <ServiceTable category="Optics/Accessories Cerekote Camo Pricing" services={services} />
             <p className="mt-4 text-white">
                 <button 
                     onClick={() => setModalOpen(true)}

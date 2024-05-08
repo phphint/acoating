@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import ServiceTable from '../ServiceTable';
 import Modal from '../../../../../components/Modal';  // Adjust the import path as needed
 import Link from 'next/link';
+import useFetchServices from '../../../../../hooks/useFetchServices'; // Make sure this path is correct
+
 
  
 const ModalDescription: React.FC = () => {
@@ -31,16 +33,11 @@ const ModalDescription: React.FC = () => {
 
 const Laser: React.FC = () => {
     const [isModalOpen, setModalOpen] = useState(false);
+    const { services, loading, error } = useFetchServices('price-tables', 'Firearm Laser Engraving Pricing');
 
-    const services = [
-        {'service': "Basic Engraving (Text)", 'price': "$60"},
-        {'service': "Custom Graphics", 'price': "$100+"},
-        {'service': "Laser Engraving", 'price': "Quote Based"},
-        {'service': "Artwork Files Conversion", 'price': "$60"},
-        {'service': "NFA Engraving", 'price': "$60"},
-        {'service': "Non Standard Laser Engrave Locations", 'price': "$40"},
-        {'service': "Masking for Laser Engraving", 'price': "$30 + Material Cost"}
-    ];
+    // Conditional rendering based on loading and error state
+    if (loading) return <p>Loading services...</p>;
+    if (error) return <p>Error loading services: {error.message}</p>;
 
     return (
         <div>

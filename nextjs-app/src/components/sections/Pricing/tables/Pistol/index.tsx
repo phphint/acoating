@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import ServiceTable from '../ServiceTable';
 import Modal from '../../../../../components/Modal';
 import Link from 'next/link';
+
+import useFetchServices from '../../../../../hooks/useFetchServices'; // Assuming the hook is in the same directory
+
+
 const ModalDescription: React.FC = () => {
     return (
         <>
@@ -39,43 +43,34 @@ const ModalDescription: React.FC = () => {
 
 const Pistol: React.FC = () => {
     const [isModalOpen, setModalOpen] = useState(false);
+    const { services, loading, error } = useFetchServices('price-tables', '1911/2011 Pistol Cerakote Pricing');
 
-    const services = [
-        { 'service': "Single Color - Complete Pistol", 'price': "$300" },
-        { 'service': "Bi-Color - Complete Pistol", 'price': "$350" },
-        { 'service': "Camo Pattern - Complete Pistol", 'price': "$400" },
-        { 'service': "Disassembly / Reassembly", 'price': "$65" },  // High demand for full service
-        { 'service': "Barrel", 'price': "$80" },  // Includes hone chamber, polish barrel ramp
-        { 'service': "Trigger job/Polishing", 'price': "$80+" },  // + any parts for 3.5lb or higher triggers, 1-3.5lb add $130+
-        { 'service': "Slide", 'price': "$100" },  // Press sights $45
-        { 'service': "Frame Only", 'price': "$120" },
-        { 'service': "Controls", 'price': "$30-35 ea" },
-        { 'service': "Trigger", 'price': "$25" },
-        { 'service': "Baseplate", 'price': "$20" },
-        { 'service': "Chamber Hone/Polish feed ramps", 'price': "$70" },
-        { 'service': "Rebrush vs coat", 'price': "$40" }
-    ];
-    
-    
     return (
         <div>
-            <ServiceTable category="1911/2011 Pistol Cerakote Pricing" services={services} />
-            <p className="mt-4 text-white">
-               
-                <button 
-                    onClick={() => setModalOpen(true)}
-                    className="text-white underline pl-1 hover:text-gray-300"
-                >
-                    More Details
-                </button>.
-            </p>
-            
-            <Modal 
-                title="Detailed Pistol Coating Information"
-                description={<ModalDescription />}
-                isOpen={isModalOpen}
-                onClose={() => setModalOpen(false)}
-            />
+            {loading ? (
+                <p>Loading services...</p>
+            ) : error ? (
+                <p>Error loading services: {error.message}</p>
+            ) : (
+                <>
+                    <ServiceTable category="1911/2011 Pistol Cerakote Pricing" services={services} />
+                    <p className="mt-4 text-white">
+                        <button 
+                            onClick={() => setModalOpen(true)}
+                            className="text-white underline pl-1 hover:text-gray-300"
+                        >
+                            More Details
+                        </button>.
+                    </p>
+                    
+                    <Modal 
+                        title="Detailed Pistol Coating Information"
+                        description={<ModalDescription />}
+                        isOpen={isModalOpen}
+                        onClose={() => setModalOpen(false)}
+                    />
+                </>
+            )}
         </div>
     );
 };

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ServiceTable from '../ServiceTable';
 import Modal from '../../../../../components/Modal';
 import Link from 'next/link';
+import useFetchServices from '../../../../../hooks/useFetchServices'; // Correct import path
 
 
 
@@ -40,42 +41,18 @@ const ModalDescription: React.FC = () => {
         </>
     );
 };
-
 const ARVariant: React.FC = () => {
     const [isModalOpen, setModalOpen] = useState(false);
+    const { services, loading, error } = useFetchServices('price-tables', 'AR Variant Cerakote Pricing');
 
-    const services = [
-        { 'service': "Single Color - Complete AR", 'price': "$450" },
-        { 'service': "Bi-Color - Complete AR", 'price': "$500" },
-        { 'service': "Camo Pattern - Complete AR", 'price': "$550" },
-        { 'service': "Barrel Coating", 'price': "$75" },
-        { 'service': "Magazine Coating", 'price': "$25" },
-        { 'service': "Butt Stock Coating", 'price': "$45" },
-        { 'service': "Buffer Tube Coating", 'price': "$60" },
-        { 'service': "Brace Coating", 'price': "From $45" },
-        { 'service': "Complete Furniture Set Coating", 'price': "$120-250" },  // Detailed range to indicate variability
-        { 'service': "Muzzle Device Coating", 'price': "$25-45" },
-        { 'service': "Gas Block & Tube Coating", 'price': "$40" },
-        { 'service': "Full Disassembly + Reassembly", 'price': "$75" },  // Emphasizing full service
-        { 'service': "Upper Receiver Coating", 'price': "$80" },
-        { 'service': "Lower Receiver Coating", 'price': "$80" },
-        { 'service': "Handguard Coating", 'price': "$100" },
-        { 'service': "Upper / Lower / Handguard Set Coating", 'price': "$240" },  // Set pricing for combined service
-        { 'service': "Lower Parts Kit Installation", 'price': "$70" },
-        { 'service': "Upper Parts Kit Installation", 'price': "$70" },
-        { 'service': "Bolt Carrier Group (BCG) Coating", 'price': "$70" },
-        { 'service': "Optics and Sights Mounting Service", 'price': "Starts at $100" },  // Clarified service description
-        { 'service': "Custom Laser Engraving", 'price': "Contact for Pricing" },  // Added as a premium option
-        { 'service': "Protective Clear Coat Finish", 'price': "$50" },  // Additional protection option
-        { 'service': "Heat Resistant Coating for Barrel", 'price': "$85" }  // Specific for high heat areas
-    ];
-    
-    
+    // Conditional rendering based on loading and error state
+    if (loading) return <p>Loading services...</p>;
+    if (error) return <p>Error loading services: {error.message}</p>;
+
     return (
         <div>
             <ServiceTable category="AR Variant Cerakote Pricing" services={services} />
             <p className="mt-4 text-white">
-             
                 <button 
                     onClick={() => setModalOpen(true)}
                     className="text-white underline pl-1 hover:text-gray-300"
@@ -95,3 +72,4 @@ const ARVariant: React.FC = () => {
 };
 
 export default ARVariant;
+
