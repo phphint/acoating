@@ -108,16 +108,7 @@ const ColorCodes: React.FC = () => {
                 </div>
               ))}
             </div>
-            {pagination.pageCount > 1 && (
-              <div className="flex justify-between my-4">
-                <button onClick={() => changePage(pagination.page - 1)} disabled={pagination.page === 1} className={`py-2 px-4 ${pagination.page === 1 ? 'bg-[#306069]' : 'bg-white'} text-[#306069]`}>
-                  Previous
-                </button>
-                <button onClick={() => changePage(pagination.page + 1)} disabled={pagination.page === pagination.pageCount} className={`py-2 px-4 ${pagination.page === pagination.pageCount ? 'bg-[#306069]' : 'bg-white'} text-[#306069]`}>
-                  Next
-                </button>
-              </div>
-            )}
+     
           </>
         )}
       </div>
