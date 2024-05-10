@@ -33,7 +33,7 @@ interface ImageGalleryProps {
   return (
     <section className="w-full mt-10">
        <h2 className="text-6xl font-bold text-white mb-4 text-center">
-        {category ? `${category} Cerakote Gallery` : 'Loading Gallery...'}
+        {category ? `${category} Gallery` : 'Loading Gallery...'}
       </h2>
       <div className={styles.galleryContainer}>
         <div className={styles.mainImageContainer} style={{ backgroundImage: `url(${currentImage})` }}>

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Slider from 'react-slick';
 import Modal from './Modal'; // Make sure the path is correct
+import IntroSection from './Intro'; // Adjust path as necessary
+
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -46,6 +48,9 @@ const TestsSection = () => {
 
 return (
     <section className="w-full bg-cover bg-center py-12" style={{ backgroundImage: `url('/nextjs_images/cerkote-page/certkote-page-bg.png')` }}>
+
+<IntroSection/>
+
       <div className="container mx-auto px-4" style={{ backgroundColor: '#8c8b8a', color: '#0f0e0d', minHeight: '300px' }}>
         <Slider {...sliderSettings}>
           {testDetails.map((test, index) => (

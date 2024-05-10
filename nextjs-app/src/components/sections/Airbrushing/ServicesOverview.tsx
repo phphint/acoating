@@ -28,7 +28,7 @@ const ServicesOverview: React.FC = () => {
                     {[1, 2, 3, 4, 5].map(num => (
                         <Image
                             key={num}
-                            src={`/nextjs_images/guns/laser/fire-arm-laser-engrave-${num}.jpg`}
+                            src={`/nextjs_images/guns/airbrush/airbrush-${num}.jpg`}
                             alt={`Laser Engraving ${num}`}
                             width={500}  // Provide an initial width
                             height={105}  // Provide an initial height, maintaining aspect ratio

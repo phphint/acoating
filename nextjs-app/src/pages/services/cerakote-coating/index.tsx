@@ -4,6 +4,7 @@ import Layout from '../../../components/Layout';
 import CerakoteHeader from '../../../components/Header/Cerakote'; // Adjust path as necessary
 import LogoRow from '../../../components/sections/LogosRow'; // Adjust path as necessary
 import DurabilitySection from '../../../components/sections/Cerakote/Durability'; // Adjust path as necessary
+
 import TestsSection from '../../../components/sections/Cerakote/Tests'; // Adjust path as necessary
 import TestimonialsSection from '../../../components/sections/Cerakote/Testimonials'; // Adjust path as necessary
 
