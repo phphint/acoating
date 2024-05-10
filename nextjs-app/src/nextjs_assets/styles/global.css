@@ -154,3 +154,10 @@ html, body, #root {
 
   }
 }
+
+.slick-next {
+  right: -33px !important;
+  }
+  .slick-prev {
+    left: -33px !important;
+    }

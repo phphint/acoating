@@ -22,7 +22,7 @@ const Header: React.FC = () => {
             Step into the world of custom firearm aesthetics with Acoating. Beyond unparalleled protection, our Cerakote coating services offer the ultimate in color customization and styling, allowing you to personalize your weapon to reflect your unique taste and lifestyle.
           </p>
           <Link href="/services/cerakote-coating" passHref>
-  <button className="bg-[#7ac3bf] text-[#205853] py-2 lg:py-4 px-6 lg:px-8 text-base lg:text-lg transition-colors hover:bg-[#68b2af]" style={{ border: 'none', borderRadius: '0' }}>
+  <button className="bg-[#7ac3bf] text-[#1c4642] py-2 lg:py-4 px-6 lg:px-8 text-base lg:text-lg transition-colors hover:bg-[#68b2af]" style={{ border: 'none', borderRadius: '0' }}>
     Learn More
   </button>
 </Link>

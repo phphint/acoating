@@ -13,7 +13,7 @@ const ServiceColumn: React.FC<ServiceColumnProps> = ({ title, description, butto
     <div className="flex-1 p-4 text-[#d7dfe3]">
       <h3 className="text-xl font-bold mb-2 text-center">{title}</h3>
       <p className="mb-4 text-left">{description}</p>
-      <div className="text-center">
+      <div className="text-center mt-10">
         <Link href={link} passHref>
           <button 
             className="bg-[#d7dfe3] text-[#2d3751] py-1 px-2 transition-colors duration-200 ease-in-out relative"
