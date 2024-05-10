@@ -22,12 +22,12 @@ const CerakoteHeader: React.FC = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link href="/pricing" passHref>
-              <button className="bg-[#42595c] text-[#b6b6bc] py-3 px-6 border-[#b6b6bc] border hover:bg-[#36474a] transition-colors">
+              <button className="bg-[#42595c] text-[#c9c9cb] py-3 px-6 border-[#b6b6bc] border hover:bg-[#36474a] transition-colors">
                 See Pricing
               </button>
             </Link>
             <Link href="/services/cerakote-coating/color-codes" passHref>
-              <button className="bg-[#42595c] text-[#b6b6bc] py-3 px-6 border-[#b6b6bc] border hover:bg-[#36474a] transition-colors">
+              <button className="bg-[#42595c] text-[#c9c9cb] py-3 px-6 border-[#b6b6bc] border hover:bg-[#36474a] transition-colors">
                 See Colors
               </button>
             </Link>

@@ -63,10 +63,7 @@ const GalleryCategories = () => {
   return (
     <section className="bg-[#678689] text-[#f1fffa] w-full">
       <div className="container mx-auto px-4 py-8">
-        <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4" role="alert">
-          <p className="font-bold">Maintenance Notice</p>
-          <p>We are currently performing scheduled maintenance on our gallery. We apologize for any inconvenience this may cause and invite you to revisit soon. Thank you for your patience and understanding.</p>
-        </div>
+      
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {categories.map(({ id, imgSrc, title, text }) => (
             <Link key={id} href={`/gallery/${title.toLowerCase().replace(/\s+/g, '-')}`} passHref>

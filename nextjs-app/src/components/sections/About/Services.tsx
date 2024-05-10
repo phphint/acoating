@@ -20,7 +20,7 @@ const Services = () => {
                 </div>
                 <div className="p-4">
                   <h3 className="text-[#b8bab9] text-lg font-semibold mb-2">Firearm Cerakote Coating</h3>
-                  <p className="text-[#7a7363]">Explore our premium Cerakote coating services for unmatched durability and a custom finish.</p>
+                  <p className="text-[#88806f]">Explore our premium Cerakote coating services for unmatched durability and a custom finish.</p>
                 </div>
               </div>
           
@@ -34,7 +34,7 @@ const Services = () => {
                 </div>
                 <div className="p-4">
                   <h3 className="text-lg text-[#b8bab9] font-semibold mb-2">Gunsmithing</h3>
-                  <p className="text-[#7a7363]">Professional gunsmithing services tailored to your needs, ensuring performance and reliability.</p>
+                  <p className="text-[#88806f]">Professional gunsmithing services tailored to your needs, ensuring performance and reliability.</p>
                 </div>
               </div>
           
@@ -51,7 +51,7 @@ const Services = () => {
                 </div>
                 <div className="p-4">
                   <h3 className="text-lg text-[#b8bab9] font-semibold mb-2">Firearm Laser Engraving</h3>
-                  <p className="text-[#7a7363]">Add a personal touch with our precise laser engraving services for firearms and accessories.</p>
+                  <p className="text-[#88806f]">Add a personal touch with our precise laser engraving services for firearms and accessories.</p>
                 </div>
               </div>
           
@@ -65,7 +65,7 @@ const Services = () => {
                 </div>
                 <div className="p-4">
                   <h3 className="text-lg text-[#b8bab9] font-semibold mb-2">Custom Firearm Airbrush Designs</h3>
-                  <p className="text-[#7a7363]">Stand out with custom airbrush designs, offering unique patterns and artistic finishes for your firearm.</p>
+                  <p className="text-[#88806f]">Stand out with custom airbrush designs, offering unique patterns and artistic finishes for your firearm.</p>
                 </div>
               </div>
             

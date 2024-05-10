@@ -34,7 +34,7 @@ const ContactUsMenu: React.FC = () => {
           <i className="fas fa-envelope mr-2"></i>Email Us
         </a>
         {/* Corrected Next.js Link usage */}
-        <Link href="/mail-in-form/printable-form" passHref>
+        <Link href="/pricing/faq/shipping-instructions" passHref>
           <div className="block px-4 py-2 hover:bg-gray-700 cursor-pointer">
             ↳ Download Order Form
           </div>
