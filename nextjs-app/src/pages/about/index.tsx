@@ -2,25 +2,47 @@ import React from 'react';
 import Head from 'next/head';
 import Header from '../../components/Header/About';
 import Layout from '../../components/Layout';
-import Section1 from '../../components/sections/About/Section1'; // Share the journey and mission of Acoating
-import Services from '../../components/sections/About/Services'; // Highlight your unique selling propositions
-import Testimonials from '../../components/sections/About/Testimonials'; // Reuse or enhance this for the About Us page for stronger impact
- 
+import Section1 from '../../components/sections/About/Section1'; 
+import Services from '../../components/sections/About/Services'; 
+import Testimonials from '../../components/sections/About/Testimonials'; 
 
 const AboutUsPage: React.FC = () => {
+  const structuredData = {
+    "@context": "http://schema.org",
+    "@type": "Organization",
+    "name": "Acoating",
+    "url": "https://www.acoating.com",
+    "logo": "https://www.acoating.com/nextjs_images/logo.svg",
+    "description": "Discover the story behind Acoating and why our Cerakote coatings and custom firearm engraving services are unmatched.",
+    "location": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "15961 N 76th Ln",
+        "addressLocality": "Peoria",
+        "addressRegion": "AZ",
+        "postalCode": "85382",
+        "addressCountry": "USA"
+      }
+    },
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "email": "acoating@gmail.com",
+      "contactType": "customer service",
+      "areaServed": "Global",
+      "availableLanguage": ["English"]
+    },
+    "sameAs": [] // If there are any relevant social media or additional URLs, add them here
+  };
+
   return (
     <Layout>
       <Head>
-        <title>About Acoating - Our Story & Why Choose Us</title>
+        <title>About Acoataling - Our Story & Why Choose Us</title>
         <meta name="description" content="Discover the story behind Acoating and why our Cerakote coatings and custom firearm engraving services are unmatched." />
-        <meta name="keywords" content="About Acoating, Acoating story, why choose Acoating, custom firearm services, Cerakote coatings, firearm engraving" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="About Acoating - Discover Our Story & Values" />
-        <meta property="og:description" content="Learn more about Acoating's commitment to excellence in firearm customization and our passion for unparalleled service." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.acoating.com/about-us" />
-        <meta property="og:image" content="https://www.acoating.com/images/og-image-about-us.jpg" />
-        <link rel="canonical" href="https://www.acoating.com/about-us" />
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
       </Head>
       <Header />
        <div className="pb-0" >

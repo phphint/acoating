@@ -8,20 +8,44 @@ import DurabilitySection from '../../../components/sections/Cerakote/Durability'
 import TestsSection from '../../../components/sections/Cerakote/Tests'; // Adjust path as necessary
 import TestimonialsSection from '../../../components/sections/Cerakote/Testimonials'; // Adjust path as necessary
 
+const structuredData = {
+  "@context": "http://schema.org",
+  "@type": "Service",
+  "name": "Cerakote Coatings",
+  "serviceType": "Firearm Coatings",
+  "provider": {
+    "@type": "Organization",
+    "name": "Acoating",
+    "url": "https://www.acoating.com",
+    "logo": "https://www.acoating.com/nextjs_images/logo.svg"
+  },
+  "areaServed": {
+    "@type": "Global",
+    "name": "Worldwide"
+  },
+  "description": "Explore competitive Cerakote Pricing for durable firearm finishes. Learn about the costs associated with our top-tier Cerakote services and discover value packages.",
+  "offers": {
+    "@type": "Offer",
+    "url": "https://www.acoating.com/pricing",
+    "priceCurrency": "USD",
+    "price": "Starting at 100"
+  }
+};
+
+
 const CerakoteCoatingsPage: React.FC = () => {
   return (
     <Layout>
       <Head>
-        <title>Cerakote Coatings - Durable Firearm Finishes | Acoating.com</title>
-        <meta name="description" content="Discover the durability and versatility of Cerakote coatings. Learn about our rigorous testing processes and hear from satisfied customers." />
-        <meta name="keywords" content="Cerakote coatings, firearm finishes, durable gun paint, firearm customization" />
-        <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.acoating.com/services/cerakote-coatings" />
-        <meta property="og:type" content="website" />
-        <meta property="og:title" content="Cerakote Coatings - Durable Firearm Finishes | Acoating.com" />
-        <meta property="og:description" content="Enhance your firearm with Cerakote coatings for unmatched durability and color customization." />
-        <meta property="og:url" content="https://www.acoating.com/services/cerakote-coatings" />
-        <meta name="twitter:card" content="summary_large_image" />
+      <title>Cerakote Pricing - Affordable and Durable Coatings | Acoating.com</title>
+  <meta name="description" content="Explore competitive Cerakote Pricing for durable firearm finishes. Learn about the costs associated with our top-tier Cerakote services and discover value packages." />
+  <meta name="keywords" content="Cerakote pricing, Cerakote cost, affordable firearm coatings, durable gun paint, firearm customization" />
+  <link rel="canonical" href="https://www.acoating.com/pricing" />
+  <meta property="og:title" content="Cerakote Pricing - Get the Best Value on Firearm Finishes" />
+  <meta property="og:description" content="Check out our competitive Cerakote Pricing for enhancing your firearms with high-quality, durable finishes." />
+  <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
       </Head>
 
       <CerakoteHeader />

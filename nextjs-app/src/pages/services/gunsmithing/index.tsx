@@ -16,7 +16,7 @@ const GunsmithingServicesPage: React.FC = () => {
         <meta property="og:description" content="Trust Acoating for comprehensive gunsmithing services that ensure your firearm is in top condition. Experience meticulous care and expert modifications tailored to your needs." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.acoating.com/gunsmithing" />
-        <meta property="og:image" content="https://www.acoating.com/images/og-image-gunsmithing.jpg" />
+        <meta property="og:image" content="https://www.acoating.com/nextjs_images/og-image-acoating.png" />
         <link rel="canonical" href="https://www.acoating.com/gunsmithing" />
       </Head>
        

@@ -19,10 +19,9 @@ const PricingPage: React.FC = () => {
         <meta property="og:description" content="Get competitive pricing for premium firearm customization services including Cerakote coatings, laser engraving, and gunsmithing. Discover the Acoating difference." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://www.acoating.com/pricing" />
-        <meta property="og:image" content="https://www.acoating.com/images/og-image-pricing.jpg" />
+        <meta property="og:image" content="https://www.acoating.com/nextjs_images/og-image-acoating.png" />
         <link rel="canonical" href="https://www.acoating.com/pricing" />
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet"/>
-
+ 
       </Head>
       <Header />
 <BulkRushPricing/>

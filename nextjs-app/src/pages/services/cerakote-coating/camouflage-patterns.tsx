@@ -1,30 +1,58 @@
 import React from 'react';
 import Head from 'next/head';
-import Layout from '../../../components/Layout'; // Reusable layout component
-import CamoPortfolio from '../../../components/sections/Camouflage/CamoPortfolio'; // Component for showcasing camo pattern portfolio
-import CamoPatterns from '../../../components/sections/Camouflage/CamoPatterns'; // Component for listing camo patterns
-import CamoCTA from '../../../components/sections/Camouflage/CamoCTA'; // Call-to-action component related to camo patterns
-import CamoBanner from '../../../components/sections/Camouflage/CamoBanner'; // Component for showcasing camo pattern portfolio
+import Layout from '../../../components/Layout';
+import CamoPortfolio from '../../../components/sections/Camouflage/CamoPortfolio';
+import CamoPatterns from '../../../components/sections/Camouflage/CamoPatterns';
+import CamoContent from '../../../components/sections/Camouflage/CamoContent';
 
+import CamoCTA from '../../../components/sections/Camouflage/CamoCTA';
+import CamoBanner from '../../../components/sections/Camouflage/CamoBanner';
 
 const CamouflagePatternsPage: React.FC = () => {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Firearm Coating",
+    "name": "Custom Camo Cerakote Services",
+    "description": "Choose from a variety of custom camo Cerakote patterns including Multi-Cam, Kryptek, Woodland, Digital, Tiger Stripe, and Battleworn finishes. Enhance the durability and aesthetics of your firearms with professional Cerakote services.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Acoating",
+      "url": "https://www.acoating.com"
+    },
+    "areaServed": {
+      "@type": "Country",
+      "name": "Worldwide"
+    },
+    "offers": {
+      "@type": "AggregateOffer",
+      "offerCount": "6",
+      "offers": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Multi-Cam Cerakote"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Kryptek Cerakote"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Woodland Camo Cerakote"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Digital Camo Cerakote"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Tiger Stripe Cerakote"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Battleworn Finish Cerakote"}}
+      ]
+    }
+  };
+
   return (
     <Layout>
       <Head>
-        <title>Acoating Camouflage Patterns: Discover Unique and Durable Designs</title>
-        <meta name="description" content="Dive into Acoating's vast array of camouflage patterns for firearms. From tactical to aesthetic, find the perfect camo design for your firearm and learn about our durable Cerakote finishes." />
-        <meta name="keywords" content="camouflage patterns, firearm camo designs, Cerakote camo finishes, custom firearm patterns, durable camo coatings" />
-        <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Acoating Camouflage Patterns: Unique and Durable Designs for Firearms" />
-        <meta property="og:description" content="Explore Acoating's camouflage patterns for firearms. Whether you're looking for tactical efficiency or aesthetic appeal, our durable Cerakote finishes have you covered." />
-        <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://www.acoating.com/camouflage-patterns" />
-        <meta property="og:image" content="https://www.acoating.com/images/og-image-camouflage.jpg" />
-        <link rel="canonical" href="https://www.acoating.com/camouflage-patterns" />
+        <title>Custom Camo Cerakote Patterns: Multi-Cam, Kryptek, Woodland & More | Acoating</title>
+        <meta name="description" content="Explore custom camo Cerakote patterns for your firearms at Acoating. Choose from Multi-Cam, Kryptek, Woodland, Digital, Tiger Stripe, and Battleworn finishes for superior protection and aesthetics." />
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
       </Head>
-<CamoPortfolio/>
-<CamoBanner/>
+      <CamoPortfolio />
+      <CamoBanner />
+      <CamoContent />
+
       <CamoPatterns />
+
       <CamoCTA />
     </Layout>
   );
