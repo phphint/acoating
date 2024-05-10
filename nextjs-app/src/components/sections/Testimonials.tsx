@@ -43,6 +43,58 @@ const Testimonials: React.FC = () => {
           />
         </div>
       </div>
+      <script type="application/ld+json">
+{`
+  {
+    "@context": "http://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Acoating",
+    "url": "https://www.acoating.com",
+    "review": [
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Jordan M."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "Acoating did a 2 tone Cerakote on my stainless AMT Longslide almost 2 years ago. It looks like he did it yesterday."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Taylor R."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRating": "5"
+        },
+        "reviewBody": "The attention to detail and unbelievable turn-around time makes Acoating arguably the most sought out gunsmith and applicator of Cerakote in the Phoenix area."
+      },
+      {
+        "@type": "Review",
+        "author": {
+          "@type": "Person",
+          "name": "Alex P."
+        },
+        "reviewRating": {
+          "@type": "Rating",
+          "ratingValue": "5",
+          "bestRated": "5"
+        },
+        "reviewBody": "Thank you for the quick turnaround and excellent customer service. Acoating stands out for quality, innovation, and customer satisfaction."
+      }
+    ]
+  }
+`}
+</script>
+
     </section>
   );
 };
