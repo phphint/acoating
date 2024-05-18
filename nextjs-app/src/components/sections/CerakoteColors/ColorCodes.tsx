@@ -88,7 +88,7 @@ const ColorCodes: React.FC = () => {
           <>
             <div className="flex justify-center space-x-4 mb-6">
               <button onClick={() => handleTabChange('E')} className={`py-2 px-4 ${activeTab === 'E' ? 'bg-black text-white' : 'bg-transparent text-gray-300 hover:bg-gray-200'}`}>
-                C-Series
+                E-Series
               </button>
               <button onClick={() => handleTabChange('H')} className={`py-2 px-4 ${activeTab === 'H' ? 'bg-black text-white' : 'bg-transparent text-gray-300 hover:bg-gray-200'}`}>
                 H-Series
