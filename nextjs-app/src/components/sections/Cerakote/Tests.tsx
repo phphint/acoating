@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
-import Slider from 'react-slick';
 import Modal from './Modal'; // Make sure the path is correct
 import IntroSection from './Intro'; // Adjust path as necessary
-
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -31,45 +29,24 @@ const TestsSection = () => {
   const handleCloseModal = () => {
     setIsModalOpen(false);
   };
-  const sliderSettings = {
-    dots: false,
-    infinite: true,
-    speed: 200,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    adaptiveHeight: false, // Changed to false
-    autoplay: true,
-    autoplaySpeed: 2000,
-    arrows: false
-};
 
-
-  
-
-return (
-    <section className="w-full bg-cover bg-center py-12" style={{ backgroundImage: `url('/nextjs_images/cerkote-page/certkote-page-bg.png')` }}>
-
-<IntroSection/>
+  return (
+    <section className="w-full bg-cover bg-center py-12 " style={{ backgroundImage: `url('/nextjs_images/cerkote-page/certkote-page-bg.png')` }}>
+      <IntroSection />
 
       <div className="container mx-auto px-4" style={{ backgroundColor: '#8c8b8a', color: '#0f0e0d', minHeight: '300px' }}>
-        <Slider {...sliderSettings}>
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 pt-5">
           {testDetails.map((test, index) => (
-            <table key={index} className="table-fixed w-full">
-              <tbody>
-                <tr>
-                  <td className="w-1/4 p-10" style={{ verticalAlign: 'middle' }}>
-                    <img src={test.imageUrl} alt={`${test.name} Test Image`} className="w-full h-auto" />
-                  </td>
-                  <td className="w-3/4 p-10" style={{ verticalAlign: 'middle' }}>
-                    <h2 className="text-3xl mb-2">{test.name}</h2>
-                    <p className="mb-4">{test.description}</p>
-                    <button onClick={() => handleOpenModal(test.url)} className="bg-[#132328] text-[#99a4a8] py-1 px-3  text-center">View Test Result</button>
-                  </td>
-                </tr>
-              </tbody>
-            </table>
+            <div key={index} className=" shadow-md rounded-lg overflow-hidden">
+              <img src={test.imageUrl} alt={`${test.name} Test Image`} className="w-full h-auto" />
+              <div className="p-4">
+                <h2 className="text-2xl mb-2">{test.name}</h2>
+                <p className="mb-4">{test.description}</p>
+                <button onClick={() => handleOpenModal(test.url)} className="bg-[#132328] text-[#99a4a8] py-1 px-3 text-center w-full">View Test Result</button>
+              </div>
+            </div>
           ))}
-        </Slider>
+        </div>
         <Modal isOpen={isModalOpen} handleClose={handleCloseModal} url={modalUrl} />
       </div>
     </section>

@@ -16,7 +16,7 @@ services:
       - proxy_app-network
 
   nextjs-app:
-    container_name: nextjs-app
+    container_name: nextjs-app-acoating
     build: 
       context: ./nextjs-app
       dockerfile: Dockerfile

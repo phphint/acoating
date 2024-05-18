@@ -56,7 +56,8 @@
       "type": "enumeration",
       "enum": [
         "H",
-        "C"
+        "C",
+        "E"
       ],
       "required": true
     }
