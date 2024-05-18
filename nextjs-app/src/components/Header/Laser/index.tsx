@@ -1,4 +1,3 @@
-// ServicesOverview.tsx
 import React from 'react';
 import Image from 'next/image';
 
@@ -11,12 +10,13 @@ const ServicesHeader: React.FC = () => {
            marginTop: '-8rem', // Adjusted top margin
          }}>
 
-      {/* Title with custom size, color, and a heavy dark drop shadow */}
-      <h1 className="text-8xl font-bold" style={{ 
-          color: '#88c7cb', 
-          marginTop: '40rem',
-          textShadow: '0 4px 6px rgba(0, 0, 0, 0.8)', // Heavy dark drop shadow
-        }}>
+      {/* Title with responsive size, color, and a heavy dark drop shadow */}
+      <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold"
+          style={{ 
+            color: '#88c7cb', 
+            marginTop: '40rem',
+            textShadow: '0 4px 6px rgba(0, 0, 0, 0.8)', // Heavy dark drop shadow
+          }}>
         Firearm Laser Engraving
       </h1>
 

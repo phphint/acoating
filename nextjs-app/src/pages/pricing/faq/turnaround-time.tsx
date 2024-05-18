@@ -37,7 +37,6 @@ export default function TurnaroundTime() {
               <li>Ship with signature required to ensure secure delivery to us.</li>
               <li>Include all necessary contact information and payment choice with your item.</li>
               <li>Disassemble only the parts you intend to have coated and include them with your item.</li>
-              <li>Provide a prepaid return shipping label, preferably using USPS for convenience and cost efficiency.</li>
               <li>Email us upon shipment, and expect a confirmation upon its arrival.</li>
               <li>Any updates or necessary adjustments to your project will be communicated for your approval.</li>
             </ol>

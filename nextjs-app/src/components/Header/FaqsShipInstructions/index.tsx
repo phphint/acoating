@@ -45,7 +45,7 @@ const ShippingHeader: React.FC = () => {
                     </button>
                 </div>
                 <div className="lg:w-1/2 flex items-center justify-center">
-                    <img src="/nextjs_images/shipping_box_firearm.png" alt="Shipping Box with Firearm" className="max-w-xs md:max-w-sm lg:max-w-full h-auto mb-8 lg:mb-0" />
+                    <img src="/nextjs_images/ship-instructions.png" alt="Shipping Box with Firearm" className="max-w-xs md:max-w-sm lg:max-w-full h-auto mb-8 lg:mb-0" />
                 </div>
             </div>
             {modalOpen && (
@@ -64,10 +64,10 @@ const ShippingHeader: React.FC = () => {
                                 />
                                 <label>
                                     <input type="checkbox" checked={agreeToTerms} onChange={() => setAgreeToTerms(!agreeToTerms)} className="mr-2"/>
-                                    I agree to the <a href="#" className="underline text-blue-600 mr-10">Terms of Service </a> 
+                                    I agree to the Terms of Service&nbsp;    
                                 </label>
                                 <button
-                                    className="mt-4 bg-[#7ac3bf] text-[#002427] py-2 px-6 text-base lg:text-lg transition-colors hover:bg-[#68b2af]"
+                                    className=" mt-4 bg-[#7ac3bf] text-[#002427] py-2 px-6 text-base lg:text-lg transition-colors hover:bg-[#68b2af]"
                                     onClick={handleSubmit}
                                 >
                                     Submit

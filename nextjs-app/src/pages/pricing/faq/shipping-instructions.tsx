@@ -36,7 +36,7 @@ export default function ShippingInstructions() {
 
             <section className="mt-8">
               <h2 className="text-xl font-semibold">Carrier Recommendations</h2>
-              <p>Select UPS or FedEx for handgun shipments, requiring overnight or 2-day service. Use discretion when labeling your package to avoid potential theft.</p>
+              <p>Select Usps Priority Flat Rate Boxes for parts and Long Guns. Use discretion when labeling your package to avoid potential theft.</p>
             </section>
 
             <section className="mt-8">
@@ -50,17 +50,16 @@ export default function ShippingInstructions() {
               </dl>
             </section>
 
-            <section className="mt-8">
-              <h2 className="text-xl font-semibold">Global Service Reach</h2>
-              <p>Our expertise has attracted projects from across the globe, including Denmark and China, showcasing our international trust and presence.</p>
-            </section>
+     
 
             <section className="mt-8">
               <h2 className="text-xl font-semibold">Expert Tips for Shipping</h2>
               <ul className="list-disc pl-5">
-                <li>Ensure the firearm is completely unloaded before shipping.</li>
-                <li>Avoid including ammunition in your shipment.</li>
-                <li>Provide clear contact details and a summary of the requested service.</li>
+           
+                <li>Ensure the firearm is completely unloaded before shipping.</li>     <li><b>DO NOT</b> include ANY ammunition in your shipment.</li>
+                 <li>Provide clear contact details and a summary of the requested service.</li>
+                 <li>Package In Bubble Wrap sufficient enough for packaging to be reused upon return ride home.</li>
+                 <li>Packaging Materials sufficient to meet the Carriers Requirements to be eligible for Insurance Claim Coverage if Issue Arises. </li>
               </ul>
             </section>
 

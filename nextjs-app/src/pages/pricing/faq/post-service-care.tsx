@@ -7,7 +7,7 @@ export default function PostServiceCare() {
     <Layout>
       <div className="bg-[#EAE9E7] text-[#1F211D]">
         <Head>
-          <title>Post-Service Care - Your Company Name</title>
+          <title>Post-Service Care - Acoating.com</title>
           <meta name="description" content="Learn how to care for your firearm after service to ensure longevity and performance." />
           <link rel="icon" href="/favicon.ico" />
         </Head>
@@ -19,7 +19,7 @@ export default function PostServiceCare() {
 
             <section className="mt-8">
               <h2 className="text-xl font-semibold">Maintaining Your Refinished Firearm</h2>
-              <p>Maintain the exterior as you would a blued firearm. While Cerakote and Duracoat finishes resist fingerprints and rust, proper care ensures a lasting appearance. All firearm cleaners are deemed safe for the surface. A break-in period of 200 to 300 rounds with quality gun oil or grease is recommended for firearms completely refinished.</p>
+              <p>Maintain the exterior as you would a blued firearm. While Cerakote, Gunkote and Duracoat finishes resist fingerprints and rust, proper care ensures a lasting appearance. All firearm cleaners are deemed safe for the surface (Per The Coating Manufactures/Test Results). A break-in period of 200 to 300 rounds with quality gun oil or grease is recommended for firearms completely refinished.</p>
             </section>
 
             <section className="mt-8">
@@ -34,15 +34,18 @@ export default function PostServiceCare() {
 
             <section className="mt-8">
               <h2 className="text-xl font-semibold">Break-In Procedure</h2>
-              <p>After refinishing, a firearm may require a break-in process, especially for tighter fitting guns. Firing 100 to 200 rounds can help mate all surfaces properly, with a thorough cleaning recommended post-break-in.</p>
+              <p>After refinishing, a firearm may require a break-in process, especially for tighter fitting guns. Firing 200-300 rounds with quality gun oil is recommended to help mate all surfaces properly, with a thorough cleaning recommended post-break-in.</p>
             </section>
 
             <section className="mt-8">
               <h2 className="text-xl font-semibold">Temperature Tolerance</h2>
-              <p>Cerakote can withstand up to 1,800 degrees F, suitable even for heavy, rapid firing. Duracoat is recommended for less intense use, with a tolerance of up to 600 degrees F.</p>
+              <p>
+                <strong>Cerakote H-Series:</strong> Can withstand up to 500 degrees F, suitable for most firearms and provides a durable finish. <br />
+                <strong>Cerakote E-Series:</strong> Can withstand up to 1,800 degrees F, ideal for parts exposed to extreme heat, such as barrels and suppressors. <br />
+                <strong>Duracoat:</strong> Recommended for less intense use, with a tolerance of up to 600 degrees F.
+              </p>
             </section>
-
-           </div>
+          </div>
         </main>
       </div>
     </Layout>
