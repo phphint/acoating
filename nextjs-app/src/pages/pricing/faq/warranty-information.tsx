@@ -29,7 +29,7 @@ export default function WarrantyInformation() {
 
           <section className="mt-8">
             <h2 className="text-xl font-semibold">Scope of Warranty</h2>
-            <p>The warranty covers application techniques per coating manufacturers' requirements for the chosen product line, to prevent flaking, peeling, or cracking when applied according to the manufacturer's specifications. However, it is limited by the conditions of normal wear and tear, including, but not limited to, abrasions, damages, impacts, and modifications, scratches, misuse, abuse, accidents, improper cleaning, along with any conditions outside of Acoating.com's control.</p>
+            <p>The warranty covers application techniques per coating manufacturers&lsquo; requirements for the chosen product line, to prevent flaking, peeling, or cracking when applied according to the manufacturer&lsquo;s specifications. However, it is limited by the conditions of normal wear and tear, including, but not limited to, abrasions, damages, impacts, and modifications, scratches, misuse, abuse, accidents, improper cleaning, along with any conditions outside of Acoating.com&lsquo;s control.</p>
           </section>
 
           <section className="mt-8">

@@ -28,7 +28,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/531-received-it-it-looks-great-thanks-you-so-much-i-have-some-more-that-i-ll-definitely-be-sending-you-way">
-			Received it... It looks great. Thanks you so much!  I have some more that I'll definitely be sending you way.</a>
+			Received it... It looks great. Thanks you so much!  I have some more that I&lsquo;ll definitely be sending you way.</a>
 	</li>
 	<li>
 		<a href="testimonials/530-my-kimber-arrived-today-looks-great-thamk-you-start-rebreaking-it-in-tomorrow-thanks-dean">
@@ -52,15 +52,15 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/525-i-received-my-package-today-and-i-have-to-tell-you-that-i-am-completely-satisfied-and-happy-with-your-work-i-m-also-very-impressed-with-the-fast-turn-around">
-			I received my package today and I have to tell you that I am completely satisfied and happy with your work. I'm also very impressed with the fast turn around!</a>
+			I received my package today and I have to tell you that I am completely satisfied and happy with your work. I&lsquo;m also very impressed with the fast turn around!</a>
 	</li>
 	<li>
 		<a href="testimonials/524-i-received-the-slide-and-barrel-today-it-all-looks-great-thanks-for-the-superfast-turnaround-shipped-on-the-first-and-received-back-on-the-tenth-that-s-hard-to-beat-thanks-again">
-			I received the slide and barrel today.  It all looks great.  Thanks for the superfast turnaround---shipped on the first and received back on the tenth.  That's hard to beat.   Thanks again.</a>
+			I received the slide and barrel today.  It all looks great.  Thanks for the superfast turnaround---shipped on the first and received back on the tenth.  That&lsquo;s hard to beat.   Thanks again.</a>
 	</li>
 	<li>
 		<a href="testimonials/523-tim-wow-what-a-beautiful-job-colors-matched-perfectly-my-beretta-cougar-inox-looks-better-than-the-factory-finish-as-far-as-i-m-concerned-your-the-best-certified-cerakote-finisher-around-i-wi">
-			Tim, Wow!!! what a beautiful job! Colors matched perfectly, my Beretta Cougar Inox looks better than the factory finish. As far as I'm concerned your the best certified Cerakote finisher around! I will be sending you more business all the way from PA. Tha</a>
+			Tim, Wow!!! what a beautiful job! Colors matched perfectly, my Beretta Cougar Inox looks better than the factory finish. As far as I&lsquo;m concerned your the best certified Cerakote finisher around! I will be sending you more business all the way from PA. Tha</a>
 	</li>
 	<li>
 		<a href="testimonials/522-i-just-received-pistol-and-rifle-absolutely-beautiful-thank-you-for-your-outstanding-work-and-effort-i-do-seem-to-be-missing-a-magazine-for-the-beretta-could-you-check-and-see-if-you-have-it-">
@@ -80,7 +80,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/518-then-i-set-out-to-find-someone-to-undo-the-damage-done-no-one-wants-a-lower-that-s-coved-in-orange-peel-and-defects-in-the-finish-after-doing-some-searching-found-tim-at-alternative-firearm-c">
-			Then I set out to find someone to undo the damage done, no one wants a lower that's coved in orange peel and defects in the finish.  After doing some searching found Tim at Alternative Firearm Coating.  He went over the process and assured me he could rem</a>
+			Then I set out to find someone to undo the damage done, no one wants a lower that&lsquo;s coved in orange peel and defects in the finish.  After doing some searching found Tim at Alternative Firearm Coating.  He went over the process and assured me he could rem</a>
 	</li>
 	<li>
 		<a href="testimonials/517-ar-exceeds-expectations-wonderful-work-by-true-craftsman-with-master-gunsmith-abilities-what-a-combination">
@@ -100,11 +100,11 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/513-the-parts-were-a-single-color-job-that-had-a-turn-around-time-of-5-days-that-was-coated-and-shipped-to-my-door-in-5-days-unreal-the-finish-is-flawless-i-can-t-recommend-highly-enough-a-true-p">
-			The parts were a single color job that had a turn around time of 5 days, that was coated and shipped to my door in 5 days, unreal! The finish is flawless, I can't recommend highly enough, a true pro in the industry! </a>
+			The parts were a single color job that had a turn around time of 5 days, that was coated and shipped to my door in 5 days, unreal! The finish is flawless, I can&lsquo;t recommend highly enough, a true pro in the industry! </a>
 	</li>
 	<li>
 		<a href="testimonials/512-i-received-the-lower-back-this-week-and-i-just-wanted-to-say-thank-you-for-doing-such-a-great-job-the-piece-came-back-looking-awesome-and-it-s-a-great-service-you-offer-for-the-price-you-char">
-			I received the lower back this week and I just wanted to say thank you for doing such a great job. The piece came back looking awesome and it's a great service you offer for the price you charge. I will definitely be recommending you to friends, and you w</a>
+			I received the lower back this week and I just wanted to say thank you for doing such a great job. The piece came back looking awesome and it&lsquo;s a great service you offer for the price you charge. I will definitely be recommending you to friends, and you w</a>
 	</li>
 	<li>
 		<a href="testimonials/511-acoating-did-a-great-job-at-a-great-price-they-worked-with-me-on-getting-the-right-color-service-was-very-quick-on-getting-the-parts-done-and-back-to">
@@ -112,7 +112,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/510-outstanding-service-acoating-is-on-top-of-it-he-answers-your-questions-immediately-most-of-all-he-s-happy-to-do-it">
-			Outstanding service! Acoating is on top of it, he answers your questions immediately &amp; most of all, he's happy to do it.</a>
+			Outstanding service! Acoating is on top of it, he answers your questions immediately &amp; most of all, he&lsquo;s happy to do it.</a>
 	</li>
 	<li>
 		<a href="testimonials/509-i-just-wanted-to-really-thank-you-for-the-absolutely-perfect-cerakote-coating-job-you-did-on-my-sig">
@@ -152,7 +152,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/500-i-ve-already-posted-it-on-facebook-and-bragged-about-your-company">
-			I've already posted it on Facebook and bragged about your company. </a>
+			I&lsquo;ve already posted it on Facebook and bragged about your company. </a>
 	</li>
 	<li>
 		<a href="testimonials/499-alternative-coatings-to-the-rescue">
@@ -264,7 +264,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/445-you-ve-really-done-a-great-job-with-the-cerakote-coating-superb">
-			You've really done a great job with the Cerakote coating. Superb!!!</a>
+			You&lsquo;ve really done a great job with the Cerakote coating. Superb!!!</a>
 	</li>
 	<li>
 		<a href="testimonials/444-i-keep-looking-at-the-ruger-and-thinking-it-looks-new">
@@ -348,7 +348,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/424-the-quality-of-tim-s-product-and-workmanship-are-top-shelf-his-turnaround-time-phenomenal">
-			The quality  of Tim's product and workmanship are top shelf, his turnaround time phenomenal.</a>
+			The quality  of Tim&lsquo;s product and workmanship are top shelf, his turnaround time phenomenal.</a>
 	</li>
 	<li>
 		<a href="testimonials/423-coudnt-be-happier-with-the-quality-turn-around-customer-service">
@@ -400,7 +400,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/411-damn-you-re-fast">
-			Damn, you're fast. </a>
+			Damn, you&lsquo;re fast. </a>
 	</li>
 	<li>
 		<a href="testimonials/410-it-has-been-almost-a-year-now-since-you-did-my-pistol-and-7-mags-with-the-exception-of-a-couple-of-weeks-this-pistol-has-been-carried-10-to-16-hours-a-day-in-a-kydex-iwb-holster-over-3500-rou">
@@ -420,15 +420,15 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/406-completely-satisfied-and-happy-with-your-work-i-m-also-very-impressed-with-the-fast-turn-around">
-			Completely satisfied and happy with your work. I'm also very impressed with the fast turn around!</a>
+			Completely satisfied and happy with your work. I&lsquo;m also very impressed with the fast turn around!</a>
 	</li>
 	<li>
 		<a href="testimonials/405-thanks-for-the-superfast-turnaround-shipped-on-the-first-and-received-back-on-the-tenth-that-s-hard-to-beat">
-			 Thanks for the superfast turnaround---shipped on the first and received back on the tenth.  That's hard to beat. </a>
+			 Thanks for the superfast turnaround---shipped on the first and received back on the tenth.  That&lsquo;s hard to beat. </a>
 	</li>
 	<li>
 		<a href="testimonials/404-as-far-as-i-m-concerned-your-the-best-certified-cerakote-finisher-around">
-			As far as I'm concerned your the best certified Cerakote finisher around!</a>
+			As far as I&lsquo;m concerned your the best certified Cerakote finisher around!</a>
 	</li>
 	<li>
 		<a href="testimonials/403-your-work-exceeds-expectations">
@@ -468,7 +468,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/282-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth126">
-			"It wasn't out of my hands for a week. Thanks so much for the quick turnaround..!!! " 7/2011</a>
+			"It wasn&lsquo;t out of my hands for a week. Thanks so much for the quick turnaround..!!! " 7/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/283-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth127">
@@ -484,7 +484,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/288-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth132">
-			"It's safe to say acoating will be getting more of my business, I'm already pondering future projects..."!!! " 8/2011</a>
+			"It&lsquo;s safe to say acoating will be getting more of my business, I&lsquo;m already pondering future projects..."!!! " 8/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/289-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth133">
@@ -492,11 +492,11 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/290-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth134">
-			"The Cerakote on my G17 looks great--even better than I expected!  I'll definitely be using your services in the future...."!!! " 8/2011</a>
+			"The Cerakote on my G17 looks great--even better than I expected!  I&lsquo;ll definitely be using your services in the future...."!!! " 8/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/291-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth135">
-			"The Cerakote on my G17 looks great--even better than I expected!  I'll definitely be using your services in the future...."!!! " 8/2011</a>
+			"The Cerakote on my G17 looks great--even better than I expected!  I&lsquo;ll definitely be using your services in the future...."!!! " 8/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/292-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth136">
@@ -504,7 +504,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/293-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth137">
-			"Cerakote Firearms Coating ‎Tim Boehler of acoatings is one of NIC's top Cerakote Firearms Coating applicators. Acoatings has recently launched a brand new Facebook fan page, please click the link to see Tim's impressive project gallery portf.!!! " 8/2011</a>
+			"Cerakote Firearms Coating ‎Tim Boehler of acoatings is one of NIC&lsquo;s top Cerakote Firearms Coating applicators. Acoatings has recently launched a brand new Facebook fan page, please click the link to see Tim&lsquo;s impressive project gallery portf.!!! " 8/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/294-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth138">
@@ -544,7 +544,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/303-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth147">
-			"I just got the parts back today and I'm very pleased with it. I'll be sending more parts your way as they come in from the mail. Thanks again....   " 10/2011</a>
+			"I just got the parts back today and I&lsquo;m very pleased with it. I&lsquo;ll be sending more parts your way as they come in from the mail. Thanks again....   " 10/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/304-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth148">
@@ -556,7 +556,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/306-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth150">
-			"Excellent color.   Nice touch with the polished bolt.   Pad looks good. This old gun deserved to be refinished.    I'm 100% satisfied.   Money well spent. " 10/2011</a>
+			"Excellent color.   Nice touch with the polished bolt.   Pad looks good. This old gun deserved to be refinished.    I&lsquo;m 100% satisfied.   Money well spent. " 10/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/307-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth151">
@@ -572,7 +572,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/310-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth154">
-			"The job you did is perfect. If I owned Kimber you would be the first guy I'd hire. I'll be sending you my Sig right after the holidays.).! " 10/2011</a>
+			"The job you did is perfect. If I owned Kimber you would be the first guy I&lsquo;d hire. I&lsquo;ll be sending you my Sig right after the holidays.).! " 10/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/311-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth155">
@@ -596,7 +596,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/319-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth163">
-			"It turned out great I can't wait to give it to my sister for Christmas. Again I am impressed with the quality of your work. Thanks again! " 11/2011</a>
+			"It turned out great I can&lsquo;t wait to give it to my sister for Christmas. Again I am impressed with the quality of your work. Thanks again! " 11/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/320-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth164">
@@ -608,11 +608,11 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/322-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth166">
-			"The package came today and it looks better in person the pictures did not do it justice. Again I couldn't be happier with the job you did. Thanks again for another great gun I just know my sister will love it.  Kellen! " 12/2011</a>
+			"The package came today and it looks better in person the pictures did not do it justice. Again I couldn&lsquo;t be happier with the job you did. Thanks again for another great gun I just know my sister will love it.  Kellen! " 12/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/323-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth167">
-			"Oh man I wish you could have seen my sister's face when she saw the purple she absolutely loved it. I can't thank you enough for doing another great job. Seeing her get so excited over a gun was well worth  the money spent thanks again.! " 12/2011</a>
+			"Oh man I wish you could have seen my sister&lsquo;s face when she saw the purple she absolutely loved it. I can&lsquo;t thank you enough for doing another great job. Seeing her get so excited over a gun was well worth  the money spent thanks again.! " 12/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/324-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth168">
@@ -656,7 +656,7 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/242-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth86">
-			"Received my wife's P22 frame you did for me in Lavender....Looks excellent! Great work! !"3/2011</a>
+			"Received my wife&lsquo;s P22 frame you did for me in Lavender....Looks excellent! Great work! !"3/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/243-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth87">
@@ -688,15 +688,15 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/333-fix-my-rifle-stock-and-repair177">
-			It's beautiful! I love it. Outstanding gunsmith  and refinishing services.  Thanks so much  Al Phx az.  2/2012</a>
+			It&lsquo;s beautiful! I love it. Outstanding gunsmith  and refinishing services.  Thanks so much  Al Phx az.  2/2012</a>
 	</li>
 	<li>
 		<a href="testimonials/334-fix-my-rifle-stock-and-repair178">
-			Acoating.com  KUDOS for the awesome job you did on my son's barreled action for his Christmas present.  He was thrilled that it was exactly what he wanted and was awed by the workmanship. Looks like it came from the factory like that  2/2012</a>
+			Acoating.com  KUDOS for the awesome job you did on my son&lsquo;s barreled action for his Christmas present.  He was thrilled that it was exactly what he wanted and was awed by the workmanship. Looks like it came from the factory like that  2/2012</a>
 	</li>
 	<li>
 		<a href="testimonials/335-fix-my-rifle-stock-and-repair179">
-			Good &amp; Yes...the greatest responses to your work was the quality of course and the other was lead/return time... Thanks again...I'll be talking soon about another project... Look great  Ugo Cody Wyoming 5 guns refinished. 2/2012</a>
+			Good &amp; Yes...the greatest responses to your work was the quality of course and the other was lead/return time... Thanks again...I&lsquo;ll be talking soon about another project... Look great  Ugo Cody Wyoming 5 guns refinished. 2/2012</a>
 	</li>
 	<li>
 		<a href="testimonials/339-fix-my-rifle-stock-and-repair182">
