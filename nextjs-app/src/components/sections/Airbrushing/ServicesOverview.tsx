@@ -15,7 +15,7 @@ const ServicesOverview: React.FC = () => {
      }}>
 
      
-        <div className="container mx-auto bg-[#311e11] p-10 mt-8">
+        <div className="container mx-auto bg-[#111a1d] p-10 mt-8">
             <div className="flex justify-between items-center mb-4">
                 <h2 className="text-3xl font-bold text-[#3aa1af]"> Acoating Firearm Airbrushing </h2>
                 <Link href="mailto:acoating@gmail.com" className="bg-[#3aa1af] text-[#FBF9F0] font-bold py-2 px-4">

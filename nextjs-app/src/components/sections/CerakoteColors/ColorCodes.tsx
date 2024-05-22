@@ -81,9 +81,14 @@ const ColorCodes: React.FC = () => {
 
 
   return (
-    <div className="bg-[#306069] text-white text-center py-12 pt-0">
+    <div className="bg-[#306069] text-white text-center py-12 pt10">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-6">Cerakote Color Codes</h1>
+        <h1 className="text-4xl font-bold mb-6  ">Cerakote Color Codes</h1>
+        <p className="mb-6">Due to the extensive array of Cerakote, Gunkote, Duracoat color options,Please See Specific Coating Manufacturer's web site for the most up to date colors, Codes.
+Afc Applies Cerakote coatings available in two primary series: the H-Series and the E-Series.</p>
+
+<p className="mb-6">The H-Series is renowned for its durability and rust resistance, making it ideal for use in harsh environments. On the other hand, the E-Series is designed for high-temperature applications and offers excellent wear resistance. Both series provide a wide spectrum of colors, allowing for personalized firearm customization.</p>
+
         {loading ? <p>Loading...</p> : (
           <>
             <div className="flex justify-center space-x-4 mb-6">

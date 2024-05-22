@@ -38,7 +38,7 @@ const PricingFaqs = () => {
           <div className="mb-8 md:mb-0 md:mr-8 max-w-4xl">
             <hr className="border-t-2 border-[#303030] mb-4" />
             <p className="text-lg">
-              Secure and compliant firearm shipping worldwide, including places like Denmark and China. Trust Acoating, an FFL gunsmith, for your firearm customization and maintenance needs.
+              Secure and compliant firearm shipping. Trust Acoating, an FFL gunsmith, for your firearm customization and maintenance needs.
             </p>
             <Link href="/pricing/faq/shipping-instructions">
         <div className="block">

@@ -45,7 +45,7 @@ const ShippingHeader: React.FC = () => {
                     </button>
                 </div>
                 <div className="lg:w-1/2 flex items-center justify-center">
-                    <img src="/nextjs_images/ship-instructions.png" alt="Shipping Box with Firearm" className="max-w-xs md:max-w-sm lg:max-w-full h-auto mb-8 lg:mb-0" />
+                    <img src="/nextjs_images/shipping-department.jpg" alt="Shipping Box with Firearm" className="max-w-xs md:max-w-sm lg:max-w-full h-auto mb-8 lg:mb-0" />
                 </div>
             </div>
             {modalOpen && (

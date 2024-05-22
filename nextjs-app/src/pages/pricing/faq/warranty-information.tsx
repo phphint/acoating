@@ -24,12 +24,12 @@ export default function WarrantyInformation() {
 
           <section className="mt-8">
             <h2 className="text-xl font-semibold">Refinishing Limited Lifetime Warranty</h2>
-            <p>Acoating.com will Inspect (Via Images, Email to verify any issues). Touch up or Refinishing if determined to be an Application failure at NO Charge (custom camouflage exempt) the firearm, including any disassembly and reassembly fees paid for on the initial repair, under the conditions stated by our policy and the manufacturer’s guidelines.</p>
+            <p>Acoating.com will inspect (via images, email to verify any issues) and touch up or refinish if determined to be an application failure at NO charge (custom camouflage exempt) the firearm, including any disassembly and reassembly fees paid for on the initial repair, under the conditions stated by our policy and the manufacturer’s guidelines.</p>
           </section>
 
           <section className="mt-8">
             <h2 className="text-xl font-semibold">Scope of Warranty</h2>
-            <p>The warranty covers application Technics Per Coating Manufactures Requirements for the Chosen product Line. To prevent flaking, peeling, or cracking when applied according to the manufacturer's specifications. However, it is limited by the conditions of normal wear and tear, including, but not limited to, abrasions, damages, impacts, and modifications, scratches, misuse, abuse, accident, improper cleaning. Along with Any Conditions outside of Acoating.com control</p>
+            <p>The warranty covers application techniques per coating manufacturers' requirements for the chosen product line, to prevent flaking, peeling, or cracking when applied according to the manufacturer's specifications. However, it is limited by the conditions of normal wear and tear, including, but not limited to, abrasions, damages, impacts, and modifications, scratches, misuse, abuse, accidents, improper cleaning, along with any conditions outside of Acoating.com's control.</p>
           </section>
 
           <section className="mt-8">
@@ -39,12 +39,12 @@ export default function WarrantyInformation() {
               <li>The warranty is valid only for the original purchaser, with a receipt required for service.</li>
               <li>Flexible plastics, rubbers, or any parts not originally included in the paid invoice.</li>
               <li>All shipping charges for warranty/repair requests.</li>
-              <li>Any misrepresentations of Coating Durability/Cleaners/Rust proofing Etc (Please contact Coating Manufacture Directly).</li>
+              <li>Any misrepresentations of coating durability, cleaners, rust proofing, etc. (Please contact coating manufacturer directly).</li>
               <li>Warranty does not cover failures in the coating caused by circumstances beyond our control.</li>
             </ul>
           </section>
 
-          <p className="mt-8">We stand behind the quality of our work and will address any issues related to the application process itself. Coating Failures related to Coating Product Failures will Need to be presented to Each Coating Manufacturer for Consideration of Warranty Repair (Which is Very Limited and Difficult to obtain).</p>
+          <p className="mt-8">We stand behind the quality of our work and will address any issues related to the application process itself. Coating failures related to coating product failures will need to be presented to each coating manufacturer for consideration of warranty repair (which is very limited and difficult to obtain).</p>
 
           <p className="mt-4">For further assistance or to initiate a warranty service, please contact us directly.</p>
         </div>

@@ -33,7 +33,7 @@ const Header: React.FC = () => {
         {/* First Row: Full-Width Image */}
         <div className="w-full overflow-visible"> {/* Adjusted for full width and visible overflow */}
           <Image 
-            src="/nextjs_images/guns/ar-variant-pricing-header.png" 
+            src="/nextjs_images/guns/ar-variant-pricing-header2.png" 
             alt="AR-15" 
             layout="responsive" 
             width={700} 
