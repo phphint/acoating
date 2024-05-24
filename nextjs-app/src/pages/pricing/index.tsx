@@ -25,6 +25,8 @@ const PricingPage: React.FC = () => {
       </Head>
       <Header />
 <BulkRushPricing/>
+
+
       <PricingTables/>
       <PricingFaqs/>
       <div>

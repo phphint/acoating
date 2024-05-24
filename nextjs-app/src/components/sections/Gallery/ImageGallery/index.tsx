@@ -31,11 +31,11 @@ interface ImageGalleryProps {
   };
 
   return (
-    <section className="w-full mt-10">
+    <section className="w-full  mt-10">
        <h2 className="text-6xl font-bold text-white mb-4 text-center">
         {category ? `${category} Gallery` : 'Loading Gallery...'}
       </h2>
-      <div className={styles.galleryContainer}>
+      <div className={styles.galleryContainer} >
         <div className={styles.mainImageContainer} style={{ backgroundImage: `url(${currentImage})` }}>
           <button className={styles.arrow} onClick={handlePrev}>&lt;</button>
           <button className={styles.arrow} onClick={handleNext}>&gt;</button>

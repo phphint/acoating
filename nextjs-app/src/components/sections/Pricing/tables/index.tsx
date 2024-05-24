@@ -17,6 +17,10 @@ const PricingTables = () => {
       
       {/* Responsive padding for the container */}
       <div className="container custom-container mx-auto px-0 sm:px-2 xl:px-2">
+
+<p className="text-base text-center pt-10">
+  DIY disassembled parts are accepted. (Note: DIY disassembled items will not be reassembled.) Please list all components included in your shipment for coating.
+</p>
         {/* Responsive grid for items */}
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2  xl:grid-cols-3 gap-2">
           <div> {/* Column 1 */}

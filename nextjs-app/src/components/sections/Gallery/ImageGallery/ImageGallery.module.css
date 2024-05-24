@@ -6,12 +6,11 @@
   
   .mainImageContainer {
     width: 85%;
-    height: 800px;
+    height: 85vh;
     background-size: cover;
     background-position: center;
     position: relative;
   }
-  
   .arrow {
     position: absolute;
     top: 50%;
