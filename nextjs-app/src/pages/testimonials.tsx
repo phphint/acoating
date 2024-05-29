@@ -568,11 +568,11 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/309-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth153">
-			"What can I say? It looks awsome! The factory coating on the kimber is shit. You brought it to what it should be.(better).! " 10/2011</a>
+		&quot;What can I say? It looks awsome! The factory coating on the kimber is shit. You brought it to what it should be.(better).! &quot; 10/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/310-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth154">
-			"The job you did is perfect. If I owned Kimber you would be the first guy I&lsquo;d hire. I&lsquo;ll be sending you my Sig right after the holidays.).! " 10/2011</a>
+		&quot;The job you did is perfect. If I owned Kimber you would be the first guy I&lsquo;d hire. I&lsquo;ll be sending you my Sig right after the holidays.!  10/2011&quot;</a>
 	</li>
 	<li>
 		<a href="testimonials/311-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth155">
@@ -652,15 +652,15 @@ export default function Testimonials() {
 	</li>
 	<li>
 		<a href="testimonials/233-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth77">
-			" That looks awesome !" 2/2011</a>
+		&quot;" That looks awesome !&quot;" 2/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/242-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth86">
-			"Received my wife&lsquo;s P22 frame you did for me in Lavender....Looks excellent! Great work! !"3/2011</a>
+			"Received my wife&lsquo;s P22 frame you did for me in Lavender....Looks excellent! Great work! !&quot;"3/2011</a>
 	</li>
 	<li>
 		<a href="testimonials/243-eotech-sight-shroud-and-surefire-flashlight-in-magpul-flat-dark-earth87">
-			"Recieved Rifle today looks great, Thanks for the great work"!"4/2011</a>
+		&quot; Recieved Rifle today looks great, Thanks for the great work4/2011&quot; </a>
 	</li>
 	<li>
 		<a href="testimonials/99-best-compamy-i-could-find">

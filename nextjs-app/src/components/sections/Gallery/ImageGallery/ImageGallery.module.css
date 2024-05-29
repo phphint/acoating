@@ -1,62 +1,80 @@
 .galleryContainer {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .mainImageContainer {
-    width: 85%;
-    height: 85vh;
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
-  .arrow {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    font-size: 24px;
-    cursor: pointer;
-    width: 40px;       /* Sets the width of the arrow button */
-    height: 40px;      /* Sets the height of the arrow button */
-    border-radius: 50%; /* Makes the button round */
-    display: flex;
-    align-items: center; /* Centers content vertically */
-    justify-content: center; /* Centers content horizontally */
-    text-align: center; /* Ensures the text/icon is centered */
-  }
-  
-  .arrow:first-child {
-    left: 10px;
-  }
-  
-  .arrow:last-child {
-    right: 10px;
-  }
-  
-  
-  .thumbnailContainer {
-    width: 15%;
-    display: flex;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.mainImageContainer {
+  width: 75%;
+  height: 50rem;
+  min-height: 50rem;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.arrow:first-child {
+  left: 10px;
+}
+
+.arrow:last-child {
+  right: 10px;
+}
+
+.thumbnailContainer {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  overflow-y: auto;
+  height: 800px;
+}
+
+.thumbnail {
+  width: 160px;
+  height: auto;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.selectedThumbnail {
+  opacity: 1;
+  border: 2px solid blue;
+}
+
+/* Media query for mobile screens */
+@media (max-width: 768px) {
+  .galleryContainer {
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    overflow-y: auto;
-    height: 800px; /* Adjust based on the height of the main image container */
   }
-  
-  .thumbnail {
-    width: 100px;
-    height: 75px;
-    cursor: pointer;
-    opacity: 0.6;
+
+  .mainImageContainer {
+    width: 100%;
+    height: auto;
+    min-height: 300px; /* Adjust as necessary */
   }
-  
-  .selectedThumbnail {
-    opacity: 1;
-    border: 2px solid blue;
+
+  .thumbnailContainer {
+    display: none;
   }
-  
+}

@@ -11,7 +11,7 @@ const ColorCodeCTASection: React.FC = () => {
           <div className="w-full lg:w-1/2 text-left p-6">
             <h2 className="text-4xl font-bold mb-4 text-[#f1f7f8] leading-tight">Explore Cerakote Color Codes</h2>
             <p className="text-[#31575a] mb-4">
-              On this page, you&lsquo;ll find an extensive array of Cerakote color options, each with a unique code to help you find the perfect finish for your firearm. Cerakote coatings are available in two primary series: the H-Series and the C-Series.
+              On this page, you&lsquo;ll find an extensive array of Cerakote color options, each with a unique code to help you find the perfect finish for your firearm. Cerakote coatings are available in two primary series: the H-Series and the E-Series.
             </p>
             <p className="text-[#31575a] mb-8">
               The <strong>H-Series</strong> is renowned for its durability and rust resistance, making it ideal for use in harsh environments. On the other hand, the <strong>C-Series</strong> is designed for high-temperature applications and offers excellent wear resistance. Both series provide a wide spectrum of colors, allowing for personalized firearm customization.

@@ -31,7 +31,8 @@ interface ImageGalleryProps {
   };
 
   return (
-    <section className="w-full  mt-10">
+    <section className="w-full  mt-10 ">
+      <div className="container mx-auto">
        <h2 className="text-6xl font-bold text-white mb-4 text-center">
         {category ? `${category} Gallery` : 'Loading Gallery...'}
       </h2>
@@ -51,6 +52,7 @@ interface ImageGalleryProps {
             />
           ))}
         </div>
+      </div>
       </div>
     </section>
   );

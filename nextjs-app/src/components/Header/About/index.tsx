@@ -4,7 +4,7 @@ const Header: React.FC = () => {
   return (
     <header
       className="relative z-10 overflow-hidden flex items-center justify-center mb-0 pb-0"
-      style={{ backgroundColor: '#0c2225', height: '66vh' }}
+      style={{ backgroundColor: '#0c2225', height: '66vh', minHeight: '50rem' }}
     >
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4 lg:px-8 pt-20">
         <div className="lg:w-1/2 lg:pr-10 text-justify flex flex-col">   
