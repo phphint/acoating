@@ -15,7 +15,7 @@ export default function Testimonials() {
         <Header />
 
         <main className="py-10">
-          <div className="container mx-auto bg-[#FFFFFE] border-[#EFEEED] border p-6">
+          <div className="container mx-auto bg-[#111a1d] text-[#dad2ce]  border-[#EFEEED] border p-6">
             <h1 className="text-2xl font-bold">Customer Testimonials</h1>
             <p className="mt-4">Welcome to our testimonials page! We feel that there is no better proof of our quality than the words of our satisfied customers. Please take a moment to read the short sampling of thousands of comments our customers have shared with us. We look forward to taking care of your projects!</p>
 
