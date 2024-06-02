@@ -39,7 +39,7 @@ const ServicesOverview: React.FC = () => {
           {/* Gunsmithing */}
           <Link href="/services/gunsmithing" className="flex flex-col gap-4 items-center cursor-pointer">
             <div className="relative h-56 w-full bg-cover bg-center" style={{ backgroundImage: `url('/nextjs_images/backgrounds/wood-bg-3.png')` }}>
-              <Image src="/media/popular-services/guns/gunsmithing.png" alt="Gunsmithing" layout="fill" objectFit="contain" />
+              <Image src="/nextjs_images/guns/gunsmithing.png" alt="Gunsmithing" layout="fill" objectFit="contain" />
             </div>
             <div className="bg-[#81c0c3] p-4 w-full">
               <h3 className="text-[#431709] font-bold">Gunsmithing</h3>

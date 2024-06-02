@@ -25,7 +25,7 @@ const Section1 = () => {
   }, [currentSlide]);
 
   return (
-    <div className="w-full bg-no-repeat bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: "url('/nextjs_images/backgrounds/section-bg.png')", minHeight: '30vh', maxHeight: '30vh', height: '30vh' }}>
+    <div className="w-full bg-no-repeat bg-center bg-cover flex items-center justify-center" style={{ backgroundImage: "url('/nextjs_images/backgrounds/section-bg.png')", minHeight: '30vh'  }}>
       <div className="relative w-full h-full flex justify-center items-center">
         <Image
           src={`/nextjs_images/guns/${serviceLinks[currentSlide].imagePath}.png`}

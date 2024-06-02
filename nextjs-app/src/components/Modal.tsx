@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
 interface ModalProps {
     title: string;
@@ -27,16 +27,15 @@ const Modal: React.FC<ModalProps> = ({ title, description, isOpen, onClose }) =>
     if (!isOpen) return null;
 
     return (
-        <div className="fixed inset-0 z-50 overflow-auto bg-smoke-light flex">
-            <div className="relative p-8 bg-white text-black w-full max-w-md m-auto flex-col flex ">
+        <div className="fixed inset-0 z-50 overflow-auto bg-smoke-light flex mt-20">
+            <div className="relative p-8 bg-white text-black w-full max-w-md m-auto flex-col flex">
                 <div className="flex items-center justify-between">
                     <h1 className="text-lg font-bold">{title}</h1>
                     <button onClick={onClose} className="text-black">
-                        {/* Icon or text to close modal */}
                         X
                     </button>
                 </div>
-                <div className="mt-2">
+                <div className="mt-2 overflow-auto" style={{ maxHeight: '60vh' }}>
                     <p>{description}</p>
                 </div>
                 <div className="mt-4">

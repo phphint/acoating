@@ -8,8 +8,8 @@ const TestimonialsSection: React.FC = () => {
       style={{ backgroundImage: `url('/nextjs_images/cerkote-page/cerkote-section-bg2.png')` }}
     >
       <div className="container mx-auto px-4 text-center">
-        {/* Three Column Layout */}
-        <div className="grid grid-cols-3 gap-8">
+        {/* Responsive Three Column Layout */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Testimonials Column */}
           <div className="space-y-8">
             <div className="text-white mx-auto max-w-md">

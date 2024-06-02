@@ -3,12 +3,12 @@ import React from 'react';
 const Header: React.FC = () => {
   return (
     <header
-      className="relative z-10 overflow-hidden flex items-center justify-center mb-0 pb-0"
-      style={{ backgroundColor: '#0c2225', height: '66vh', minHeight: '50rem' }}
+      className="relative overflow-hidden flex items-center justify-center mb-0 pb-0"
+      style={{ backgroundColor: '#0c2225', minHeight: '66rem' }}
     >
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between px-4 lg:px-8 pt-20">
         <div className="lg:w-1/2 lg:pr-10 text-justify flex flex-col">   
-          <h1 className="text-3xl md:text-4xl lg:text-6xl mb-4 text-white text-center lg:text-left mt-12 md:mt-0">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-6xl mb-4 text-white text-center lg:text-left mt-12 md:mt-0">
             About Us
           </h1>
           <p className="text-lg mb-4 text-[#a99ea6] font-bold text-center lg:text-left">

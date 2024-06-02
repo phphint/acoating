@@ -9,7 +9,7 @@ const SeoTextSection = () => {
         <p className="mb-6">
           Discover top-quality Cerakote services at competitive prices. Our affordable Cerakote coatings provide superior durability and performance, ensuring your firearms are protected in style without breaking the bank. Whether you're a professional shooter or a firearm enthusiast, our services are designed to offer the best value for your investment.
         </p>
-        <p>
+        <p className="mb-6">
           Explore our range of Cerakote applications—from tactical and camouflage to decorative finishes. Our expert team ensures precise application, giving your firearms a lasting finish that resists wear, corrosion, and fading. Trust us to enhance the aesthetics and functionality of your gear with our industry-leading techniques and materials.
         </p>
       </div>

@@ -9,14 +9,11 @@ interface Image {
 
 // Define a TypeScript interface for props
 interface ImageGalleryProps {
-    images: { id: string; url: string; title: string; description: string }[];
-    category?: string; // Now optional
+  images: { id: string; url: string; title: string; description: string }[];
+  category?: string; // Now optional
+}
 
-  }
-  
-
-  const ImageGallery = ({ images, category }: ImageGalleryProps) => {
-
+const ImageGallery = ({ images, category }: ImageGalleryProps) => {
   const [selectedImage, setSelectedImage] = React.useState(0);
 
   // Check and handle if images array is empty or selectedImage is invalid
@@ -31,28 +28,32 @@ interface ImageGalleryProps {
   };
 
   return (
-    <section className="w-full  mt-10 ">
+    <section className="w-full mt-10">
       <div className="container mx-auto">
-       <h2 className="text-6xl font-bold text-white mb-4 text-center">
-        {category ? `${category} Gallery` : 'Loading Gallery...'}
-      </h2>
-      <div className={styles.galleryContainer} >
-        <div className={styles.mainImageContainer} style={{ backgroundImage: `url(${currentImage})` }}>
-          <button className={styles.arrow} onClick={handlePrev}>&lt;</button>
-          <button className={styles.arrow} onClick={handleNext}>&gt;</button>
+        <h2 className="text-6xl font-bold text-white mb-4 text-center">
+          {category ? `${category} Gallery` : 'Loading Gallery...'}
+        </h2>
+        <div className={styles.galleryContainer}>
+          <div className={styles.mainImageContainer} style={{ backgroundImage: `url(${currentImage})` }}>
+            <button className={styles.arrow} onClick={handlePrev}>&lt;</button>
+            <button className={styles.arrow} onClick={handleNext}>&gt;</button>
+          </div>
+          <div className={styles.thumbnailContainer}>
+            {images.map((img, index) => (
+              <div key={index} className={styles.thumbnailWrapper}>
+                <div className="text-white text-sm text-center">
+                  ref: {category} {index + 1}
+                </div>
+                <img 
+                  src={img.url}
+                  alt={`Thumbnail ${index}`}
+                  onClick={() => setSelectedImage(index)}
+                  className={index === selectedImage ? styles.selectedThumbnail : styles.thumbnail}
+                />
+              </div>
+            ))}
+          </div>
         </div>
-        <div className={styles.thumbnailContainer}>
-          {images.map((img, index) => (
-            <img 
-              key={index}
-              src={img.url}
-              alt={`Thumbnail ${index}`}
-              onClick={() => setSelectedImage(index)}
-              className={index === selectedImage ? styles.selectedThumbnail : styles.thumbnail}
-            />
-          ))}
-        </div>
-      </div>
       </div>
     </section>
   );
@@ -63,6 +64,7 @@ ImageGallery.propTypes = {
   images: PropTypes.arrayOf(PropTypes.shape({
     url: PropTypes.string.isRequired,
   })).isRequired,
+  category: PropTypes.string,
 };
 
 export default ImageGallery;

@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
     <Link href="/services/laser-engraving"  className="border border-[#d7dfe3] text-[#d7dfe3] rounded-none px-2 py-1 text-sm cursor-pointer hover:bg-[#171818]" style={{borderColor: '#d7dfe3'}}>
          Firearm Laser Engraving
      </Link>
-    <Link href="/services/cerakote-coating/custom-airbrush-designs"  className="border border-[#d7dfe3] text-[#d7dfe3] rounded-none px-2 py-1 text-sm cursor-pointer hover:bg-[#171818]" style={{borderColor: '#d7dfe3'}}>
+    <Link href="/services/cerakote-coating/firearm-airbrushing"  className="border border-[#d7dfe3] text-[#d7dfe3] rounded-none px-2 py-1 text-sm cursor-pointer hover:bg-[#171818]" style={{borderColor: '#d7dfe3'}}>
          Firearm Air Brushing
      </Link>
     <Link href="/services/gunsmithing"  className="border border-[#d7dfe3] text-[#d7dfe3] rounded-none px-2 py-1 text-sm cursor-pointer hover:bg-[#171818]" style={{borderColor: '#d7dfe3'}}>

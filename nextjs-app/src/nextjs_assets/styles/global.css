@@ -145,19 +145,39 @@ html, body, #root {
 .bg-tan-500 { background-color: #b5965d; }
 .bg-brown-500 { background-color: #514b33; }
 
-/* To ensure compatibility, consider adding more specific class names or IDs if there's a conflict. */
-@media (min-width: 768px) {
-  .custom-container {
-    min-width: 100% !important;
-    max-width: 100% !important;
-    width: 100% !important;
 
+@media (max-width: 600px) {
+  .slick-dots {
+    display: none !important;
   }
 }
 
-.slick-next {
-  right: -33px !important;
+
+
+ 
+.container.logos {
+  overflow: hidden; /* Ensure the container does not cause overflow */
+}
+
+.logos-wrapper {
+  display: flex;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch; /* for smooth scrolling on iOS */
+  white-space: nowrap; /* Prevent logos from wrapping */
+}
+
+.logos-wrapper img {
+  flex-shrink: 0;
+}
+
+.logos-wrapper::-webkit-scrollbar {
+  display: none; /* Hide scrollbar on Webkit browsers */
+}
+
+@media (max-width: 600px) {
+  .logos-wrapper {
+    justify-content: flex-start;
   }
-  .slick-prev {
-    left: -33px !important;
-    }
+}
+
+ 

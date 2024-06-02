@@ -78,46 +78,41 @@ const ColorCodes: React.FC = () => {
     setSelectedColor(null);
   };
 
-
-
   return (
-    <div className="bg-[#306069] text-white text-center py-12 pt10">
+    <div className="bg-[#306069] text-white text-center py-12 pt-10">
       <div className="container mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-6  ">Cerakote Color Codes</h1>
-        <div className="bg-yellow-100 border-l-4 border-yellow-500 text-yellow-700 p-4 mb-10" role="alert">
-      <p className="font-bold">Notice</p>
-      <p>Due to the extensive array of Cerakote, Gunkote, Duracoat color options,Please See Specific Coating Manufacturer&apos;s web site for the most up to date colors, Codes.</p>
-    </div>
-        <p className="mb-6">
-Afc Applies Cerakote coatings available in two primary series: the H-Series and the E-Series.</p>
-
-<p className="mb-6">The H-Series is renowned for its durability and rust resistance, making it ideal for use in harsh environments. On the other hand, the E-Series is designed for high-temperature applications and offers excellent wear resistance. Both series provide a wide spectrum of colors, allowing for personalized firearm customization.</p>
+        <h1 className="text-4xl font-bold mb-6">Cerakote Color Codes</h1>
+        <div className="bg-[#bc651d] border-l-4 border-yellow-500 text-[#ffc9aa] p-4 mb-10" role="alert">
+          <p className="font-bold">Notice</p>
+          <p>Due to the extensive array of Cerakote, Gunkote, Duracoat color options, Please See Specific Coating Manufacturer's web site for the most up to date colors, Codes.</p>
+        </div>
+        <p className="mb-6">Afc Applies Cerakote coatings available in two primary series: the H-Series and the E-Series.</p>
+        <p className="mb-6">The H-Series is renowned for its durability and rust resistance, making it ideal for use in harsh environments. On the other hand, the E-Series is designed for high-temperature applications and offers excellent wear resistance. Both series provide a wide spectrum of colors, allowing for personalized firearm customization.</p>
 
         {loading ? <p>Loading...</p> : (
           <>
             <div className="flex justify-center space-x-4 mb-6">
-              <button onClick={() => handleTabChange('E')} className={`py-2 px-4 ${activeTab === 'E' ? 'bg-black text-white' : 'bg-transparent text-gray-300 hover:bg-gray-200'}`}>
+              <button onClick={() => handleTabChange('E')} className={`py-2 px-4 ${activeTab === 'E' ? 'bg-black text-white' : 'bg-transparent text-gray-300 hover:bg-gray-200 hover:text-black'}`}>
                 E-Series
               </button>
               <button onClick={() => handleTabChange('H')} className={`py-2 px-4 ${activeTab === 'H' ? 'bg-black text-white' : 'bg-transparent text-gray-300 hover:bg-gray-200'}`}>
                 H-Series
               </button>
             </div>
-            <div className="flex justify-center space-x-2 mb-4">
+            <div className="flex justify-center flex-wrap gap-2 mb-4">
               {['Red', 'Orange', 'Yellow', 'Green', 'Blue', 'Purple', 'Pink', 'Black', 'White', 'Silver', 'Grey', 'Bronze', 'Gold', 'Tan', 'Brown'].map((color) => (
-                <div key={color} onClick={() => handleColorFilter(color)} className={`w-6 h-6 rounded-full bg-${color.toLowerCase()}-500 shadow-md cursor-pointer ${selectedColor === color ? 'ring-2 ring-white' : ''}`} />
+                <div key={color} onClick={() => handleColorFilter(color)} className={`w-8 h-8 rounded-full bg-${color.toLowerCase()}-500 shadow-md cursor-pointer ${selectedColor === color ? 'ring-2 ring-white' : ''}`} />
               ))}
               <button onClick={clearFilters} className="ml-4 p-1 bg-gray-800 rounded-full text-white text-sm">Clear Filters</button>
             </div>
-            <div className="grid grid-cols-8 gap-4">
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4">
               {filteredColors.map((color: Color) => (
                 <div key={color.id} className="text-center">
                   <Image src={color.imageUrl} alt={`${color.name}`} width={100} height={100} layout="responsive" />
-                  <p>{color.code} - {color.name}</p>
+                  <p className="mt-2 text-xs sm:text-sm">{color.code} - {color.name}</p>
                 </div>
               ))}
             </div>
-     
           </>
         )}
       </div>

@@ -28,7 +28,7 @@ const ContactUsMenu: React.FC = () => {
       >
         Contact
       </div>
-      <div className={`absolute left-0 bg-[#111a1d] shadow-md py-2 ${isOpen ? 'block' : 'hidden'} w-96`}>
+      <div className={`absolute left-0 bg-[#111a1d] shadow-md py-2 ${isOpen ? 'block' : 'hidden'} w-80`}>
         {/* Direct use of 'a' tag for external link */}
         <a href="mailto:acoating@gmail.com" className="block px-4 py-2 hover:bg-gray-700 flex items-center">
           <i className="fas fa-envelope mr-2"></i>Email Us
@@ -36,14 +36,10 @@ const ContactUsMenu: React.FC = () => {
         {/* Corrected Next.js Link usage */}
         <Link href="/pricing/faq/shipping-instructions" passHref>
           <div className="block px-4 py-2 hover:bg-gray-700 cursor-pointer">
-            ↳ Download Order Form
+            ↳ Shipping Guidelines /  Download Order Form
           </div>
         </Link>
-        <Link href="/pricing/faq/shipping-instructions" passHref>
-          <div className="block px-4 py-2 hover:bg-gray-700 cursor-pointer">
-            ↳ Shipping Guidelines
-          </div>
-        </Link>
+     
       </div>
     </div>
   );
