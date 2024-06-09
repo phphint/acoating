@@ -12,6 +12,7 @@ class MyDocument extends Document {
         <Head>
           {/* Google Site Verification Meta Tag */}
           <meta name="google-site-verification" content="cIx9ZS69dPBDEeZ4gt9K966W333v46mR4cFxWuSqXEw" />
+          <script defer data-domain="acoating.com" src="https://plausible.io/js/script.js"></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
