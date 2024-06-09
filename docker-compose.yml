@@ -33,8 +33,8 @@ services:
       - "3000:3000"
     environment:
       NODE_ENV: ${NODE_ENV}
-      VIRTUAL_HOST: dev.acoating.com
-      LETSENCRYPT_HOST: dev.acoating.com
+      VIRTUAL_HOST: www.acoating.com, acoating.com
+      LETSENCRYPT_HOST: www.acoating.com, acoating.com
       LETSENCRYPT_EMAIL: jason@mavacode.com
     restart: always
 
