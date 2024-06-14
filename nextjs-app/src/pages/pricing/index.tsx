@@ -11,7 +11,7 @@ const PricingPage: React.FC = () => {
   return (
     <Layout>
       <Head>
-        <title>Acoating Pricing: Transparent and Competitive Firearm Service Rates</title>
+        <title>Cerakote Gun Coating Pricing: Firearm Service Rates</title>
         <meta name="description" content="Explore Acoating's transparent and competitive pricing for firearm Cerakote coatings, laser engraving, and gunsmithing services. No hidden fees, just clear value. See why our customers trust us for their firearm customization needs." />
         <meta name="keywords" content="firearm service pricing, Cerakote pricing, engraving rates, gunsmithing costs, firearm customization costs" />
         <meta name="robots" content="index, follow" />
