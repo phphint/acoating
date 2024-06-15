@@ -2,7 +2,7 @@
 
 import { GetServerSideProps } from 'next';
 
-export const getServerSideProps = async (context) => {
+export const getServerSideProps: GetServerSideProps = async (context) => {
   return {
     redirect: {
       destination: '/pricing',
@@ -16,4 +16,3 @@ const OldPage = () => {
 };
 
 export default OldPage;
- 
