@@ -15,7 +15,7 @@ const TestsSection = () => {
     { name: 'Chemical Resistance', description: 'Test against common solvents and chemicals.', imageUrl: '/images/cerakote/Friction.jpg', url: '/index.php/services/cerakote-gun-coatings/chemical.html' },
     { name: 'Adhesion', description: 'Measure the bond strength to various substrates.', imageUrl: '/images/cerakote/Adhesion.jpg', url: '/index.php/services/cerakote-gun-coatings/adhesion.html' },
     { name: 'Abrasion', description: 'Determine resistance to surface wear from friction.', imageUrl: '/images/cerakote/Abrasion.jpg', url: '/index.php/services/cerakote-gun-coatings/abrasion.html' },
-    { name: 'Generation', description: 'Check the effectiveness in visual and NIR camouflage.', imageUrl: '/images/cerakote/GENII.jpg', url: '/index.php/services/cerakote-gun-coatings/visual.html' },
+    { name: 'Generation', description: 'Check the effectiveness in visual and NIR camouflage.', imageUrl: '/images/cerakote/GENII.jpg', url: '/index.php/services/cerakote-gun-coatings/generation.html' },
     { name: 'Friction', description: 'Examine the coefficient of friction under different conditions.', imageUrl: '/images/cerakote/Corrosion.jpg', url: '/index.php/services/cerakote-gun-coatings/friction.html' },
     { name: 'Corrosion', description: 'Discover Cerakote\'s superior corrosion resistance in our detailed corrosion test.', imageUrl: '/images/cerakote/Friction.jpg', url: '/index.php/services/cerakote-gun-coatings/corrosion.html' },
     { name: 'Durability', description: 'Ensures long-lasting protection and maintains the integrity of your firearms even under the toughest conditions.', imageUrl: '/images/cerakote/Durability_Impact.jpg', url: '/index.php/services/cerakote-gun-coatings/durability.html' }
